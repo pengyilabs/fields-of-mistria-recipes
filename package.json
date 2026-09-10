@@ -1,0 +1,15 @@
+{
+  "name": "fields-of-mistria-recipes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Fields of Mistria recipe finder - static web tool",
+  "scripts": {
+    "scrape": "node src/scrape.js",
+    "images": "node src/download-images.js",
+    "build": "npm run scrape && npm run images"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}

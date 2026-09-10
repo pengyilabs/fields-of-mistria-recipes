@@ -1,0 +1,5140 @@
+[
+  {
+    "name": "Blackberry Jam",
+    "category": "Pantry",
+    "subcategory": "Jam",
+    "image": "images/Blackberry_jam.png",
+    "ingredients": [
+      {
+        "name": "Blackberry",
+        "img": "images/Blackberry.png",
+        "qty": 6
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 22,
+    "stamina": 22,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "Elsie's Request for Blackberries",
+    "sell": "140t"
+  },
+  {
+    "name": "Blueberry Jam",
+    "category": "Pantry",
+    "subcategory": "Jam",
+    "image": "images/Blueberry_jam.png",
+    "ingredients": [
+      {
+        "name": "Blueberry",
+        "img": "images/Blueberry.png",
+        "qty": 6
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 22,
+    "stamina": 22,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "Reina's Request for Blueberries",
+    "sell": "140t"
+  },
+  {
+    "name": "Marmalade",
+    "category": "Pantry",
+    "subcategory": "Jam",
+    "image": "images/Marmalade.png",
+    "ingredients": [
+      {
+        "name": "Orange",
+        "img": "images/Orange.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 48,
+    "stamina": 48,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 8,
+    "source": "Elsie's Request for an Orange",
+    "sell": "160t"
+  },
+  {
+    "name": "Rosehip Jam",
+    "category": "Pantry",
+    "subcategory": "Jam",
+    "image": "images/Rosehip_jam.png",
+    "ingredients": [
+      {
+        "name": "Rose Hip",
+        "img": "images/Rose_hip.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 34,
+    "stamina": 34,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 4,
+    "source": "Valen's Request for Rose Hips",
+    "sell": "130t"
+  },
+  {
+    "name": "Wild Berry Jam",
+    "category": "Pantry",
+    "subcategory": "Jam",
+    "image": "images/Wild_berry_jam.png",
+    "ingredients": [
+      {
+        "name": "Wild Berries",
+        "img": "images/Wild_berries.png",
+        "qty": 6
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 18,
+    "stamina": 18,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "Available From Start",
+    "sell": "115t"
+  },
+  {
+    "name": "Bread",
+    "category": "Pantry",
+    "subcategory": "Misc. Pantry",
+    "image": "images/Bread.png",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 30,
+    "stamina": 30,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 6,
+    "source": "Available From Start",
+    "sell": "190t"
+  },
+  {
+    "name": "Noodles",
+    "category": "Pantry",
+    "subcategory": "Misc. Pantry",
+    "image": "images/Noodles.png",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 30,
+    "stamina": 30,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 1,
+    "source": "The Inn for 150t",
+    "sell": "190t"
+  },
+  {
+    "name": "Berry Bowl",
+    "category": "Snacks",
+    "subcategory": "",
+    "image": "images/Berry_bowl.png",
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "img": "images/Strawberry.png",
+        "qty": 2
+      },
+      {
+        "name": "Wild Berries",
+        "img": "images/Wild_berries.png",
+        "qty": 4
+      },
+      {
+        "name": "Blueberry",
+        "img": "images/Blueberry.png",
+        "qty": 4
+      },
+      {
+        "name": "Honey",
+        "img": "images/Honey.png",
+        "qty": 2
+      }
+    ],
+    "health": 100,
+    "stamina": 100,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 20,
+    "source": "Wishing Well 500t Wish",
+    "sell": "440t"
+  },
+  {
+    "name": "Canned Sardines",
+    "category": "Snacks",
+    "subcategory": "",
+    "image": "images/Canned_sardines.png",
+    "ingredients": [
+      {
+        "name": "Sardine",
+        "img": "images/Sardine.png",
+        "qty": 1
+      },
+      {
+        "name": "Rock Salt",
+        "img": "images/Rock_salt.png",
+        "qty": 1
+      }
+    ],
+    "health": 22,
+    "stamina": 22,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "Wooden Treasure Box Tackle Shop",
+    "sell": "65t"
+  },
+  {
+    "name": "Crispy Fried Earthshroom",
+    "category": "Snacks",
+    "subcategory": "",
+    "image": "images/Crispy_fried_earthshroom.png",
+    "ingredients": [
+      {
+        "name": "Earthshroom",
+        "img": "images/Earthshroom.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Oil",
+        "img": "images/Oil.png",
+        "qty": 1
+      }
+    ],
+    "health": 66,
+    "stamina": 66,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 14,
+    "source": "The Tide Caverns (requires Taste Maker Skill)",
+    "sell": "250t"
+  },
+  {
+    "name": "Crunchy Chickpeas",
+    "category": "Snacks",
+    "subcategory": "",
+    "image": "images/Crunchy_chickpeas.png",
+    "ingredients": [
+      {
+        "name": "Chickpea",
+        "img": "images/Chickpea.png",
+        "qty": 1
+      },
+      {
+        "name": "Rock Salt",
+        "img": "images/Rock_salt.png",
+        "qty": 1
+      }
+    ],
+    "health": 16,
+    "stamina": 16,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "The Upper Mines (requires Taste Maker Skill)",
+    "sell": "60t"
+  },
+  {
+    "name": "Deviled Eggs",
+    "category": "Snacks",
+    "subcategory": "",
+    "image": "images/Deviled_eggs.png",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "img": "images/Mayonnaise.png",
+        "qty": 1
+      },
+      {
+        "name": "Horseradish",
+        "img": "images/Horseradish.png",
+        "qty": 1
+      }
+    ],
+    "health": 32,
+    "stamina": 32,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 10,
+    "source": "Chicken Statue 10 Offering",
+    "sell": "160t"
+  },
+  {
+    "name": "Dried Squid",
+    "category": "Snacks",
+    "subcategory": "",
+    "image": "images/Dried_squid.png",
+    "ingredients": [
+      {
+        "name": "Squid",
+        "img": "images/Squid.png",
+        "qty": 1
+      },
+      {
+        "name": "Rock Salt",
+        "img": "images/Rock_salt.png",
+        "qty": 1
+      }
+    ],
+    "health": 22,
+    "stamina": 22,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "Available From Start",
+    "sell": "60t"
+  },
+  {
+    "name": "Hard Boiled Egg",
+    "category": "Snacks",
+    "subcategory": "",
+    "image": "images/Hard_boiled_egg.png",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 1
+      }
+    ],
+    "health": 10,
+    "stamina": 10,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 1,
+    "source": "Eiland's Request for Eggs",
+    "sell": "22t"
+  },
+  {
+    "name": "Pineshroom Toast",
+    "category": "Snacks",
+    "subcategory": "",
+    "image": "images/Pineshroom_toast.png",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "img": "images/Bread.png",
+        "qty": 1
+      },
+      {
+        "name": "Pineshroom",
+        "img": "images/Pineshroom.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 80,
+    "stamina": 80,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 16,
+    "source": "Adeline's Request for Pineshrooms",
+    "sell": "360t"
+  },
+  {
+    "name": "Roasted Chestnuts",
+    "category": "Snacks",
+    "subcategory": "",
+    "image": "images/Roasted_chestnuts.png",
+    "ingredients": [
+      {
+        "name": "Chestnut",
+        "img": "images/Chestnut.png",
+        "qty": 2
+      }
+    ],
+    "health": 10,
+    "stamina": 10,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 1,
+    "source": "Hemlock's Request for Chestnuts",
+    "sell": "30t"
+  },
+  {
+    "name": "Spicy Cheddar Biscuit",
+    "category": "Snacks",
+    "subcategory": "",
+    "image": "images/Spicy_cheddar_biscuit.png",
+    "ingredients": [
+      {
+        "name": "Chili Pepper",
+        "img": "images/Chili_pepper.png",
+        "qty": 1
+      },
+      {
+        "name": "Cheese",
+        "img": "images/Cheese.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 120,
+    "stamina": 120,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 28,
+    "source": "Wishing Well 500t WishSaturday Market at Darcy's Stall for 400t",
+    "sell": "510t"
+  },
+  {
+    "name": "Spicy Water Chestnuts",
+    "category": "Snacks",
+    "subcategory": "",
+    "image": "images/Spicy_water_chestnuts.png",
+    "ingredients": [
+      {
+        "name": "Chili Pepper",
+        "img": "images/Chili_pepper.png",
+        "qty": 1
+      },
+      {
+        "name": "Water Chestnut",
+        "img": "images/Water_chestnut.png",
+        "qty": 2
+      }
+    ],
+    "health": 40,
+    "stamina": 40,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 6,
+    "source": "Ship a Chili Pepper",
+    "sell": "90t"
+  },
+  {
+    "name": "Toasted Sunflower Seeds",
+    "category": "Snacks",
+    "subcategory": "",
+    "image": "images/Toasted_sunflower_seeds.png",
+    "ingredients": [
+      {
+        "name": "Sunflower",
+        "img": "images/Sunflower.png",
+        "qty": 1
+      },
+      {
+        "name": "Rock Salt",
+        "img": "images/Rock_salt.png",
+        "qty": 1
+      },
+      {
+        "name": "Oil",
+        "img": "images/Oil.png",
+        "qty": 1
+      }
+    ],
+    "health": 52,
+    "stamina": 52,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 12,
+    "source": "Ship a Sunflower",
+    "sell": "95t"
+  },
+  {
+    "name": "Trail Mix",
+    "category": "Snacks",
+    "subcategory": "",
+    "image": "images/Trail_mix.png",
+    "ingredients": [
+      {
+        "name": "Water Chestnut",
+        "img": "images/Water_chestnut.png",
+        "qty": 2
+      },
+      {
+        "name": "Wild Berries",
+        "img": "images/Wild_berries.png",
+        "qty": 1
+      }
+    ],
+    "health": 12,
+    "stamina": 12,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 1,
+    "source": "Available From Start",
+    "sell": "12t"
+  },
+  {
+    "name": "Water Chestnut Fritters",
+    "category": "Snacks",
+    "subcategory": "",
+    "image": "images/Water_chestnut_fritters.png",
+    "ingredients": [
+      {
+        "name": "Water Chestnut",
+        "img": "images/Water_chestnut.png",
+        "qty": 2
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Oil",
+        "img": "images/Oil.png",
+        "qty": 1
+      }
+    ],
+    "health": 56,
+    "stamina": 56,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 12,
+    "source": "Juniper's Request for Water Chestnuts",
+    "sell": "240t"
+  },
+  {
+    "name": "Beet Salad",
+    "category": "Salads & Greens",
+    "subcategory": "Salad",
+    "image": "images/Beet_salad.png",
+    "ingredients": [
+      {
+        "name": "Beet",
+        "img": "images/Beet.png",
+        "qty": 1
+      }
+    ],
+    "health": 18,
+    "stamina": 18,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 1,
+    "source": "Ship a Beet",
+    "sell": "40t"
+  },
+  {
+    "name": "Broccoli Salad",
+    "category": "Salads & Greens",
+    "subcategory": "Salad",
+    "image": "images/Broccoli_salad.png",
+    "ingredients": [
+      {
+        "name": "Broccoli",
+        "img": "images/Broccoli.png",
+        "qty": 1
+      },
+      {
+        "name": "Cranberry",
+        "img": "images/Cranberry.png",
+        "qty": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "img": "images/Mayonnaise.png",
+        "qty": 1
+      }
+    ],
+    "health": 74,
+    "stamina": 74,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 18,
+    "source": "Reina's Request for Broccoli",
+    "sell": "330t"
+  },
+  {
+    "name": "Cabbage Slaw",
+    "category": "Salads & Greens",
+    "subcategory": "Salad",
+    "image": "images/Cabbage_slaw.png",
+    "ingredients": [
+      {
+        "name": "Cabbage",
+        "img": "images/Cabbage.png",
+        "qty": 1
+      },
+      {
+        "name": "Fennel",
+        "img": "images/Fennel.png",
+        "qty": 1
+      }
+    ],
+    "health": 46,
+    "stamina": 46,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 8,
+    "source": "Ship a Cabbage",
+    "sell": "220t"
+  },
+  {
+    "name": "Cucumber Salad",
+    "category": "Salads & Greens",
+    "subcategory": "Salad",
+    "image": "images/Cucumber_salad.png",
+    "ingredients": [
+      {
+        "name": "Cucumber",
+        "img": "images/Cucumber.png",
+        "qty": 1
+      },
+      {
+        "name": "Dill",
+        "img": "images/Dill.png",
+        "qty": 1
+      },
+      {
+        "name": "Sesame",
+        "img": "images/Sesame.png",
+        "qty": 1
+      }
+    ],
+    "health": 56,
+    "stamina": 56,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 12,
+    "source": "Ship a Cucumber",
+    "sell": "115t"
+  },
+  {
+    "name": "Herb Salad",
+    "category": "Salads & Greens",
+    "subcategory": "Salad",
+    "image": "images/Herb_salad.png",
+    "ingredients": [
+      {
+        "name": "Sage",
+        "img": "images/Sage.png",
+        "qty": 1
+      },
+      {
+        "name": "Basil",
+        "img": "images/Basil.png",
+        "qty": 1
+      },
+      {
+        "name": "Thyme",
+        "img": "images/Thyme.png",
+        "qty": 1
+      },
+      {
+        "name": "Oregano",
+        "img": "images/Oregano.png",
+        "qty": 1
+      },
+      {
+        "name": "Dill",
+        "img": "images/Dill.png",
+        "qty": 1
+      }
+    ],
+    "health": 100,
+    "stamina": 100,
+    "time": "50m",
+    "quality": 4,
+    "kitchenLevel": 3,
+    "cookingLevel": 30,
+    "source": "The Deep Earth (requires Taste Maker Skill)",
+    "sell": "185t"
+  },
+  {
+    "name": "Seaweed Salad",
+    "category": "Salads & Greens",
+    "subcategory": "Salad",
+    "image": "images/Seaweed_salad.png",
+    "ingredients": [
+      {
+        "name": "Seaweed",
+        "img": "images/Seaweed.png",
+        "qty": 3
+      },
+      {
+        "name": "Soy Sauce",
+        "img": "images/Soy_sauce.png",
+        "qty": 1
+      },
+      {
+        "name": "Oil",
+        "img": "images/Oil.png",
+        "qty": 1
+      }
+    ],
+    "health": 42,
+    "stamina": 42,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 10,
+    "source": "Valen's Request for Seaweed",
+    "sell": "120t"
+  },
+  {
+    "name": "Spring Salad",
+    "category": "Salads & Greens",
+    "subcategory": "Salad",
+    "image": "images/Spring_salad.png",
+    "ingredients": [
+      {
+        "name": "Fennel",
+        "img": "images/Fennel.png",
+        "qty": 1
+      },
+      {
+        "name": "Fiddlehead",
+        "img": "images/Fiddlehead.png",
+        "qty": 1
+      },
+      {
+        "name": "Nettle",
+        "img": "images/Nettle.png",
+        "qty": 1
+      }
+    ],
+    "health": 46,
+    "stamina": 46,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 8,
+    "source": "Celine's Request for Fennel",
+    "sell": "80t"
+  },
+  {
+    "name": "Summer Salad",
+    "category": "Salads & Greens",
+    "subcategory": "Salad",
+    "image": "images/Summer_salad.png",
+    "ingredients": [
+      {
+        "name": "Cucumber",
+        "img": "images/Cucumber.png",
+        "qty": 1
+      },
+      {
+        "name": "Chili Pepper",
+        "img": "images/Chili_pepper.png",
+        "qty": 1
+      },
+      {
+        "name": "Tomato",
+        "img": "images/Tomato.png",
+        "qty": 1
+      },
+      {
+        "name": "Corn",
+        "img": "images/Corn.png",
+        "qty": 1
+      }
+    ],
+    "health": 120,
+    "stamina": 120,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 28,
+    "source": "The Lava Caves (requires Taste Maker Skill) Silver Treasure Box",
+    "sell": "430t"
+  },
+  {
+    "name": "Tide Salad",
+    "category": "Salads & Greens",
+    "subcategory": "Salad",
+    "image": "images/Tide_salad.png",
+    "ingredients": [
+      {
+        "name": "Tide Lettuce",
+        "img": "images/Tide_lettuce.png",
+        "qty": 1
+      },
+      {
+        "name": "Sea Grapes",
+        "img": "images/Sea_grapes.png",
+        "qty": 1
+      },
+      {
+        "name": "Underseaweed",
+        "img": "images/Underseaweed.png",
+        "qty": 1
+      },
+      {
+        "name": "Jade Dulse",
+        "img": "images/Jade_dulse.png",
+        "qty": 1
+      }
+    ],
+    "health": 76,
+    "stamina": 76,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 20,
+    "source": "The Tide Caverns (requires Taste Maker Skill)",
+    "sell": "150t"
+  },
+  {
+    "name": "Turnip and Cabbage Salad",
+    "category": "Salads & Greens",
+    "subcategory": "Salad",
+    "image": "images/Turnip_and_cabbage_salad.png",
+    "ingredients": [
+      {
+        "name": "Turnip",
+        "img": "images/Turnip.png",
+        "qty": 1
+      },
+      {
+        "name": "Cabbage",
+        "img": "images/Cabbage.png",
+        "qty": 1
+      },
+      {
+        "name": "Oil",
+        "img": "images/Oil.png",
+        "qty": 1
+      }
+    ],
+    "health": 74,
+    "stamina": 74,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 2,
+    "cookingLevel": 14,
+    "source": "1The Upper Mines (requires Taste Maker Skill)",
+    "sell": "280t"
+  },
+  {
+    "name": "Braised Carrots",
+    "category": "Salads & Greens",
+    "subcategory": "Greens",
+    "image": "images/Braised_carrots.png",
+    "ingredients": [
+      {
+        "name": "Carrot",
+        "img": "images/Carrot.png",
+        "qty": 1
+      }
+    ],
+    "health": 36,
+    "stamina": 36,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 4,
+    "source": "Ship a Carrot",
+    "sell": "85t"
+  },
+  {
+    "name": "Buttered Peas",
+    "category": "Salads & Greens",
+    "subcategory": "Greens",
+    "image": "images/Buttered_peas.png",
+    "ingredients": [
+      {
+        "name": "Peas",
+        "img": "images/Peas.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      }
+    ],
+    "health": 48,
+    "stamina": 48,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 8,
+    "source": "Ship a Peas",
+    "sell": "240t"
+  },
+  {
+    "name": "Grilled Corn",
+    "category": "Salads & Greens",
+    "subcategory": "Greens",
+    "image": "images/Grilled_corn.png",
+    "ingredients": [
+      {
+        "name": "Corn",
+        "img": "images/Corn.png",
+        "qty": 1
+      }
+    ],
+    "health": 24,
+    "stamina": 24,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "Ship a Corn",
+    "sell": "135t"
+  },
+  {
+    "name": "Sauteed Snow Peas",
+    "category": "Salads & Greens",
+    "subcategory": "Greens",
+    "image": "images/Sauteed_snow_peas.png",
+    "ingredients": [
+      {
+        "name": "Snow Peas",
+        "img": "images/Snow_peas.png",
+        "qty": 1
+      },
+      {
+        "name": "Water Chestnut",
+        "img": "images/Water_chestnut.png",
+        "qty": 1
+      }
+    ],
+    "health": 34,
+    "stamina": 34,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 4,
+    "source": "Ship a Snow Pea",
+    "sell": "140t"
+  },
+  {
+    "name": "Sesame Broccoli",
+    "category": "Salads & Greens",
+    "subcategory": "Greens",
+    "image": "images/Sesame_broccoli.png",
+    "ingredients": [
+      {
+        "name": "Broccoli",
+        "img": "images/Broccoli.png",
+        "qty": 1
+      },
+      {
+        "name": "Sesame",
+        "img": "images/Sesame.png",
+        "qty": 1
+      }
+    ],
+    "health": 46,
+    "stamina": 46,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 8,
+    "source": "Vera's Request for Sesame",
+    "sell": "115t"
+  },
+  {
+    "name": "Sliced Turnip",
+    "category": "Salads & Greens",
+    "subcategory": "Greens",
+    "image": "images/Sliced_turnip.png",
+    "ingredients": [
+      {
+        "name": "Turnip",
+        "img": "images/Turnip.png",
+        "qty": 1
+      }
+    ],
+    "health": 18,
+    "stamina": 18,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 1,
+    "source": "Ship a Turnip",
+    "sell": "40t"
+  },
+  {
+    "name": "Steamed Broccoli",
+    "category": "Salads & Greens",
+    "subcategory": "Greens",
+    "image": "images/Steamed_broccoli.png",
+    "ingredients": [
+      {
+        "name": "Broccoli",
+        "img": "images/Broccoli.png",
+        "qty": 1
+      }
+    ],
+    "health": 30,
+    "stamina": 30,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "Ship a Broccoli",
+    "sell": "80t"
+  },
+  {
+    "name": "Beet Soup",
+    "category": "Soups & Stews",
+    "subcategory": "Soups",
+    "image": "images/Beet_soup.png",
+    "ingredients": [
+      {
+        "name": "Beet",
+        "img": "images/Beet.png",
+        "qty": 1
+      },
+      {
+        "name": "Carrot",
+        "img": "images/Carrot.png",
+        "qty": 1
+      },
+      {
+        "name": "Potato",
+        "img": "images/Potato.png",
+        "qty": 1
+      },
+      {
+        "name": "Onion",
+        "img": "images/Onion.png",
+        "qty": 1
+      },
+      {
+        "name": "Cabbage",
+        "img": "images/Cabbage.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      }
+    ],
+    "health": 230,
+    "stamina": 230,
+    "time": "1h 0m",
+    "quality": 5,
+    "kitchenLevel": 3,
+    "cookingLevel": 40,
+    "source": "The Inn (After Upgrade) for 800t",
+    "sell": "710t"
+  },
+  {
+    "name": "Clam Chowder",
+    "category": "Soups & Stews",
+    "subcategory": "Soups",
+    "image": "images/Clam_chowder.png",
+    "ingredients": [
+      {
+        "name": "Clam",
+        "img": "images/Clam.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      }
+    ],
+    "health": 46,
+    "stamina": 46,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 10,
+    "source": "Errol's Request for a Clam",
+    "sell": "170t"
+  },
+  {
+    "name": "Deep Sea Soup",
+    "category": "Soups & Stews",
+    "subcategory": "Soups",
+    "image": "images/Deep_sea_soup.png",
+    "ingredients": [
+      {
+        "name": "Jade Dulse",
+        "img": "images/Jade_dulse.png",
+        "qty": 1
+      },
+      {
+        "name": "Mines Mussels",
+        "img": "images/Mines_mussels.png",
+        "qty": 1
+      },
+      {
+        "name": "Underseaweed",
+        "img": "images/Underseaweed.png",
+        "qty": 1
+      }
+    ],
+    "health": 52,
+    "stamina": 52,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 12,
+    "source": "Donate Jade Dulse to The Museum",
+    "sell": "105t"
+  },
+  {
+    "name": "Gazpacho",
+    "category": "Soups & Stews",
+    "subcategory": "Soups",
+    "image": "images/Gazpacho.png",
+    "ingredients": [
+      {
+        "name": "Cucumber",
+        "img": "images/Cucumber.png",
+        "qty": 1
+      },
+      {
+        "name": "Tomato",
+        "img": "images/Tomato.png",
+        "qty": 1
+      },
+      {
+        "name": "Watermelon",
+        "img": "images/Watermelon.png",
+        "qty": 1
+      },
+      {
+        "name": "Basil",
+        "img": "images/Basil.png",
+        "qty": 1
+      }
+    ],
+    "health": 116,
+    "stamina": 116,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 26,
+    "source": "The Inn (After Upgrade) for 400t",
+    "sell": "450t"
+  },
+  {
+    "name": "Onion Soup",
+    "category": "Soups & Stews",
+    "subcategory": "Soups",
+    "image": "images/Onion_soup.png",
+    "ingredients": [
+      {
+        "name": "Onion",
+        "img": "images/Onion.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Cheese",
+        "img": "images/Cheese.png",
+        "qty": 1
+      }
+    ],
+    "health": 70,
+    "stamina": 70,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 14,
+    "source": "Ship an Onion",
+    "sell": "300t"
+  },
+  {
+    "name": "Potato Soup",
+    "category": "Soups & Stews",
+    "subcategory": "Soups",
+    "image": "images/Potato_soup.png",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "img": "images/Potato.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Wild Leek",
+        "img": "images/Wild_leek.png",
+        "qty": 1
+      }
+    ],
+    "health": 60,
+    "stamina": 60,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 14,
+    "source": "The Inn for 300t",
+    "sell": "260t"
+  },
+  {
+    "name": "Pumpkin Stew",
+    "category": "Soups & Stews",
+    "subcategory": "Soups",
+    "image": "images/Pumpkin_stew.png",
+    "ingredients": [
+      {
+        "name": "Pumpkin",
+        "img": "images/Pumpkin.png",
+        "qty": 1
+      },
+      {
+        "name": "Onion",
+        "img": "images/Onion.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Rosemary",
+        "img": "images/Rosemary.png",
+        "qty": 1
+      }
+    ],
+    "health": 120,
+    "stamina": 120,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 28,
+    "source": "Ship a Pumpkin",
+    "sell": "460t"
+  },
+  {
+    "name": "Smoked Trout Soup",
+    "category": "Soups & Stews",
+    "subcategory": "Soups",
+    "image": "images/Smoked_trout_soup.png",
+    "ingredients": [
+      {
+        "name": "Trout",
+        "img": "images/Trout.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      }
+    ],
+    "health": 28,
+    "stamina": 28,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "Terithia's Request for Trout",
+    "sell": "85t"
+  },
+  {
+    "name": "Tomato Soup",
+    "category": "Soups & Stews",
+    "subcategory": "Soups",
+    "image": "images/Tomato_soup.png",
+    "ingredients": [
+      {
+        "name": "Tomato",
+        "img": "images/Tomato.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Basil",
+        "img": "images/Basil.png",
+        "qty": 1
+      }
+    ],
+    "health": 60,
+    "stamina": 60,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 14,
+    "source": "Ship a Tomato",
+    "sell": "220t"
+  },
+  {
+    "name": "Vegetable Soup",
+    "category": "Soups & Stews",
+    "subcategory": "Soups",
+    "image": "images/Vegetable_soup.png",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "img": "images/Potato.png",
+        "qty": 1
+      },
+      {
+        "name": "Tomato",
+        "img": "images/Tomato.png",
+        "qty": 1
+      },
+      {
+        "name": "Basil",
+        "img": "images/Basil.png",
+        "qty": 1
+      }
+    ],
+    "health": 80,
+    "stamina": 80,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 16,
+    "source": "Important Quest \"Jo's Cooking Class\"",
+    "sell": "260t"
+  },
+  {
+    "name": "Fish Stew",
+    "category": "Soups & Stews",
+    "subcategory": "Stews",
+    "image": "images/Fish_stew.png",
+    "ingredients": [
+      {
+        "name": "Smallmouth Bass",
+        "img": "images/Smallmouth_bass.png",
+        "qty": 1
+      },
+      {
+        "name": "Red Snapper",
+        "img": "images/Red_snapper.png",
+        "qty": 1
+      },
+      {
+        "name": "Wild Leek",
+        "img": "images/Wild_leek.png",
+        "qty": 1
+      }
+    ],
+    "health": 46,
+    "stamina": 46,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 10,
+    "source": "Copper Treasure Box",
+    "sell": "105t"
+  },
+  {
+    "name": "Miner's Mushroom Stew",
+    "category": "Soups & Stews",
+    "subcategory": "Stews",
+    "image": "images/Miner_27s_mushroom_stew.png",
+    "ingredients": [
+      {
+        "name": "Upper Mines Mushroom",
+        "img": "images/Upper_mines_mushroom.png",
+        "qty": 1
+      },
+      {
+        "name": "Cave Mushroom",
+        "img": "images/Cave_mushroom.png",
+        "qty": 1
+      }
+    ],
+    "health": 24,
+    "stamina": 24,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "Donate an Upper Mines Mushroom to The Museum",
+    "sell": "35t"
+  },
+  {
+    "name": "Winter Stew",
+    "category": "Soups & Stews",
+    "subcategory": "Stews",
+    "image": "images/Winter_stew.png",
+    "ingredients": [
+      {
+        "name": "Daikon Radish",
+        "img": "images/Daikon_radish.png",
+        "qty": 1
+      },
+      {
+        "name": "Burdock Root",
+        "img": "images/Burdock_root.png",
+        "qty": 1
+      },
+      {
+        "name": "Oyster Mushroom",
+        "img": "images/Oyster_mushroom.png",
+        "qty": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "img": "images/Soy_sauce.png",
+        "qty": 1
+      }
+    ],
+    "health": 106,
+    "stamina": 106,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 24,
+    "source": "Vera's Request for a Daikon Radish",
+    "sell": "310t"
+  },
+  {
+    "name": "Baked Potato",
+    "category": "Main Dishes",
+    "subcategory": "Baked Dish",
+    "image": "images/Baked_potato.png",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "img": "images/Potato.png",
+        "qty": 1
+      }
+    ],
+    "health": 30,
+    "stamina": 30,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 4,
+    "source": "Ship a Potato",
+    "sell": "80t"
+  },
+  {
+    "name": "Baked Sweetroot",
+    "category": "Main Dishes",
+    "subcategory": "Baked Dish",
+    "image": "images/Baked_sweetroot.png",
+    "ingredients": [
+      {
+        "name": "Sweetroot",
+        "img": "images/Sweetroot.png",
+        "qty": 1
+      }
+    ],
+    "health": 30,
+    "stamina": 30,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 4,
+    "source": "Donate a Sweetroot to The Museum",
+    "sell": "22t"
+  },
+  {
+    "name": "Cod with Thyme",
+    "category": "Main Dishes",
+    "subcategory": "Baked Dish",
+    "image": "images/Cod_with_thyme.png",
+    "ingredients": [
+      {
+        "name": "Cod",
+        "img": "images/Cod.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Thyme",
+        "img": "images/Thyme.png",
+        "qty": 1
+      }
+    ],
+    "health": 56,
+    "stamina": 56,
+    "time": "40m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 12,
+    "source": "Reina's Request for Cod",
+    "sell": "190t"
+  },
+  {
+    "name": "Garlic Bread",
+    "category": "Main Dishes",
+    "subcategory": "Baked Dish",
+    "image": "images/Garlic_bread.png",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "img": "images/Bread.png",
+        "qty": 1
+      },
+      {
+        "name": "Garlic",
+        "img": "images/Garlic.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      }
+    ],
+    "health": 80,
+    "stamina": 80,
+    "time": "30m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 16,
+    "source": "Reina's Request for Garlic",
+    "sell": "340t"
+  },
+  {
+    "name": "Harvest Plate",
+    "category": "Main Dishes",
+    "subcategory": "Baked Dish",
+    "image": "images/Harvest_plate.png",
+    "ingredients": [
+      {
+        "name": "Sweet Potato",
+        "img": "images/Sweet_potato.png",
+        "qty": 1
+      },
+      {
+        "name": "Broccoli",
+        "img": "images/Broccoli.png",
+        "qty": 1
+      },
+      {
+        "name": "Cranberry",
+        "img": "images/Cranberry.png",
+        "qty": 1
+      },
+      {
+        "name": "Pumpkin",
+        "img": "images/Pumpkin.png",
+        "qty": 1
+      },
+      {
+        "name": "Onion",
+        "img": "images/Onion.png",
+        "qty": 1
+      },
+      {
+        "name": "Rosemary",
+        "img": "images/Rosemary.png",
+        "qty": 1
+      }
+    ],
+    "health": 222,
+    "stamina": 222,
+    "time": "1h 0m",
+    "quality": 5,
+    "kitchenLevel": 3,
+    "cookingLevel": 40,
+    "source": "Harvest Festival for 800t",
+    "sell": "760t"
+  },
+  {
+    "name": "Loaded Baked Potato",
+    "category": "Main Dishes",
+    "subcategory": "Baked Dish",
+    "image": "images/Loaded_baked_potato.png",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "img": "images/Potato.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Cheese",
+        "img": "images/Cheese.png",
+        "qty": 1
+      },
+      {
+        "name": "Wild Leek",
+        "img": "images/Wild_leek.png",
+        "qty": 1
+      }
+    ],
+    "health": 94,
+    "stamina": 94,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 20,
+    "source": "Hayden's Request for Baked Potato",
+    "sell": "320t"
+  },
+  {
+    "name": "Pizza",
+    "category": "Main Dishes",
+    "subcategory": "Baked Dish",
+    "image": "images/Pizza.png",
+    "ingredients": [
+      {
+        "name": "Tomato",
+        "img": "images/Tomato.png",
+        "qty": 1
+      },
+      {
+        "name": "Cheese",
+        "img": "images/Cheese.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 84,
+    "stamina": 84,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 16,
+    "source": "5The Ancient Ruins (requires Taste Maker Skill)",
+    "sell": "440t"
+  },
+  {
+    "name": "Quiche",
+    "category": "Main Dishes",
+    "subcategory": "Baked Dish",
+    "image": "images/Quiche.png",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 60,
+    "stamina": 60,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 14,
+    "source": "Chicken Statue 10 Offering",
+    "sell": "270t"
+  },
+  {
+    "name": "Spring Galette",
+    "category": "Main Dishes",
+    "subcategory": "Baked Dish",
+    "image": "images/Spring_galette.png",
+    "ingredients": [
+      {
+        "name": "Fiddlehead",
+        "img": "images/Fiddlehead.png",
+        "qty": 1
+      },
+      {
+        "name": "Morel Mushroom",
+        "img": "images/Morel_mushroom.png",
+        "qty": 1
+      },
+      {
+        "name": "Wild Leek",
+        "img": "images/Wild_leek.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Cheese",
+        "img": "images/Cheese.png",
+        "qty": 1
+      }
+    ],
+    "health": 150,
+    "stamina": 150,
+    "time": "1h 0m",
+    "quality": 5,
+    "kitchenLevel": 3,
+    "cookingLevel": 40,
+    "source": "The Inn for 800t",
+    "sell": "540t"
+  },
+  {
+    "name": "Turnip and Potato Gratin",
+    "category": "Main Dishes",
+    "subcategory": "Baked Dish",
+    "image": "images/Turnip_and_potato_gratin.png",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "img": "images/Potato.png",
+        "qty": 1
+      },
+      {
+        "name": "Turnip",
+        "img": "images/Turnip.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Cheese",
+        "img": "images/Cheese.png",
+        "qty": 1
+      }
+    ],
+    "health": 106,
+    "stamina": 106,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 26,
+    "source": "The Deep Earth (requires Taste Maker Skill)",
+    "sell": "350t"
+  },
+  {
+    "name": "Vegetable Quiche",
+    "category": "Main Dishes",
+    "subcategory": "Baked Dish",
+    "image": "images/Vegetable_quiche.png",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Potato",
+        "img": "images/Potato.png",
+        "qty": 1
+      },
+      {
+        "name": "Wild Leek",
+        "img": "images/Wild_leek.png",
+        "qty": 1
+      }
+    ],
+    "health": 120,
+    "stamina": 120,
+    "time": "50m",
+    "quality": 4,
+    "kitchenLevel": 3,
+    "cookingLevel": 30,
+    "source": "Chicken Statue 10 Offering",
+    "sell": "400t"
+  },
+  {
+    "name": "Breaded Catfish",
+    "category": "Main Dishes",
+    "subcategory": "Fried Dish",
+    "image": "images/Breaded_catfish.png",
+    "ingredients": [
+      {
+        "name": "Catfish",
+        "img": "images/Catfish.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Oil",
+        "img": "images/Oil.png",
+        "qty": 1
+      }
+    ],
+    "health": 64,
+    "stamina": 64,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 14,
+    "source": "Hemlock's Request for a Catfish",
+    "sell": "320t"
+  },
+  {
+    "name": "Horseradish Salmon",
+    "category": "Main Dishes",
+    "subcategory": "Fried Dish",
+    "image": "images/Horseradish_salmon.png",
+    "ingredients": [
+      {
+        "name": "Salmon",
+        "img": "images/Salmon.png",
+        "qty": 1
+      },
+      {
+        "name": "Horseradish",
+        "img": "images/Horseradish.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Oil",
+        "img": "images/Oil.png",
+        "qty": 1
+      }
+    ],
+    "health": 80,
+    "stamina": 80,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 1,
+    "cookingLevel": 28,
+    "source": "Terithia's Request for Ingredients",
+    "sell": "330t"
+  },
+  {
+    "name": "Omelet",
+    "category": "Main Dishes",
+    "subcategory": "Fried Dish",
+    "image": "images/Omelet.png",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Cheese",
+        "img": "images/Cheese.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      }
+    ],
+    "health": 72,
+    "stamina": 72,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 22,
+    "source": "Chicken Statue 10 Offering",
+    "sell": "280t"
+  },
+  {
+    "name": "Pan-fried Bream",
+    "category": "Main Dishes",
+    "subcategory": "Fried Dish",
+    "image": "images/Pan_fried_bream.png",
+    "ingredients": [
+      {
+        "name": "Bream",
+        "img": "images/Bream.png",
+        "qty": 1
+      },
+      {
+        "name": "Oil",
+        "img": "images/Oil.png",
+        "qty": 1
+      }
+    ],
+    "health": 24,
+    "stamina": 24,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "The Inn for 150t",
+    "sell": "80t"
+  },
+  {
+    "name": "Pan-fried Salmon",
+    "category": "Main Dishes",
+    "subcategory": "Fried Dish",
+    "image": "images/Pan_fried_salmon.png",
+    "ingredients": [
+      {
+        "name": "Salmon",
+        "img": "images/Salmon.png",
+        "qty": 1
+      },
+      {
+        "name": "Oil",
+        "img": "images/Oil.png",
+        "qty": 1
+      }
+    ],
+    "health": 24,
+    "stamina": 24,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "Wooden Treasure Box Tackle Shop",
+    "sell": "75t"
+  },
+  {
+    "name": "Pan-fried Snapper",
+    "category": "Main Dishes",
+    "subcategory": "Fried Dish",
+    "image": "images/Pan_fried_snapper.png",
+    "ingredients": [
+      {
+        "name": "Red Snapper",
+        "img": "images/Red_snapper.png",
+        "qty": 1
+      },
+      {
+        "name": "Oil",
+        "img": "images/Oil.png",
+        "qty": 1
+      }
+    ],
+    "health": 24,
+    "stamina": 24,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "Wooden Treasure Box Tackle Shop",
+    "sell": "80t"
+  },
+  {
+    "name": "Fish Skewers",
+    "category": "Main Dishes",
+    "subcategory": "Grilled Dish",
+    "image": "images/Fish_skewer.png",
+    "ingredients": [
+      {
+        "name": "Smallmouth Bass",
+        "img": "images/Smallmouth_bass.png",
+        "qty": 1
+      },
+      {
+        "name": "Pike",
+        "img": "images/Pike.png",
+        "qty": 1
+      }
+    ],
+    "health": 30,
+    "stamina": 30,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 6,
+    "source": "Wooden Treasure Box Tackle Shop",
+    "sell": "85t"
+  },
+  {
+    "name": "Grilled Cheese",
+    "category": "Main Dishes",
+    "subcategory": "Grilled Dish",
+    "image": "images/Grilled_cheese.png",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "img": "images/Bread.png",
+        "qty": 1
+      },
+      {
+        "name": "Cheese",
+        "img": "images/Cheese.png",
+        "qty": 1
+      },
+      {
+        "name": "Rock Salt",
+        "img": "images/Rock_salt.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      }
+    ],
+    "health": 120,
+    "stamina": 120,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 22,
+    "source": "The Inn for 400t",
+    "sell": "470t"
+  },
+  {
+    "name": "Grilled Eel Rice Bowl",
+    "category": "Main Dishes",
+    "subcategory": "Grilled Dish",
+    "image": "images/Grilled_eel_rice_bowl.png",
+    "ingredients": [
+      {
+        "name": "Freshwater Eel",
+        "img": "images/Freshwater_eel.png",
+        "qty": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "img": "images/Soy_sauce.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      }
+    ],
+    "health": 90,
+    "stamina": 90,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 20,
+    "source": "March's Request for Freshwater Eel",
+    "sell": "420t"
+  },
+  {
+    "name": "Spicy Corn",
+    "category": "Main Dishes",
+    "subcategory": "Grilled Dish",
+    "image": "images/Spicy_corn.png",
+    "ingredients": [
+      {
+        "name": "Corn",
+        "img": "images/Corn.png",
+        "qty": 1
+      },
+      {
+        "name": "Chili Pepper",
+        "img": "images/Chili_pepper.png",
+        "qty": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "img": "images/Mayonnaise.png",
+        "qty": 1
+      }
+    ],
+    "health": 74,
+    "stamina": 74,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 14,
+    "source": "5The Ancient Ruins (requires Taste Maker Skill)",
+    "sell": "330t"
+  },
+  {
+    "name": "Cucumber Sandwich",
+    "category": "Main Dishes",
+    "subcategory": "Handcrafted Dish",
+    "image": "images/Cucumber_sandwich.png",
+    "ingredients": [
+      {
+        "name": "Cucumber",
+        "img": "images/Cucumber.png",
+        "qty": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "img": "images/Mayonnaise.png",
+        "qty": 1
+      },
+      {
+        "name": "Cheese",
+        "img": "images/Cheese.png",
+        "qty": 1
+      },
+      {
+        "name": "Bread",
+        "img": "images/Bread.png",
+        "qty": 1
+      }
+    ],
+    "health": 170,
+    "stamina": 170,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 22,
+    "source": "5The Ancient Ruins (requires Taste Maker Skill)",
+    "sell": "490t"
+  },
+  {
+    "name": "Fish Tacos",
+    "category": "Main Dishes",
+    "subcategory": "Handcrafted Dish",
+    "image": "images/Fish_tacos.png",
+    "ingredients": [
+      {
+        "name": "Corn",
+        "img": "images/Corn.png",
+        "qty": 1
+      },
+      {
+        "name": "Cod",
+        "img": "images/Cod.png",
+        "qty": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "img": "images/Mayonnaise.png",
+        "qty": 1
+      },
+      {
+        "name": "Chili Pepper",
+        "img": "images/Chili_pepper.png",
+        "qty": 1
+      },
+      {
+        "name": "Tide Lettuce",
+        "img": "images/Tide_lettuce.png",
+        "qty": 1
+      }
+    ],
+    "health": 124,
+    "stamina": 124,
+    "time": "50m",
+    "quality": 4,
+    "kitchenLevel": 3,
+    "cookingLevel": 34,
+    "source": "The Inn (After Upgrade) for 600t",
+    "sell": "450t"
+  },
+  {
+    "name": "Jam Sandwich",
+    "category": "Main Dishes",
+    "subcategory": "Handcrafted Dish",
+    "image": "images/Jam_sandwich.png",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "img": "images/Bread.png",
+        "qty": 1
+      },
+      {
+        "name": "Wild Berry Jam",
+        "img": "images/Wild_berry_jam.png",
+        "qty": 1
+      }
+    ],
+    "health": 65,
+    "stamina": 65,
+    "time": "20m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 10,
+    "source": "Available From Start",
+    "sell": "280t"
+  },
+  {
+    "name": "Lobster Roll",
+    "category": "Main Dishes",
+    "subcategory": "Handcrafted Dish",
+    "image": "images/Lobster_roll.png",
+    "ingredients": [
+      {
+        "name": "Lobster",
+        "img": "images/Lobster.png",
+        "qty": 1
+      },
+      {
+        "name": "Bread",
+        "img": "images/Bread.png",
+        "qty": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "img": "images/Mayonnaise.png",
+        "qty": 1
+      },
+      {
+        "name": "Lemon",
+        "img": "images/Lemon.png",
+        "qty": 1
+      },
+      {
+        "name": "Wild Leek",
+        "img": "images/Wild_leek.png",
+        "qty": 1
+      }
+    ],
+    "health": 150,
+    "stamina": 150,
+    "time": "50m",
+    "quality": 4,
+    "kitchenLevel": 3,
+    "cookingLevel": 38,
+    "source": "Golden Treasure Box",
+    "sell": "470t"
+  },
+  {
+    "name": "Mackerel Sashimi",
+    "category": "Main Dishes",
+    "subcategory": "Handcrafted Dish",
+    "image": "images/Mackerel_sashimi.png",
+    "ingredients": [
+      {
+        "name": "Mackerel",
+        "img": "images/Mackerel.png",
+        "qty": 1
+      }
+    ],
+    "health": 16,
+    "stamina": 16,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 1,
+    "source": "Tackle Shop for 150t",
+    "sell": "50t"
+  },
+  {
+    "name": "Red Snapper Sushi",
+    "category": "Main Dishes",
+    "subcategory": "Handcrafted Dish",
+    "image": "images/Red_snapper_sushi.png",
+    "ingredients": [
+      {
+        "name": "Red Snapper",
+        "img": "images/Red_snapper.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      }
+    ],
+    "health": 46,
+    "stamina": 46,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 8,
+    "source": "The Inn for 150t",
+    "sell": "240t"
+  },
+  {
+    "name": "Rice Ball",
+    "category": "Main Dishes",
+    "subcategory": "Handcrafted Dish",
+    "image": "images/Rice_ball.png",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      },
+      {
+        "name": "Seaweed",
+        "img": "images/Seaweed.png",
+        "qty": 1
+      },
+      {
+        "name": "Rock Salt",
+        "img": "images/Rock_salt.png",
+        "qty": 1
+      }
+    ],
+    "health": 64,
+    "stamina": 64,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 14,
+    "source": "The Inn for 300t",
+    "sell": "240t"
+  },
+  {
+    "name": "Salmon Sashimi",
+    "category": "Main Dishes",
+    "subcategory": "Handcrafted Dish",
+    "image": "images/Salmon_sashimi.png",
+    "ingredients": [
+      {
+        "name": "Salmon",
+        "img": "images/Salmon.png",
+        "qty": 1
+      }
+    ],
+    "health": 16,
+    "stamina": 16,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 1,
+    "source": "Tackle Shop for 150t",
+    "sell": "40t"
+  },
+  {
+    "name": "Sesame Tuna Bowl",
+    "category": "Main Dishes",
+    "subcategory": "Handcrafted Dish",
+    "image": "images/Sesame_tuna_bowl.png",
+    "ingredients": [
+      {
+        "name": "Tuna",
+        "img": "images/Tuna.png",
+        "qty": 1
+      },
+      {
+        "name": "Sesame",
+        "img": "images/Sesame.png",
+        "qty": 1
+      },
+      {
+        "name": "Cucumber",
+        "img": "images/Cucumber.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      }
+    ],
+    "health": 98,
+    "stamina": 98,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 20,
+    "source": "Golden Treasure Box",
+    "sell": "340t"
+  },
+  {
+    "name": "Spicy Crab Sushi",
+    "category": "Main Dishes",
+    "subcategory": "Handcrafted Dish",
+    "image": "images/Spicy_crab_sushi.png",
+    "ingredients": [
+      {
+        "name": "Crab",
+        "img": "images/Crab.png",
+        "qty": 1
+      },
+      {
+        "name": "Seaweed",
+        "img": "images/Seaweed.png",
+        "qty": 1
+      },
+      {
+        "name": "Chili Pepper",
+        "img": "images/Chili_pepper.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      }
+    ],
+    "health": 116,
+    "stamina": 116,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 22,
+    "source": "The Lava Caves (requires Taste Maker Skill) Golden Treasure Box",
+    "sell": "360t"
+  },
+  {
+    "name": "Sushi Platter",
+    "category": "Main Dishes",
+    "subcategory": "Handcrafted Dish",
+    "image": "images/Sushi_platter.png",
+    "ingredients": [
+      {
+        "name": "Tuna",
+        "img": "images/Tuna.png",
+        "qty": 1
+      },
+      {
+        "name": "Salmon",
+        "img": "images/Salmon.png",
+        "qty": 1
+      },
+      {
+        "name": "Mackerel",
+        "img": "images/Mackerel.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      },
+      {
+        "name": "Seaweed",
+        "img": "images/Seaweed.png",
+        "qty": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "img": "images/Soy_sauce.png",
+        "qty": 1
+      }
+    ],
+    "health": 144,
+    "stamina": 144,
+    "time": "1h 0m",
+    "quality": 5,
+    "kitchenLevel": 3,
+    "cookingLevel": 40,
+    "source": "Golden Treasure Box",
+    "sell": "440t"
+  },
+  {
+    "name": "Tuna Sashimi",
+    "category": "Main Dishes",
+    "subcategory": "Handcrafted Dish",
+    "image": "images/Tuna_sashimi.png",
+    "ingredients": [
+      {
+        "name": "Tuna",
+        "img": "images/Tuna.png",
+        "qty": 1
+      }
+    ],
+    "health": 16,
+    "stamina": 16,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 1,
+    "source": "Available From Start",
+    "sell": "40t"
+  },
+  {
+    "name": "Veggie Sub Sandwich",
+    "category": "Main Dishes",
+    "subcategory": "Handcrafted Dish",
+    "image": "images/Veggie_sub_sandwich.png",
+    "ingredients": [
+      {
+        "name": "Bread",
+        "img": "images/Bread.png",
+        "qty": 1
+      },
+      {
+        "name": "Tide Lettuce",
+        "img": "images/Tide_lettuce.png",
+        "qty": 1
+      },
+      {
+        "name": "Tomato",
+        "img": "images/Tomato.png",
+        "qty": 1
+      },
+      {
+        "name": "Cucumber",
+        "img": "images/Cucumber.png",
+        "qty": 1
+      },
+      {
+        "name": "Cheese",
+        "img": "images/Cheese.png",
+        "qty": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "img": "images/Mayonnaise.png",
+        "qty": 1
+      }
+    ],
+    "health": 246,
+    "stamina": 246,
+    "time": "1h 0m",
+    "quality": 5,
+    "kitchenLevel": 3,
+    "cookingLevel": 40,
+    "source": "The Inn for t",
+    "sell": "730t"
+  },
+  {
+    "name": "Roasted Cauliflower",
+    "category": "Main Dishes",
+    "subcategory": "Roasted Dish",
+    "image": "images/Roasted_cauliflower.png",
+    "ingredients": [
+      {
+        "name": "Cauliflower",
+        "img": "images/Cauliflower.png",
+        "qty": 1
+      }
+    ],
+    "health": 30,
+    "stamina": 30,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 4,
+    "source": "Ship a Cauliflower",
+    "sell": "80t"
+  },
+  {
+    "name": "Roasted Sweet Potato",
+    "category": "Main Dishes",
+    "subcategory": "Roasted Dish",
+    "image": "images/Roasted_sweet_potato.png",
+    "ingredients": [
+      {
+        "name": "Sweet Potato",
+        "img": "images/Sweet_potato.png",
+        "qty": 1
+      }
+    ],
+    "health": 18,
+    "stamina": 18,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 1,
+    "source": "Ship a Sweet Potato",
+    "sell": "40t"
+  },
+  {
+    "name": "Fried Rice",
+    "category": "Main Dishes",
+    "subcategory": "Sauteed Dish",
+    "image": "images/Fried_rice.png",
+    "ingredients": [
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      },
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 1
+      },
+      {
+        "name": "Carrot",
+        "img": "images/Carrot.png",
+        "qty": 1
+      },
+      {
+        "name": "Peas",
+        "img": "images/Peas.png",
+        "qty": 1
+      },
+      {
+        "name": "Water Chestnut",
+        "img": "images/Water_chestnut.png",
+        "qty": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "img": "images/Soy_sauce.png",
+        "qty": 1
+      }
+    ],
+    "health": 174,
+    "stamina": 174,
+    "time": "1h 0m",
+    "quality": 5,
+    "kitchenLevel": 3,
+    "cookingLevel": 40,
+    "source": "The Lava Caves (requires Taste Maker Skill) Wishing Well 500t Wish",
+    "sell": "570t"
+  },
+  {
+    "name": "Mushroom Steak Dinner",
+    "category": "Main Dishes",
+    "subcategory": "Sauteed Dish",
+    "image": "images/Mushroom_steak_dinner.png",
+    "ingredients": [
+      {
+        "name": "Oyster Mushroom",
+        "img": "images/Oyster_mushroom.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Cauliflower",
+        "img": "images/Cauliflower.png",
+        "qty": 1
+      },
+      {
+        "name": "Beet",
+        "img": "images/Beet.png",
+        "qty": 1
+      },
+      {
+        "name": "Tide Lettuce",
+        "img": "images/Tide_lettuce.png",
+        "qty": 1
+      }
+    ],
+    "health": 128,
+    "stamina": 128,
+    "time": "50m",
+    "quality": 4,
+    "kitchenLevel": 3,
+    "cookingLevel": 36,
+    "source": "The Inn (After Upgrade) for 600t",
+    "sell": "320t"
+  },
+  {
+    "name": "Perch Risotto",
+    "category": "Main Dishes",
+    "subcategory": "Sauteed Dish",
+    "image": "images/Perch_risotto.png",
+    "ingredients": [
+      {
+        "name": "Perch",
+        "img": "images/Perch.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Garlic",
+        "img": "images/Garlic.png",
+        "qty": 1
+      },
+      {
+        "name": "Rosemary",
+        "img": "images/Rosemary.png",
+        "qty": 1
+      }
+    ],
+    "health": 132,
+    "stamina": 132,
+    "time": "50m",
+    "quality": 4,
+    "kitchenLevel": 3,
+    "cookingLevel": 34,
+    "source": "Errol's Request for Perch",
+    "sell": "460t"
+  },
+  {
+    "name": "Sea Bream Rice",
+    "category": "Main Dishes",
+    "subcategory": "Sauteed Dish",
+    "image": "images/Sea_bream_rice.png",
+    "ingredients": [
+      {
+        "name": "Sea Bream",
+        "img": "images/Sea_bream.png",
+        "qty": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "img": "images/Soy_sauce.png",
+        "qty": 1
+      },
+      {
+        "name": "Cave Mushroom",
+        "img": "images/Cave_mushroom.png",
+        "qty": 1
+      },
+      {
+        "name": "Earthshroom",
+        "img": "images/Earthshroom.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      }
+    ],
+    "health": 116,
+    "stamina": 116,
+    "time": "50m",
+    "quality": 4,
+    "kitchenLevel": 3,
+    "cookingLevel": 36,
+    "source": "Terithia's Request for Earthshroom",
+    "sell": "350t"
+  },
+  {
+    "name": "Seafood Snow Pea Noodles",
+    "category": "Main Dishes",
+    "subcategory": "Sauteed Dish",
+    "image": "images/Seafood_snow_pea_noodles.png",
+    "ingredients": [
+      {
+        "name": "Snow Peas",
+        "img": "images/Snow_peas.png",
+        "qty": 1
+      },
+      {
+        "name": "Noodles",
+        "img": "images/Noodles.png",
+        "qty": 1
+      },
+      {
+        "name": "King Crab",
+        "img": "images/King_crab.png",
+        "qty": 1
+      },
+      {
+        "name": "Bonito",
+        "img": "images/Bonito.png",
+        "qty": 1
+      },
+      {
+        "name": "Herring",
+        "img": "images/Herring.png",
+        "qty": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "img": "images/Soy_sauce.png",
+        "qty": 1
+      }
+    ],
+    "health": 238,
+    "stamina": 238,
+    "time": "1h 0m",
+    "quality": 5,
+    "kitchenLevel": 3,
+    "cookingLevel": 40,
+    "source": "The Inn (After Upgrade) for 800t",
+    "sell": "620t"
+  },
+  {
+    "name": "Vegetable Pot Pie",
+    "category": "Main Dishes",
+    "subcategory": "Sauteed Dish",
+    "image": "images/Vegetable_pot_pie.png",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "img": "images/Potato.png",
+        "qty": 1
+      },
+      {
+        "name": "Turnip",
+        "img": "images/Turnip.png",
+        "qty": 1
+      },
+      {
+        "name": "Carrot",
+        "img": "images/Carrot.png",
+        "qty": 1
+      },
+      {
+        "name": "Peas",
+        "img": "images/Peas.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 192,
+    "stamina": 192,
+    "time": "50m",
+    "quality": 4,
+    "kitchenLevel": 3,
+    "cookingLevel": 38,
+    "source": "The Deep Earth (requires Taste Maker Skill)",
+    "sell": "630t"
+  },
+  {
+    "name": "Apple Honey Curry",
+    "category": "Main Dishes",
+    "subcategory": "Simmered Dish",
+    "image": "images/Apple_honey_curry.png",
+    "ingredients": [
+      {
+        "name": "Apple",
+        "img": "images/Apple.png",
+        "qty": 1
+      },
+      {
+        "name": "Honey",
+        "img": "images/Honey.png",
+        "qty": 1
+      },
+      {
+        "name": "Curry Powder",
+        "img": "images/Curry_powder.png",
+        "qty": 1
+      },
+      {
+        "name": "Sweet Potato",
+        "img": "images/Sweet_potato.png",
+        "qty": 1
+      },
+      {
+        "name": "Onion",
+        "img": "images/Onion.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      }
+    ],
+    "health": 188,
+    "stamina": 188,
+    "time": "1h 0m",
+    "quality": 5,
+    "kitchenLevel": 3,
+    "cookingLevel": 40,
+    "source": "Harvest Festival for 800t",
+    "sell": "600t"
+  },
+  {
+    "name": "Braised Burdock",
+    "category": "Main Dishes",
+    "subcategory": "Simmered Dish",
+    "image": "images/Braised_burdock.png",
+    "ingredients": [
+      {
+        "name": "Burdock Root",
+        "img": "images/Burdock_root.png",
+        "qty": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "img": "images/Soy_sauce.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 60,
+    "stamina": 60,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 14,
+    "source": "Ship a Burdock Root",
+    "sell": "180t"
+  },
+  {
+    "name": "Cauliflower Curry",
+    "category": "Main Dishes",
+    "subcategory": "Simmered Dish",
+    "image": "images/Cauliflower_curry.png",
+    "ingredients": [
+      {
+        "name": "Cauliflower",
+        "img": "images/Cauliflower.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Curry Powder",
+        "img": "images/Curry_powder.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      }
+    ],
+    "health": 110,
+    "stamina": 110,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 24,
+    "source": "The Inn for 400t",
+    "sell": "430t"
+  },
+  {
+    "name": "Chickpea Curry",
+    "category": "Main Dishes",
+    "subcategory": "Simmered Dish",
+    "image": "images/Chickpea_curry.png",
+    "ingredients": [
+      {
+        "name": "Chickpea",
+        "img": "images/Chickpea.png",
+        "qty": 1
+      },
+      {
+        "name": "Curry Powder",
+        "img": "images/Curry_powder.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      }
+    ],
+    "health": 56,
+    "stamina": 56,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 12,
+    "source": "The Tide Caverns (requires Taste Maker Skill)",
+    "sell": "250t"
+  },
+  {
+    "name": "Chili Coconut Curry",
+    "category": "Main Dishes",
+    "subcategory": "Simmered Dish",
+    "image": "images/Chili_coconut_curry.png",
+    "ingredients": [
+      {
+        "name": "Coconut Milk",
+        "img": "images/Coconut_milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Chili Pepper",
+        "img": "images/Chili_pepper.png",
+        "qty": 1
+      },
+      {
+        "name": "Curry Powder",
+        "img": "images/Curry_powder.png",
+        "qty": 1
+      },
+      {
+        "name": "Cave Mushroom",
+        "img": "images/Cave_mushroom.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      }
+    ],
+    "health": 256,
+    "stamina": 256,
+    "time": "50m",
+    "quality": 4,
+    "kitchenLevel": 3,
+    "cookingLevel": 36,
+    "source": "The Lava Caves (requires Taste Maker Skill) The Inn (After Upgrade) for 600t",
+    "sell": "450t"
+  },
+  {
+    "name": "Crab Cakes",
+    "category": "Main Dishes",
+    "subcategory": "Simmered Dish",
+    "image": "images/Crab_cakes.png",
+    "ingredients": [
+      {
+        "name": "Crab",
+        "img": "images/Crab.png",
+        "qty": 2
+      },
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 1
+      },
+      {
+        "name": "Mayonnaise",
+        "img": "images/Mayonnaise.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Dill",
+        "img": "images/Dill.png",
+        "qty": 1
+      }
+    ],
+    "health": 120,
+    "stamina": 120,
+    "time": "50m",
+    "quality": 4,
+    "kitchenLevel": 3,
+    "cookingLevel": 30,
+    "source": "The Inn for 600t",
+    "sell": "490t"
+  },
+  {
+    "name": "Crayfish Etouffee",
+    "category": "Main Dishes",
+    "subcategory": "Simmered Dish",
+    "image": "images/Crayfish_etouffee.png",
+    "ingredients": [
+      {
+        "name": "Crayfish",
+        "img": "images/Crayfish.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      },
+      {
+        "name": "Wild Leek",
+        "img": "images/Wild_leek.png",
+        "qty": 1
+      }
+    ],
+    "health": 56,
+    "stamina": 56,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 12,
+    "source": "The Inn for 300t Wooden Treasure Box",
+    "sell": "240t"
+  },
+  {
+    "name": "Deluxe Curry",
+    "category": "Main Dishes",
+    "subcategory": "Simmered Dish",
+    "image": "images/Deluxe_curry.png",
+    "ingredients": [
+      {
+        "name": "Potato",
+        "img": "images/Potato.png",
+        "qty": 1
+      },
+      {
+        "name": "Shrimp",
+        "img": "images/Shrimp.png",
+        "qty": 1
+      },
+      {
+        "name": "Curry Powder",
+        "img": "images/Curry_powder.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      }
+    ],
+    "health": 106,
+    "stamina": 106,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 24,
+    "source": "The Inn for 400t",
+    "sell": "370t"
+  },
+  {
+    "name": "Herb Butter Pasta",
+    "category": "Main Dishes",
+    "subcategory": "Simmered Dish",
+    "image": "images/Herb_butter_pasta.png",
+    "ingredients": [
+      {
+        "name": "Noodles",
+        "img": "images/Noodles.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Thyme",
+        "img": "images/Thyme.png",
+        "qty": 1
+      },
+      {
+        "name": "Oregano",
+        "img": "images/Oregano.png",
+        "qty": 1
+      }
+    ],
+    "health": 120,
+    "stamina": 120,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 28,
+    "source": "The Inn (After Upgrade) for 400t",
+    "sell": "300t"
+  },
+  {
+    "name": "Incredibly Hot Pot",
+    "category": "Main Dishes",
+    "subcategory": "Simmered Dish",
+    "image": "images/Incredibly_hot_pot.png",
+    "ingredients": [
+      {
+        "name": "Flame Pepper",
+        "img": "images/Flame_pepper.png",
+        "qty": 1
+      },
+      {
+        "name": "Ash Mushroom",
+        "img": "images/Ash_mushroom.png",
+        "qty": 1
+      },
+      {
+        "name": "Lava Chestnuts",
+        "img": "images/Lava_chestnuts.png",
+        "qty": 1
+      },
+      {
+        "name": "Hot Potato",
+        "img": "images/Hot_potato.png",
+        "qty": 1
+      },
+      {
+        "name": "Earthshroom",
+        "img": "images/Earthshroom.png",
+        "qty": 1
+      }
+    ],
+    "health": 152,
+    "stamina": 152,
+    "time": "50m",
+    "quality": 4,
+    "kitchenLevel": 3,
+    "cookingLevel": 30,
+    "source": "The Lava Caves (requires Taste Maker Skill)",
+    "sell": "230t"
+  },
+  {
+    "name": "Monster Mash",
+    "category": "Main Dishes",
+    "subcategory": "Simmered Dish",
+    "image": "images/Monster_mash.png",
+    "ingredients": [
+      {
+        "name": "Monster Fang",
+        "img": "images/Monster_fang.png",
+        "qty": 1
+      },
+      {
+        "name": "Monster Shell",
+        "img": "images/Monster_shell.png",
+        "qty": 1
+      },
+      {
+        "name": "Monster Horn",
+        "img": "images/Monster_horn.png",
+        "qty": 1
+      },
+      {
+        "name": "Monster Powder",
+        "img": "images/Monster_powder.png",
+        "qty": 1
+      }
+    ],
+    "health": 76,
+    "stamina": 76,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 20,
+    "source": "The Tide Caverns (requires Taste Maker Skill)",
+    "sell": "90t"
+  },
+  {
+    "name": "Mushroom Rice",
+    "category": "Main Dishes",
+    "subcategory": "Simmered Dish",
+    "image": "images/Mushroom_rice.png",
+    "ingredients": [
+      {
+        "name": "Morel Mushroom",
+        "img": "images/Morel_mushroom.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "img": "images/Soy_sauce.png",
+        "qty": 1
+      }
+    ],
+    "health": 64,
+    "stamina": 64,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 14,
+    "source": "The Inn for 300t",
+    "sell": "260t"
+  },
+  {
+    "name": "Rosemary Garlic Noodles",
+    "category": "Main Dishes",
+    "subcategory": "Simmered Dish",
+    "image": "images/Rosemary_garlic_noodles.png",
+    "ingredients": [
+      {
+        "name": "Noodles",
+        "img": "images/Noodles.png",
+        "qty": 1
+      },
+      {
+        "name": "Rosemary",
+        "img": "images/Rosemary.png",
+        "qty": 1
+      },
+      {
+        "name": "Garlic",
+        "img": "images/Garlic.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      }
+    ],
+    "health": 60,
+    "stamina": 60,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 20,
+    "source": "The Inn for 400t",
+    "sell": "400t"
+  },
+  {
+    "name": "Simmered Daikon",
+    "category": "Main Dishes",
+    "subcategory": "Simmered Dish",
+    "image": "images/Simmered_daikon.png",
+    "ingredients": [
+      {
+        "name": "Daikon Radish",
+        "img": "images/Daikon_radish.png",
+        "qty": 1
+      },
+      {
+        "name": "Soy Sauce",
+        "img": "images/Soy_sauce.png",
+        "qty": 1
+      }
+    ],
+    "health": 46,
+    "stamina": 46,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 8,
+    "source": "Ship a Daikon Radish",
+    "sell": "230t"
+  },
+  {
+    "name": "Seafood Boil",
+    "category": "Main Dishes",
+    "subcategory": "Steamed Dish",
+    "image": "images/Seafood_boil.png",
+    "ingredients": [
+      {
+        "name": "Crab",
+        "img": "images/Crab.png",
+        "qty": 2
+      },
+      {
+        "name": "Mines Mussels",
+        "img": "images/Mines_mussels.png",
+        "qty": 2
+      },
+      {
+        "name": "Crayfish",
+        "img": "images/Crayfish.png",
+        "qty": 2
+      },
+      {
+        "name": "Corn",
+        "img": "images/Corn.png",
+        "qty": 1
+      },
+      {
+        "name": "Hot Potato",
+        "img": "images/Hot_potato.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      }
+    ],
+    "health": 150,
+    "stamina": 150,
+    "time": "1h 0m",
+    "quality": 5,
+    "kitchenLevel": 3,
+    "cookingLevel": 40,
+    "source": "The Inn (After Upgrade) for 800800t",
+    "sell": "590t"
+  },
+  {
+    "name": "Apple Pie",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Apple_pie.png",
+    "ingredients": [
+      {
+        "name": "Apple",
+        "img": "images/Apple.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 92,
+    "stamina": 92,
+    "time": "20m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 18,
+    "source": "The Inn for 300t",
+    "sell": "360t"
+  },
+  {
+    "name": "Bell Berry Bakewell Tart",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Bell_berry_bakewell_tart.png",
+    "ingredients": [
+      {
+        "name": "Bell Berry",
+        "img": "images/Bell_berry.png",
+        "qty": 3
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 106,
+    "stamina": 106,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 26,
+    "source": "Ship a Bell berry",
+    "sell": "510t"
+  },
+  {
+    "name": "Cherry Cobbler",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Cherry_cobbler.png",
+    "ingredients": [
+      {
+        "name": "Cherry",
+        "img": "images/Cherry.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 48,
+    "stamina": 48,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 8,
+    "source": "Saturday Market at Darcy's Stall for 150t",
+    "sell": "160t"
+  },
+  {
+    "name": "Cherry Tart",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Cherry_tart.png",
+    "ingredients": [
+      {
+        "name": "Cherry",
+        "img": "images/Cherry.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 92,
+    "stamina": 92,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 18,
+    "source": "The Inn for 300t",
+    "sell": "360t"
+  },
+  {
+    "name": "Chocolate Cake",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Chocolate_cake.png",
+    "ingredients": [
+      {
+        "name": "Chocolate",
+        "img": "images/Chocolate.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 1
+      }
+    ],
+    "health": 110,
+    "stamina": 110,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 20,
+    "source": "Saturday Market at Darcy's Stall for 400t",
+    "sell": "470t"
+  },
+  {
+    "name": "Coconut Cream Pie",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Coconut_cream_pie.png",
+    "ingredients": [
+      {
+        "name": "Coconut",
+        "img": "images/Coconut.png",
+        "qty": 1
+      },
+      {
+        "name": "Coconut Milk",
+        "img": "images/Coconut_milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 150,
+    "stamina": 150,
+    "time": "50m",
+    "quality": 4,
+    "kitchenLevel": 3,
+    "cookingLevel": 38,
+    "source": "The Inn (After Upgrade) for 600t",
+    "sell": "580t"
+  },
+  {
+    "name": "Cranberry Orange Scone",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Cranberry_orange_scone.png",
+    "ingredients": [
+      {
+        "name": "Orange",
+        "img": "images/Orange.png",
+        "qty": 1
+      },
+      {
+        "name": "Cranberry",
+        "img": "images/Cranberry.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 128,
+    "stamina": 128,
+    "time": "40m",
+    "quality": 4,
+    "kitchenLevel": 2,
+    "cookingLevel": 36,
+    "source": "Ryis' Request for Cranberries",
+    "sell": "480t"
+  },
+  {
+    "name": "Crystal Berry Pie",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Crystal_berry_pie.png",
+    "ingredients": [
+      {
+        "name": "Crystal Berries",
+        "img": "images/Crystal_berries.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 94,
+    "stamina": 94,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 20,
+    "source": "Ship a Crystal Berry",
+    "sell": "390t"
+  },
+  {
+    "name": "Glowberry Cookies",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Glowberry_cookies.png",
+    "ingredients": [
+      {
+        "name": "Glowberry",
+        "img": "images/Glowberry.png",
+        "qty": 6
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 104,
+    "stamina": 104,
+    "time": "50m",
+    "quality": 4,
+    "kitchenLevel": 3,
+    "cookingLevel": 30,
+    "source": "Ship a Glowberry",
+    "sell": "510t"
+  },
+  {
+    "name": "Golden Cheesecake",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Golden_cheesecake.png",
+    "ingredients": [
+      {
+        "name": "Golden Cheese",
+        "img": "images/Golden_cheese.png",
+        "qty": 2
+      },
+      {
+        "name": "Golden Egg",
+        "img": "images/Golden_egg.png",
+        "qty": 2
+      },
+      {
+        "name": "Golden Milk",
+        "img": "images/Golden_milk.png",
+        "qty": 2
+      },
+      {
+        "name": "Golden Butter",
+        "img": "images/Golden_butter.png",
+        "qty": 2
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 2
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 2
+      }
+    ],
+    "health": 218,
+    "stamina": 218,
+    "time": "1h 0m",
+    "quality": 5,
+    "kitchenLevel": 3,
+    "cookingLevel": 40,
+    "source": "Animal Festival from The Souvenir Stall for 800t",
+    "sell": "2,530t"
+  },
+  {
+    "name": "Golden Cookies",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Golden_cookies.png",
+    "ingredients": [
+      {
+        "name": "Golden Egg",
+        "img": "images/Golden_egg.png",
+        "qty": 2
+      },
+      {
+        "name": "Golden Milk",
+        "img": "images/Golden_milk.png",
+        "qty": 2
+      },
+      {
+        "name": "Golden Butter",
+        "img": "images/Golden_butter.png",
+        "qty": 2
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 2
+      },
+      {
+        "name": "Chocolate",
+        "img": "images/Chocolate.png",
+        "qty": 2
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 2
+      }
+    ],
+    "health": 208,
+    "stamina": 208,
+    "time": "1h 0m",
+    "quality": 5,
+    "kitchenLevel": 3,
+    "cookingLevel": 40,
+    "source": "Animal Festival from The Souvenir Stall for 800t",
+    "sell": "2,110t"
+  },
+  {
+    "name": "Lemon Cake",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Lemon_cake.png",
+    "ingredients": [
+      {
+        "name": "Lemon",
+        "img": "images/Lemon.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 92,
+    "stamina": 92,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 18,
+    "source": "The Tide Caverns (requires Taste Maker Skill)",
+    "sell": "360t"
+  },
+  {
+    "name": "Lemon Pie",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Lemon_pie.png",
+    "ingredients": [
+      {
+        "name": "Lemon",
+        "img": "images/Lemon.png",
+        "qty": 1
+      },
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 110,
+    "stamina": 110,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 20,
+    "source": "The Inn for 400t",
+    "sell": "400t"
+  },
+  {
+    "name": "Monster Cookie",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Monster_cookie.png",
+    "ingredients": [
+      {
+        "name": "Monster Powder",
+        "img": "images/Monster_powder.png",
+        "qty": 1
+      },
+      {
+        "name": "Monster Core",
+        "img": "images/Monster_core.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 56,
+    "stamina": 56,
+    "time": "40m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 10,
+    "source": "The Upper Mines (requires Taste Maker Skill)",
+    "sell": "155t"
+  },
+  {
+    "name": "Mont Blanc",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Mont_blanc.png",
+    "ingredients": [
+      {
+        "name": "Chestnut",
+        "img": "images/Chestnut.png",
+        "qty": 4
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 136,
+    "stamina": 136,
+    "time": "1h 0m",
+    "quality": 5,
+    "kitchenLevel": 3,
+    "cookingLevel": 40,
+    "source": "The Inn for 800t",
+    "sell": "630t"
+  },
+  {
+    "name": "Moon Fruit Cake",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Moon_fruit_cake.png",
+    "ingredients": [
+      {
+        "name": "Moon Fruit",
+        "img": "images/Moon_fruit.png",
+        "qty": 1
+      },
+      {
+        "name": "Honey",
+        "img": "images/Honey.png",
+        "qty": 1
+      },
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 98,
+    "stamina": 98,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 20,
+    "source": "Juniper's Important Request for a Moon Fruit",
+    "sell": "330t"
+  },
+  {
+    "name": "Poached Pear",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Poached_pear.png",
+    "ingredients": [
+      {
+        "name": "Pear",
+        "img": "images/Pear.png",
+        "qty": 1
+      },
+      {
+        "name": "Red Wine",
+        "img": "images/Red_Wine.png",
+        "qty": 1
+      },
+      {
+        "name": "Honey",
+        "img": "images/Honey.png",
+        "qty": 1
+      }
+    ],
+    "health": 88,
+    "stamina": 88,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 16,
+    "source": "Ship a Pear",
+    "sell": "165t"
+  },
+  {
+    "name": "Pumpkin Pie",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Pumpkin_pie.png",
+    "ingredients": [
+      {
+        "name": "Pumpkin",
+        "img": "images/Pumpkin.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 1
+      }
+    ],
+    "health": 140,
+    "stamina": 140,
+    "time": "50m",
+    "quality": 4,
+    "kitchenLevel": 3,
+    "cookingLevel": 38,
+    "source": "Saturday Market at Darcy's Stall for 600t Harvest Festival for 600t",
+    "sell": "640t"
+  },
+  {
+    "name": "Strawberry Shortcake",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Strawberry_shortcake.png",
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "img": "images/Strawberry.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      }
+    ],
+    "health": 106,
+    "stamina": 106,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 20,
+    "source": "Eiland's Request for a Strawberry",
+    "sell": "520t"
+  },
+  {
+    "name": "Sweet Potato Pie",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Sweet_potato_pie.png",
+    "ingredients": [
+      {
+        "name": "Sweet Potato",
+        "img": "images/Sweet_potato.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 78,
+    "stamina": 78,
+    "time": "50m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 16,
+    "source": "The Inn for 300t",
+    "sell": "360t"
+  },
+  {
+    "name": "Wild Berry Pie",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Wild_berry_pie.png",
+    "ingredients": [
+      {
+        "name": "Wild Berries",
+        "img": "images/Wild_berries.png",
+        "qty": 6
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 60,
+    "stamina": 60,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 14,
+    "source": "Reina's Request for Berries",
+    "sell": "320t"
+  },
+  {
+    "name": "Wild Berry Scone",
+    "category": "Desserts",
+    "subcategory": "Baked Dessert",
+    "image": "images/Wild_berry_scone.png",
+    "ingredients": [
+      {
+        "name": "Wild Berries",
+        "img": "images/Wild_berries.png",
+        "qty": 6
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 52,
+    "stamina": 52,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 12,
+    "source": "Elsie's Request for Wild Berries",
+    "sell": "250t"
+  },
+  {
+    "name": "Candied Lemon Peel",
+    "category": "Desserts",
+    "subcategory": "Candy",
+    "image": "images/Candied_lemon_peel.png",
+    "ingredients": [
+      {
+        "name": "Lemon",
+        "img": "images/Lemon.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 48,
+    "stamina": 48,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 8,
+    "source": "Ship a Lemon",
+    "sell": "160t"
+  },
+  {
+    "name": "Candied Strawberries",
+    "category": "Desserts",
+    "subcategory": "Candy",
+    "image": "images/Candied_strawberries.png",
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "img": "images/Strawberry.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 42,
+    "stamina": 42,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 8,
+    "source": "Ship a Strawberry",
+    "sell": "240t"
+  },
+  {
+    "name": "Candied Walnuts",
+    "category": "Desserts",
+    "subcategory": "Candy",
+    "image": "images/Candied_walnuts.png",
+    "ingredients": [
+      {
+        "name": "Walnut",
+        "img": "images/Walnut.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 36,
+    "stamina": 36,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 1,
+    "source": "Ship a Walnut",
+    "sell": "135t"
+  },
+  {
+    "name": "Caramel Candy",
+    "category": "Desserts",
+    "subcategory": "Candy",
+    "image": "images/Caramel_candy.png",
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      }
+    ],
+    "health": 36,
+    "stamina": 36,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 4,
+    "source": "Available From Start",
+    "sell": "200t"
+  },
+  {
+    "name": "Caramelized Moon Fruit",
+    "category": "Desserts",
+    "subcategory": "Candy",
+    "image": "images/Caramelized_moon_fruit.png",
+    "ingredients": [
+      {
+        "name": "Moon Fruit",
+        "img": "images/Moon_fruit.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 42,
+    "stamina": 42,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 6,
+    "source": "Eiland's Request for a Moon Fruit",
+    "sell": "145t"
+  },
+  {
+    "name": "Pudding",
+    "category": "Desserts",
+    "subcategory": "Candy",
+    "image": "images/Pudding.png",
+    "ingredients": [
+      {
+        "name": "Chicken Egg",
+        "img": "images/Chicken_egg.png",
+        "qty": 2
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      }
+    ],
+    "health": 46,
+    "stamina": 46,
+    "time": "20m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 10,
+    "source": "Chicken Statue 10 Offering",
+    "sell": "200t"
+  },
+  {
+    "name": "Sweet Sesame Balls",
+    "category": "Desserts",
+    "subcategory": "Candy",
+    "image": "images/Sweet_sesame_balls.png",
+    "ingredients": [
+      {
+        "name": "Sesame",
+        "img": "images/Sesame.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      },
+      {
+        "name": "Oil",
+        "img": "images/Oil.png",
+        "qty": 1
+      }
+    ],
+    "health": 90,
+    "stamina": 90,
+    "time": "20m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 20,
+    "source": "The Inn for 400t",
+    "sell": "400t"
+  },
+  {
+    "name": "Ice Cream Sundae",
+    "category": "Desserts",
+    "subcategory": "Frozen Dessert",
+    "image": "images/Ice_cream_sundae.png",
+    "ingredients": [
+      {
+        "name": "Ice Block",
+        "img": "images/Ice_block.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Chocolate",
+        "img": "images/Chocolate.png",
+        "qty": 1
+      },
+      {
+        "name": "Butter",
+        "img": "images/Butter.png",
+        "qty": 1
+      },
+      {
+        "name": "Flour",
+        "img": "images/Flour.png",
+        "qty": 1
+      }
+    ],
+    "health": 178,
+    "stamina": 178,
+    "time": "1h 0m",
+    "quality": 5,
+    "kitchenLevel": 3,
+    "cookingLevel": 38,
+    "source": "Saturday Market at Darcy's Stall for 800t",
+    "sell": "660t"
+  },
+  {
+    "name": "Pomegranate Sorbet",
+    "category": "Desserts",
+    "subcategory": "Frozen Dessert",
+    "image": "images/Pomegranate_sorbet.png",
+    "ingredients": [
+      {
+        "name": "Pomegranate",
+        "img": "images/Pomegranate.png",
+        "qty": 1
+      },
+      {
+        "name": "Ice Block",
+        "img": "images/Ice_block.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 78,
+    "stamina": 78,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 14,
+    "source": "Ship a Pomegranate",
+    "sell": "170t"
+  },
+  {
+    "name": "Spell Fruit Parfait",
+    "category": "Desserts",
+    "subcategory": "Frozen Dessert",
+    "image": "images/Spell_fruit_parfait.png",
+    "ingredients": [
+      {
+        "name": "Spell Fruit",
+        "img": "images/Spell_fruit.png",
+        "qty": 1
+      },
+      {
+        "name": "Lava Chestnuts",
+        "img": "images/Lava_chestnuts.png",
+        "qty": 1
+      },
+      {
+        "name": "Crystal Berries",
+        "img": "images/Crystal_berries.png",
+        "qty": 1
+      },
+      {
+        "name": "Sweetroot",
+        "img": "images/Sweetroot.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Golden Milk",
+        "img": "images/Golden_milk.png",
+        "qty": 1
+      }
+    ],
+    "health": 238,
+    "stamina": 238,
+    "time": "1h 0m",
+    "quality": 5,
+    "kitchenLevel": 3,
+    "cookingLevel": 40,
+    "source": "The Ancient Ruins (requires Taste Maker Skill)",
+    "sell": "460t"
+  },
+  {
+    "name": "Wintergreen Ice Cream",
+    "category": "Desserts",
+    "subcategory": "Frozen Dessert",
+    "image": "images/Wintergreen_ice_cream.png",
+    "ingredients": [
+      {
+        "name": "Wintergreen Berry",
+        "img": "images/Wintergreen_berry.png",
+        "qty": 8
+      },
+      {
+        "name": "Ice Block",
+        "img": "images/Ice_block.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 66,
+    "stamina": 66,
+    "time": "40m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 14,
+    "source": "Josephine's Request for Ice",
+    "sell": "210t"
+  },
+  {
+    "name": "Berries and Cream",
+    "category": "Desserts",
+    "subcategory": "Handcrafted Dessert",
+    "image": "images/Berries_and_cream.png",
+    "ingredients": [
+      {
+        "name": "Wild Berries",
+        "img": "images/Wild_berries.png",
+        "qty": 6
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      }
+    ],
+    "health": 16,
+    "stamina": 16,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 1,
+    "source": "Eiland's Request for Berries",
+    "sell": "50t"
+  },
+  {
+    "name": "Peaches and Cream",
+    "category": "Desserts",
+    "subcategory": "Handcrafted Dessert",
+    "image": "images/Peaches_and_cream.png",
+    "ingredients": [
+      {
+        "name": "Peach",
+        "img": "images/Peach.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      }
+    ],
+    "health": 70,
+    "stamina": 70,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 16,
+    "source": "Ship a Peach",
+    "sell": "210t"
+  },
+  {
+    "name": "Salted Watermelon",
+    "category": "Desserts",
+    "subcategory": "Handcrafted Dessert",
+    "image": "images/Salted_watermelon.png",
+    "ingredients": [
+      {
+        "name": "Watermelon",
+        "img": "images/Watermelon.png",
+        "qty": 1
+      },
+      {
+        "name": "Rock Salt",
+        "img": "images/Rock_salt.png",
+        "qty": 1
+      }
+    ],
+    "health": 42,
+    "stamina": 42,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 4,
+    "source": "Ship a Watermelon",
+    "sell": "220t"
+  },
+  {
+    "name": "Strawberries and Cream",
+    "category": "Desserts",
+    "subcategory": "Handcrafted Dessert",
+    "image": "images/Strawberries_and_cream.png",
+    "ingredients": [
+      {
+        "name": "Strawberry",
+        "img": "images/Strawberry.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      }
+    ],
+    "health": 36,
+    "stamina": 36,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 4,
+    "source": "Eiland's Request for a Strawberry",
+    "sell": "180t"
+  },
+  {
+    "name": "Apple Juice",
+    "category": "Drinks",
+    "subcategory": "Cold Drinks",
+    "image": "images/Apple_juice.png",
+    "ingredients": [
+      {
+        "name": "Apple",
+        "img": "images/Apple.png",
+        "qty": 1
+      }
+    ],
+    "health": 30,
+    "stamina": 30,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 4,
+    "source": "Ship an Apple",
+    "sell": "50t"
+  },
+  {
+    "name": "Cherry Smoothie",
+    "category": "Drinks",
+    "subcategory": "Cold Drinks",
+    "image": "images/Cherry_smoothie.png",
+    "ingredients": [
+      {
+        "name": "Cherry",
+        "img": "images/Cherry.png",
+        "qty": 1
+      },
+      {
+        "name": "Honey",
+        "img": "images/Honey.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      }
+    ],
+    "health": 66,
+    "stamina": 66,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 10,
+    "source": "The Tide Caverns (requires Taste Maker Skill)",
+    "sell": "155t"
+  },
+  {
+    "name": "Coconut Milk",
+    "category": "Drinks",
+    "subcategory": "Cold Drinks",
+    "image": "images/Coconut_milk.png",
+    "ingredients": [
+      {
+        "name": "Coconut",
+        "img": "images/Coconut.png",
+        "qty": 1
+      }
+    ],
+    "health": 18,
+    "stamina": 18,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 1,
+    "source": "Ship a Coconut",
+    "sell": "30t"
+  },
+  {
+    "name": "Cranberry Juice",
+    "category": "Drinks",
+    "subcategory": "Cold Drinks",
+    "image": "images/Cranberry_juice.png",
+    "ingredients": [
+      {
+        "name": "Cranberry",
+        "img": "images/Cranberry.png",
+        "qty": 1
+      }
+    ],
+    "health": 24,
+    "stamina": 24,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "Ship a Cranberry",
+    "sell": "135t"
+  },
+  {
+    "name": "Grape Juice",
+    "category": "Drinks",
+    "subcategory": "Cold Drinks",
+    "image": "images/Grape_juice.png",
+    "ingredients": [
+      {
+        "name": "Wild Grapes",
+        "img": "images/Wild_grapes.png",
+        "qty": 1
+      }
+    ],
+    "health": 18,
+    "stamina": 18,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 1,
+    "source": "Saturday Market at Darcy's Stall for 150t",
+    "sell": "25t"
+  },
+  {
+    "name": "Iced Coffee",
+    "category": "Drinks",
+    "subcategory": "Cold Drinks",
+    "image": "images/Iced_coffee.png",
+    "ingredients": [
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Ice Block",
+        "img": "images/Ice_block.png",
+        "qty": 1
+      },
+      {
+        "name": "Coffee",
+        "img": "images/Coffee.png",
+        "qty": 1
+      }
+    ],
+    "health": 10,
+    "stamina": 10,
+    "time": "20m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 10,
+    "source": "Saturday Market at Darcy's Stall for 300t",
+    "sell": "105t"
+  },
+  {
+    "name": "Lemonade",
+    "category": "Drinks",
+    "subcategory": "Cold Drinks",
+    "image": "images/Lemonade.png",
+    "ingredients": [
+      {
+        "name": "Lemon",
+        "img": "images/Lemon.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      }
+    ],
+    "health": 48,
+    "stamina": 48,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 8,
+    "source": "Saturday Market at Darcy's Stall for 150t",
+    "sell": "160t"
+  },
+  {
+    "name": "Orange Juice",
+    "category": "Drinks",
+    "subcategory": "Cold Drinks",
+    "image": "images/Orange_juice.png",
+    "ingredients": [
+      {
+        "name": "Orange",
+        "img": "images/Orange.png",
+        "qty": 1
+      }
+    ],
+    "health": 30,
+    "stamina": 30,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 4,
+    "source": "Ship an Orange",
+    "sell": "50t"
+  },
+  {
+    "name": "Pomegranate Juice",
+    "category": "Drinks",
+    "subcategory": "Cold Drinks",
+    "image": "images/Pomegranate_juice.png",
+    "ingredients": [
+      {
+        "name": "Pomegranate",
+        "img": "images/Pomegranate.png",
+        "qty": 1
+      }
+    ],
+    "health": 30,
+    "stamina": 30,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 4,
+    "source": "Saturday Market at Darcy's Stall for 150t",
+    "sell": "50t"
+  },
+  {
+    "name": "Tea with Lemon",
+    "category": "Drinks",
+    "subcategory": "Hot Drinks",
+    "image": "images/Cup_of_tea.png",
+    "ingredients": [
+      {
+        "name": "Lemon",
+        "img": "images/Lemon.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Tea",
+        "img": "images/Tea.png",
+        "qty": 1
+      }
+    ],
+    "health": 84,
+    "stamina": 84,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 16,
+    "source": "Adeline's Request for a LemonSaturday Market at Darcy's Stall for 300t",
+    "sell": "320t"
+  },
+  {
+    "name": "Green Tea",
+    "category": "Drinks",
+    "subcategory": "Hot Drinks",
+    "image": "images/Green_Tea.png",
+    "ingredients": [
+      {
+        "name": "Tea",
+        "img": "images/Tea.png",
+        "qty": 1
+      }
+    ],
+    "health": 24,
+    "stamina": 24,
+    "time": "10m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "Saturday Market at Darcy's Stall for 150t",
+    "sell": "145t"
+  },
+  {
+    "name": "Hot Chocolate",
+    "category": "Drinks",
+    "subcategory": "Hot Drinks",
+    "image": "images/Hot_chocolate.png",
+    "ingredients": [
+      {
+        "name": "Chocolate",
+        "img": "images/Chocolate.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Sugar",
+        "img": "images/Sugar.png",
+        "qty": 1
+      },
+      {
+        "name": "Wintergreen Berry",
+        "img": "images/Wintergreen_berry.png",
+        "qty": 2
+      }
+    ],
+    "health": 86,
+    "stamina": 86,
+    "time": "40m",
+    "quality": 3,
+    "kitchenLevel": 2,
+    "cookingLevel": 20,
+    "source": "Saturday Market at Darcy's Stall for 400t",
+    "sell": "300t"
+  },
+  {
+    "name": "Jasmine Tea",
+    "category": "Drinks",
+    "subcategory": "Hot Drinks",
+    "image": "images/Jasmine_tea.png",
+    "ingredients": [
+      {
+        "name": "Tea",
+        "img": "images/Tea.png",
+        "qty": 1
+      },
+      {
+        "name": "Jasmine",
+        "img": "images/Jasmine.png",
+        "qty": 1
+      }
+    ],
+    "health": 34,
+    "stamina": 34,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 8,
+    "source": "Saturday Market at Darcy's Stall for 150t",
+    "sell": "185t"
+  },
+  {
+    "name": "Latte",
+    "category": "Drinks",
+    "subcategory": "Hot Drinks",
+    "image": "images/Latte.png",
+    "ingredients": [
+      {
+        "name": "Coffee",
+        "img": "images/Coffee.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      }
+    ],
+    "health": 28,
+    "stamina": 28,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 2,
+    "source": "Saturday Market at Darcy's Stall for 150t",
+    "sell": "95t"
+  },
+  {
+    "name": "Mocha",
+    "category": "Drinks",
+    "subcategory": "Hot Drinks",
+    "image": "images/Mocha.png",
+    "ingredients": [
+      {
+        "name": "Coffee",
+        "img": "images/Coffee.png",
+        "qty": 1
+      },
+      {
+        "name": "Milk",
+        "img": "images/Milk.png",
+        "qty": 1
+      },
+      {
+        "name": "Chocolate",
+        "img": "images/Chocolate.png",
+        "qty": 1
+      }
+    ],
+    "health": 66,
+    "stamina": 66,
+    "time": "30m",
+    "quality": 2,
+    "kitchenLevel": 1,
+    "cookingLevel": 14,
+    "source": "Saturday Market at Darcy's Stall for 300t",
+    "sell": "210t"
+  },
+  {
+    "name": "Roasted Rice Tea",
+    "category": "Drinks",
+    "subcategory": "Hot Drinks",
+    "image": "images/Roasted_rice_tea.png",
+    "ingredients": [
+      {
+        "name": "Green Tea",
+        "img": "images/Green_Tea.png",
+        "qty": 1
+      },
+      {
+        "name": "Rice",
+        "img": "images/Rice.png",
+        "qty": 1
+      }
+    ],
+    "health": 45,
+    "stamina": 40,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 6,
+    "source": "Saturday Market at Darcy's Stall for 150t",
+    "sell": "350t"
+  },
+  {
+    "name": "Rose Tea",
+    "category": "Drinks",
+    "subcategory": "Hot Drinks",
+    "image": "images/Rose_tea.png",
+    "ingredients": [
+      {
+        "name": "Tea",
+        "img": "images/Tea.png",
+        "qty": 1
+      },
+      {
+        "name": "Rose",
+        "img": "images/Rose.png",
+        "qty": 1
+      }
+    ],
+    "health": 34,
+    "stamina": 34,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 4,
+    "source": "Ship Tea",
+    "sell": "170t"
+  },
+  {
+    "name": "Spirit Mushroom Tea",
+    "category": "Drinks",
+    "subcategory": "Hot Drinks",
+    "image": "images/Spirit_mushroom_tea.png",
+    "ingredients": [
+      {
+        "name": "Tea",
+        "img": "images/Tea.png",
+        "qty": 1
+      },
+      {
+        "name": "Spirit Mushroom",
+        "img": "images/Spirit_mushroom.png",
+        "qty": 1
+      }
+    ],
+    "health": 54,
+    "stamina": 54,
+    "time": "20m",
+    "quality": 1,
+    "kitchenLevel": 1,
+    "cookingLevel": 16,
+    "source": "Ship a Spirit mushroom",
+    "sell": "185t"
+  }
+]

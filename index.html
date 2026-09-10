@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fields of Mistria — Recipe Finder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <div class="brand-mark">🍲</div>
+        <div>
+          <h1>Fields of Mistria <span>Recipe Finder</span></h1>
+          <p class="tagline">Browse every cooking recipe and see exactly which recipes use any ingredient.</p>
+        </div>
+      </div>
+      <div class="stats" id="stats"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="toolbar">
+      <div class="search-box">
+        <span class="search-icon">⌕</span>
+        <input id="search" type="search" placeholder="Search a recipe or ingredient…" autocomplete="off">
+        <button id="clear-search" class="clear-btn" aria-label="Clear">×</button>
+      </div>
+      <div class="mode-tabs" role="tablist">
+        <button data-mode="recipes" class="tab active">Recipes</button>
+        <button data-mode="ingredients" class="tab">Ingredients</button>
+      </div>
+    </section>
+
+    <section id="foodlist" class="foodlist"></section>
+    <section id="empty" class="empty hidden">
+      <p>No recipes found.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Data sourced from the <a href="https://fieldsofmistria.wiki.gg/wiki/Cooking" target="_blank" rel="noopener">Fields of Mistria wiki</a>. Unofficial fan tool.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

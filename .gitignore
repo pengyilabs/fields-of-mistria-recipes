@@ -1,0 +1,6 @@
+node_modules/
+info/
+serve.js
+dist/
+.netlify/
+*.log

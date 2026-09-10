@@ -1,0 +1,2798 @@
+{
+  "blackberry": [
+    {
+      "recipe": "Blackberry Jam",
+      "qty": 6,
+      "img": "images/Blackberry.png"
+    }
+  ],
+  "sugar": [
+    {
+      "recipe": "Blackberry Jam",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Blueberry Jam",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Marmalade",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Rosehip Jam",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Wild Berry Jam",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Pineshroom Toast",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Grilled Eel Rice Bowl",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Braised Burdock",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Apple Pie",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Bell Berry Bakewell Tart",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Cherry Cobbler",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Cherry Tart",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Chocolate Cake",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Coconut Cream Pie",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Crystal Berry Pie",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Glowberry Cookies",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Golden Cheesecake",
+      "qty": 2,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Golden Cookies",
+      "qty": 2,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Lemon Cake",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Lemon Pie",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Monster Cookie",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Mont Blanc",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Pumpkin Pie",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Strawberry Shortcake",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Sweet Potato Pie",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Wild Berry Pie",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Candied Lemon Peel",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Candied Strawberries",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Candied Walnuts",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Caramel Candy",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Caramelized Moon Fruit",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Pudding",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Sweet Sesame Balls",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Ice Cream Sundae",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Pomegranate Sorbet",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Spell Fruit Parfait",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Wintergreen Ice Cream",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Peaches and Cream",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Lemonade",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Tea with Lemon",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    },
+    {
+      "recipe": "Hot Chocolate",
+      "qty": 1,
+      "img": "images/Sugar.png"
+    }
+  ],
+  "blueberry": [
+    {
+      "recipe": "Blueberry Jam",
+      "qty": 6,
+      "img": "images/Blueberry.png"
+    },
+    {
+      "recipe": "Berry Bowl",
+      "qty": 4,
+      "img": "images/Blueberry.png"
+    }
+  ],
+  "orange": [
+    {
+      "recipe": "Marmalade",
+      "qty": 1,
+      "img": "images/Orange.png"
+    },
+    {
+      "recipe": "Cranberry Orange Scone",
+      "qty": 1,
+      "img": "images/Orange.png"
+    },
+    {
+      "recipe": "Orange Juice",
+      "qty": 1,
+      "img": "images/Orange.png"
+    }
+  ],
+  "rose hip": [
+    {
+      "recipe": "Rosehip Jam",
+      "qty": 1,
+      "img": "images/Rose_hip.png"
+    }
+  ],
+  "wild berries": [
+    {
+      "recipe": "Wild Berry Jam",
+      "qty": 6,
+      "img": "images/Wild_berries.png"
+    },
+    {
+      "recipe": "Berry Bowl",
+      "qty": 4,
+      "img": "images/Wild_berries.png"
+    },
+    {
+      "recipe": "Trail Mix",
+      "qty": 1,
+      "img": "images/Wild_berries.png"
+    },
+    {
+      "recipe": "Wild Berry Pie",
+      "qty": 6,
+      "img": "images/Wild_berries.png"
+    },
+    {
+      "recipe": "Wild Berry Scone",
+      "qty": 6,
+      "img": "images/Wild_berries.png"
+    },
+    {
+      "recipe": "Berries and Cream",
+      "qty": 6,
+      "img": "images/Wild_berries.png"
+    }
+  ],
+  "flour": [
+    {
+      "recipe": "Bread",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Noodles",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Crispy Fried Earthshroom",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Spicy Cheddar Biscuit",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Water Chestnut Fritters",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Pizza",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Quiche",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Spring Galette",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Vegetable Quiche",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Breaded Catfish",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Horseradish Salmon",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Vegetable Pot Pie",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Crab Cakes",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Apple Pie",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Bell Berry Bakewell Tart",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Cherry Tart",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Chocolate Cake",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Coconut Cream Pie",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Cranberry Orange Scone",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Crystal Berry Pie",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Glowberry Cookies",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Golden Cheesecake",
+      "qty": 2,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Golden Cookies",
+      "qty": 2,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Lemon Cake",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Lemon Pie",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Mont Blanc",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Moon Fruit Cake",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Pumpkin Pie",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Strawberry Shortcake",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Sweet Potato Pie",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Wild Berry Pie",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Wild Berry Scone",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Sweet Sesame Balls",
+      "qty": 1,
+      "img": "images/Flour.png"
+    },
+    {
+      "recipe": "Ice Cream Sundae",
+      "qty": 1,
+      "img": "images/Flour.png"
+    }
+  ],
+  "strawberry": [
+    {
+      "recipe": "Berry Bowl",
+      "qty": 2,
+      "img": "images/Strawberry.png"
+    },
+    {
+      "recipe": "Strawberry Shortcake",
+      "qty": 1,
+      "img": "images/Strawberry.png"
+    },
+    {
+      "recipe": "Candied Strawberries",
+      "qty": 1,
+      "img": "images/Strawberry.png"
+    },
+    {
+      "recipe": "Strawberries and Cream",
+      "qty": 1,
+      "img": "images/Strawberry.png"
+    }
+  ],
+  "honey": [
+    {
+      "recipe": "Berry Bowl",
+      "qty": 2,
+      "img": "images/Honey.png"
+    },
+    {
+      "recipe": "Apple Honey Curry",
+      "qty": 1,
+      "img": "images/Honey.png"
+    },
+    {
+      "recipe": "Moon Fruit Cake",
+      "qty": 1,
+      "img": "images/Honey.png"
+    },
+    {
+      "recipe": "Poached Pear",
+      "qty": 1,
+      "img": "images/Honey.png"
+    },
+    {
+      "recipe": "Cherry Smoothie",
+      "qty": 1,
+      "img": "images/Honey.png"
+    }
+  ],
+  "sardine": [
+    {
+      "recipe": "Canned Sardines",
+      "qty": 1,
+      "img": "images/Sardine.png"
+    }
+  ],
+  "rock salt": [
+    {
+      "recipe": "Canned Sardines",
+      "qty": 1,
+      "img": "images/Rock_salt.png"
+    },
+    {
+      "recipe": "Crunchy Chickpeas",
+      "qty": 1,
+      "img": "images/Rock_salt.png"
+    },
+    {
+      "recipe": "Dried Squid",
+      "qty": 1,
+      "img": "images/Rock_salt.png"
+    },
+    {
+      "recipe": "Toasted Sunflower Seeds",
+      "qty": 1,
+      "img": "images/Rock_salt.png"
+    },
+    {
+      "recipe": "Grilled Cheese",
+      "qty": 1,
+      "img": "images/Rock_salt.png"
+    },
+    {
+      "recipe": "Rice Ball",
+      "qty": 1,
+      "img": "images/Rock_salt.png"
+    },
+    {
+      "recipe": "Salted Watermelon",
+      "qty": 1,
+      "img": "images/Rock_salt.png"
+    }
+  ],
+  "earthshroom": [
+    {
+      "recipe": "Crispy Fried Earthshroom",
+      "qty": 1,
+      "img": "images/Earthshroom.png"
+    },
+    {
+      "recipe": "Sea Bream Rice",
+      "qty": 1,
+      "img": "images/Earthshroom.png"
+    },
+    {
+      "recipe": "Incredibly Hot Pot",
+      "qty": 1,
+      "img": "images/Earthshroom.png"
+    }
+  ],
+  "oil": [
+    {
+      "recipe": "Crispy Fried Earthshroom",
+      "qty": 1,
+      "img": "images/Oil.png"
+    },
+    {
+      "recipe": "Toasted Sunflower Seeds",
+      "qty": 1,
+      "img": "images/Oil.png"
+    },
+    {
+      "recipe": "Water Chestnut Fritters",
+      "qty": 1,
+      "img": "images/Oil.png"
+    },
+    {
+      "recipe": "Seaweed Salad",
+      "qty": 1,
+      "img": "images/Oil.png"
+    },
+    {
+      "recipe": "Turnip and Cabbage Salad",
+      "qty": 1,
+      "img": "images/Oil.png"
+    },
+    {
+      "recipe": "Breaded Catfish",
+      "qty": 1,
+      "img": "images/Oil.png"
+    },
+    {
+      "recipe": "Horseradish Salmon",
+      "qty": 1,
+      "img": "images/Oil.png"
+    },
+    {
+      "recipe": "Pan-fried Bream",
+      "qty": 1,
+      "img": "images/Oil.png"
+    },
+    {
+      "recipe": "Pan-fried Salmon",
+      "qty": 1,
+      "img": "images/Oil.png"
+    },
+    {
+      "recipe": "Pan-fried Snapper",
+      "qty": 1,
+      "img": "images/Oil.png"
+    },
+    {
+      "recipe": "Sweet Sesame Balls",
+      "qty": 1,
+      "img": "images/Oil.png"
+    }
+  ],
+  "chickpea": [
+    {
+      "recipe": "Crunchy Chickpeas",
+      "qty": 1,
+      "img": "images/Chickpea.png"
+    },
+    {
+      "recipe": "Chickpea Curry",
+      "qty": 1,
+      "img": "images/Chickpea.png"
+    }
+  ],
+  "chicken egg": [
+    {
+      "recipe": "Deviled Eggs",
+      "qty": 1,
+      "img": "images/Chicken_egg.png"
+    },
+    {
+      "recipe": "Hard Boiled Egg",
+      "qty": 1,
+      "img": "images/Chicken_egg.png"
+    },
+    {
+      "recipe": "Quiche",
+      "qty": 1,
+      "img": "images/Chicken_egg.png"
+    },
+    {
+      "recipe": "Vegetable Quiche",
+      "qty": 1,
+      "img": "images/Chicken_egg.png"
+    },
+    {
+      "recipe": "Omelet",
+      "qty": 1,
+      "img": "images/Chicken_egg.png"
+    },
+    {
+      "recipe": "Fried Rice",
+      "qty": 1,
+      "img": "images/Chicken_egg.png"
+    },
+    {
+      "recipe": "Crab Cakes",
+      "qty": 1,
+      "img": "images/Chicken_egg.png"
+    },
+    {
+      "recipe": "Chocolate Cake",
+      "qty": 1,
+      "img": "images/Chicken_egg.png"
+    },
+    {
+      "recipe": "Crystal Berry Pie",
+      "qty": 1,
+      "img": "images/Chicken_egg.png"
+    },
+    {
+      "recipe": "Glowberry Cookies",
+      "qty": 1,
+      "img": "images/Chicken_egg.png"
+    },
+    {
+      "recipe": "Lemon Pie",
+      "qty": 1,
+      "img": "images/Chicken_egg.png"
+    },
+    {
+      "recipe": "Mont Blanc",
+      "qty": 1,
+      "img": "images/Chicken_egg.png"
+    },
+    {
+      "recipe": "Moon Fruit Cake",
+      "qty": 1,
+      "img": "images/Chicken_egg.png"
+    },
+    {
+      "recipe": "Pumpkin Pie",
+      "qty": 1,
+      "img": "images/Chicken_egg.png"
+    },
+    {
+      "recipe": "Pudding",
+      "qty": 2,
+      "img": "images/Chicken_egg.png"
+    }
+  ],
+  "mayonnaise": [
+    {
+      "recipe": "Deviled Eggs",
+      "qty": 1,
+      "img": "images/Mayonnaise.png"
+    },
+    {
+      "recipe": "Broccoli Salad",
+      "qty": 1,
+      "img": "images/Mayonnaise.png"
+    },
+    {
+      "recipe": "Spicy Corn",
+      "qty": 1,
+      "img": "images/Mayonnaise.png"
+    },
+    {
+      "recipe": "Cucumber Sandwich",
+      "qty": 1,
+      "img": "images/Mayonnaise.png"
+    },
+    {
+      "recipe": "Fish Tacos",
+      "qty": 1,
+      "img": "images/Mayonnaise.png"
+    },
+    {
+      "recipe": "Lobster Roll",
+      "qty": 1,
+      "img": "images/Mayonnaise.png"
+    },
+    {
+      "recipe": "Veggie Sub Sandwich",
+      "qty": 1,
+      "img": "images/Mayonnaise.png"
+    },
+    {
+      "recipe": "Crab Cakes",
+      "qty": 1,
+      "img": "images/Mayonnaise.png"
+    }
+  ],
+  "horseradish": [
+    {
+      "recipe": "Deviled Eggs",
+      "qty": 1,
+      "img": "images/Horseradish.png"
+    },
+    {
+      "recipe": "Horseradish Salmon",
+      "qty": 1,
+      "img": "images/Horseradish.png"
+    }
+  ],
+  "squid": [
+    {
+      "recipe": "Dried Squid",
+      "qty": 1,
+      "img": "images/Squid.png"
+    }
+  ],
+  "bread": [
+    {
+      "recipe": "Pineshroom Toast",
+      "qty": 1,
+      "img": "images/Bread.png"
+    },
+    {
+      "recipe": "Garlic Bread",
+      "qty": 1,
+      "img": "images/Bread.png"
+    },
+    {
+      "recipe": "Grilled Cheese",
+      "qty": 1,
+      "img": "images/Bread.png"
+    },
+    {
+      "recipe": "Cucumber Sandwich",
+      "qty": 1,
+      "img": "images/Bread.png"
+    },
+    {
+      "recipe": "Jam Sandwich",
+      "qty": 1,
+      "img": "images/Bread.png"
+    },
+    {
+      "recipe": "Lobster Roll",
+      "qty": 1,
+      "img": "images/Bread.png"
+    },
+    {
+      "recipe": "Veggie Sub Sandwich",
+      "qty": 1,
+      "img": "images/Bread.png"
+    }
+  ],
+  "pineshroom": [
+    {
+      "recipe": "Pineshroom Toast",
+      "qty": 1,
+      "img": "images/Pineshroom.png"
+    }
+  ],
+  "chestnut": [
+    {
+      "recipe": "Roasted Chestnuts",
+      "qty": 2,
+      "img": "images/Chestnut.png"
+    },
+    {
+      "recipe": "Mont Blanc",
+      "qty": 4,
+      "img": "images/Chestnut.png"
+    }
+  ],
+  "chili pepper": [
+    {
+      "recipe": "Spicy Cheddar Biscuit",
+      "qty": 1,
+      "img": "images/Chili_pepper.png"
+    },
+    {
+      "recipe": "Spicy Water Chestnuts",
+      "qty": 1,
+      "img": "images/Chili_pepper.png"
+    },
+    {
+      "recipe": "Summer Salad",
+      "qty": 1,
+      "img": "images/Chili_pepper.png"
+    },
+    {
+      "recipe": "Spicy Corn",
+      "qty": 1,
+      "img": "images/Chili_pepper.png"
+    },
+    {
+      "recipe": "Fish Tacos",
+      "qty": 1,
+      "img": "images/Chili_pepper.png"
+    },
+    {
+      "recipe": "Spicy Crab Sushi",
+      "qty": 1,
+      "img": "images/Chili_pepper.png"
+    },
+    {
+      "recipe": "Chili Coconut Curry",
+      "qty": 1,
+      "img": "images/Chili_pepper.png"
+    }
+  ],
+  "cheese": [
+    {
+      "recipe": "Spicy Cheddar Biscuit",
+      "qty": 1,
+      "img": "images/Cheese.png"
+    },
+    {
+      "recipe": "Onion Soup",
+      "qty": 1,
+      "img": "images/Cheese.png"
+    },
+    {
+      "recipe": "Loaded Baked Potato",
+      "qty": 1,
+      "img": "images/Cheese.png"
+    },
+    {
+      "recipe": "Pizza",
+      "qty": 1,
+      "img": "images/Cheese.png"
+    },
+    {
+      "recipe": "Spring Galette",
+      "qty": 1,
+      "img": "images/Cheese.png"
+    },
+    {
+      "recipe": "Turnip and Potato Gratin",
+      "qty": 1,
+      "img": "images/Cheese.png"
+    },
+    {
+      "recipe": "Omelet",
+      "qty": 1,
+      "img": "images/Cheese.png"
+    },
+    {
+      "recipe": "Grilled Cheese",
+      "qty": 1,
+      "img": "images/Cheese.png"
+    },
+    {
+      "recipe": "Cucumber Sandwich",
+      "qty": 1,
+      "img": "images/Cheese.png"
+    },
+    {
+      "recipe": "Veggie Sub Sandwich",
+      "qty": 1,
+      "img": "images/Cheese.png"
+    }
+  ],
+  "butter": [
+    {
+      "recipe": "Spicy Cheddar Biscuit",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Buttered Peas",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Clam Chowder",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Cod with Thyme",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Garlic Bread",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Loaded Baked Potato",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Spring Galette",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Turnip and Potato Gratin",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Omelet",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Grilled Cheese",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Mushroom Steak Dinner",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Perch Risotto",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Cauliflower Curry",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Herb Butter Pasta",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Rosemary Garlic Noodles",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Seafood Boil",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Bell Berry Bakewell Tart",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Coconut Cream Pie",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Glowberry Cookies",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Mont Blanc",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Caramel Candy",
+      "qty": 1,
+      "img": "images/Butter.png"
+    },
+    {
+      "recipe": "Ice Cream Sundae",
+      "qty": 1,
+      "img": "images/Butter.png"
+    }
+  ],
+  "water chestnut": [
+    {
+      "recipe": "Spicy Water Chestnuts",
+      "qty": 2,
+      "img": "images/Water_chestnut.png"
+    },
+    {
+      "recipe": "Trail Mix",
+      "qty": 2,
+      "img": "images/Water_chestnut.png"
+    },
+    {
+      "recipe": "Water Chestnut Fritters",
+      "qty": 2,
+      "img": "images/Water_chestnut.png"
+    },
+    {
+      "recipe": "Sauteed Snow Peas",
+      "qty": 1,
+      "img": "images/Water_chestnut.png"
+    },
+    {
+      "recipe": "Fried Rice",
+      "qty": 1,
+      "img": "images/Water_chestnut.png"
+    }
+  ],
+  "sunflower": [
+    {
+      "recipe": "Toasted Sunflower Seeds",
+      "qty": 1,
+      "img": "images/Sunflower.png"
+    }
+  ],
+  "beet": [
+    {
+      "recipe": "Beet Salad",
+      "qty": 1,
+      "img": "images/Beet.png"
+    },
+    {
+      "recipe": "Beet Soup",
+      "qty": 1,
+      "img": "images/Beet.png"
+    },
+    {
+      "recipe": "Mushroom Steak Dinner",
+      "qty": 1,
+      "img": "images/Beet.png"
+    }
+  ],
+  "broccoli": [
+    {
+      "recipe": "Broccoli Salad",
+      "qty": 1,
+      "img": "images/Broccoli.png"
+    },
+    {
+      "recipe": "Sesame Broccoli",
+      "qty": 1,
+      "img": "images/Broccoli.png"
+    },
+    {
+      "recipe": "Steamed Broccoli",
+      "qty": 1,
+      "img": "images/Broccoli.png"
+    },
+    {
+      "recipe": "Harvest Plate",
+      "qty": 1,
+      "img": "images/Broccoli.png"
+    }
+  ],
+  "cranberry": [
+    {
+      "recipe": "Broccoli Salad",
+      "qty": 1,
+      "img": "images/Cranberry.png"
+    },
+    {
+      "recipe": "Harvest Plate",
+      "qty": 1,
+      "img": "images/Cranberry.png"
+    },
+    {
+      "recipe": "Cranberry Orange Scone",
+      "qty": 1,
+      "img": "images/Cranberry.png"
+    },
+    {
+      "recipe": "Cranberry Juice",
+      "qty": 1,
+      "img": "images/Cranberry.png"
+    }
+  ],
+  "cabbage": [
+    {
+      "recipe": "Cabbage Slaw",
+      "qty": 1,
+      "img": "images/Cabbage.png"
+    },
+    {
+      "recipe": "Turnip and Cabbage Salad",
+      "qty": 1,
+      "img": "images/Cabbage.png"
+    },
+    {
+      "recipe": "Beet Soup",
+      "qty": 1,
+      "img": "images/Cabbage.png"
+    }
+  ],
+  "fennel": [
+    {
+      "recipe": "Cabbage Slaw",
+      "qty": 1,
+      "img": "images/Fennel.png"
+    },
+    {
+      "recipe": "Spring Salad",
+      "qty": 1,
+      "img": "images/Fennel.png"
+    }
+  ],
+  "cucumber": [
+    {
+      "recipe": "Cucumber Salad",
+      "qty": 1,
+      "img": "images/Cucumber.png"
+    },
+    {
+      "recipe": "Summer Salad",
+      "qty": 1,
+      "img": "images/Cucumber.png"
+    },
+    {
+      "recipe": "Gazpacho",
+      "qty": 1,
+      "img": "images/Cucumber.png"
+    },
+    {
+      "recipe": "Cucumber Sandwich",
+      "qty": 1,
+      "img": "images/Cucumber.png"
+    },
+    {
+      "recipe": "Sesame Tuna Bowl",
+      "qty": 1,
+      "img": "images/Cucumber.png"
+    },
+    {
+      "recipe": "Veggie Sub Sandwich",
+      "qty": 1,
+      "img": "images/Cucumber.png"
+    }
+  ],
+  "dill": [
+    {
+      "recipe": "Cucumber Salad",
+      "qty": 1,
+      "img": "images/Dill.png"
+    },
+    {
+      "recipe": "Herb Salad",
+      "qty": 1,
+      "img": "images/Dill.png"
+    },
+    {
+      "recipe": "Crab Cakes",
+      "qty": 1,
+      "img": "images/Dill.png"
+    }
+  ],
+  "sesame": [
+    {
+      "recipe": "Cucumber Salad",
+      "qty": 1,
+      "img": "images/Sesame.png"
+    },
+    {
+      "recipe": "Sesame Broccoli",
+      "qty": 1,
+      "img": "images/Sesame.png"
+    },
+    {
+      "recipe": "Sesame Tuna Bowl",
+      "qty": 1,
+      "img": "images/Sesame.png"
+    },
+    {
+      "recipe": "Sweet Sesame Balls",
+      "qty": 1,
+      "img": "images/Sesame.png"
+    }
+  ],
+  "sage": [
+    {
+      "recipe": "Herb Salad",
+      "qty": 1,
+      "img": "images/Sage.png"
+    }
+  ],
+  "basil": [
+    {
+      "recipe": "Herb Salad",
+      "qty": 1,
+      "img": "images/Basil.png"
+    },
+    {
+      "recipe": "Gazpacho",
+      "qty": 1,
+      "img": "images/Basil.png"
+    },
+    {
+      "recipe": "Tomato Soup",
+      "qty": 1,
+      "img": "images/Basil.png"
+    },
+    {
+      "recipe": "Vegetable Soup",
+      "qty": 1,
+      "img": "images/Basil.png"
+    }
+  ],
+  "thyme": [
+    {
+      "recipe": "Herb Salad",
+      "qty": 1,
+      "img": "images/Thyme.png"
+    },
+    {
+      "recipe": "Cod with Thyme",
+      "qty": 1,
+      "img": "images/Thyme.png"
+    },
+    {
+      "recipe": "Herb Butter Pasta",
+      "qty": 1,
+      "img": "images/Thyme.png"
+    }
+  ],
+  "oregano": [
+    {
+      "recipe": "Herb Salad",
+      "qty": 1,
+      "img": "images/Oregano.png"
+    },
+    {
+      "recipe": "Herb Butter Pasta",
+      "qty": 1,
+      "img": "images/Oregano.png"
+    }
+  ],
+  "seaweed": [
+    {
+      "recipe": "Seaweed Salad",
+      "qty": 3,
+      "img": "images/Seaweed.png"
+    },
+    {
+      "recipe": "Rice Ball",
+      "qty": 1,
+      "img": "images/Seaweed.png"
+    },
+    {
+      "recipe": "Spicy Crab Sushi",
+      "qty": 1,
+      "img": "images/Seaweed.png"
+    },
+    {
+      "recipe": "Sushi Platter",
+      "qty": 1,
+      "img": "images/Seaweed.png"
+    }
+  ],
+  "soy sauce": [
+    {
+      "recipe": "Seaweed Salad",
+      "qty": 1,
+      "img": "images/Soy_sauce.png"
+    },
+    {
+      "recipe": "Winter Stew",
+      "qty": 1,
+      "img": "images/Soy_sauce.png"
+    },
+    {
+      "recipe": "Grilled Eel Rice Bowl",
+      "qty": 1,
+      "img": "images/Soy_sauce.png"
+    },
+    {
+      "recipe": "Sushi Platter",
+      "qty": 1,
+      "img": "images/Soy_sauce.png"
+    },
+    {
+      "recipe": "Fried Rice",
+      "qty": 1,
+      "img": "images/Soy_sauce.png"
+    },
+    {
+      "recipe": "Sea Bream Rice",
+      "qty": 1,
+      "img": "images/Soy_sauce.png"
+    },
+    {
+      "recipe": "Seafood Snow Pea Noodles",
+      "qty": 1,
+      "img": "images/Soy_sauce.png"
+    },
+    {
+      "recipe": "Braised Burdock",
+      "qty": 1,
+      "img": "images/Soy_sauce.png"
+    },
+    {
+      "recipe": "Mushroom Rice",
+      "qty": 1,
+      "img": "images/Soy_sauce.png"
+    },
+    {
+      "recipe": "Simmered Daikon",
+      "qty": 1,
+      "img": "images/Soy_sauce.png"
+    }
+  ],
+  "fiddlehead": [
+    {
+      "recipe": "Spring Salad",
+      "qty": 1,
+      "img": "images/Fiddlehead.png"
+    },
+    {
+      "recipe": "Spring Galette",
+      "qty": 1,
+      "img": "images/Fiddlehead.png"
+    }
+  ],
+  "nettle": [
+    {
+      "recipe": "Spring Salad",
+      "qty": 1,
+      "img": "images/Nettle.png"
+    }
+  ],
+  "tomato": [
+    {
+      "recipe": "Summer Salad",
+      "qty": 1,
+      "img": "images/Tomato.png"
+    },
+    {
+      "recipe": "Gazpacho",
+      "qty": 1,
+      "img": "images/Tomato.png"
+    },
+    {
+      "recipe": "Tomato Soup",
+      "qty": 1,
+      "img": "images/Tomato.png"
+    },
+    {
+      "recipe": "Vegetable Soup",
+      "qty": 1,
+      "img": "images/Tomato.png"
+    },
+    {
+      "recipe": "Pizza",
+      "qty": 1,
+      "img": "images/Tomato.png"
+    },
+    {
+      "recipe": "Veggie Sub Sandwich",
+      "qty": 1,
+      "img": "images/Tomato.png"
+    }
+  ],
+  "corn": [
+    {
+      "recipe": "Summer Salad",
+      "qty": 1,
+      "img": "images/Corn.png"
+    },
+    {
+      "recipe": "Grilled Corn",
+      "qty": 1,
+      "img": "images/Corn.png"
+    },
+    {
+      "recipe": "Spicy Corn",
+      "qty": 1,
+      "img": "images/Corn.png"
+    },
+    {
+      "recipe": "Fish Tacos",
+      "qty": 1,
+      "img": "images/Corn.png"
+    },
+    {
+      "recipe": "Seafood Boil",
+      "qty": 1,
+      "img": "images/Corn.png"
+    }
+  ],
+  "tide lettuce": [
+    {
+      "recipe": "Tide Salad",
+      "qty": 1,
+      "img": "images/Tide_lettuce.png"
+    },
+    {
+      "recipe": "Fish Tacos",
+      "qty": 1,
+      "img": "images/Tide_lettuce.png"
+    },
+    {
+      "recipe": "Veggie Sub Sandwich",
+      "qty": 1,
+      "img": "images/Tide_lettuce.png"
+    },
+    {
+      "recipe": "Mushroom Steak Dinner",
+      "qty": 1,
+      "img": "images/Tide_lettuce.png"
+    }
+  ],
+  "sea grapes": [
+    {
+      "recipe": "Tide Salad",
+      "qty": 1,
+      "img": "images/Sea_grapes.png"
+    }
+  ],
+  "underseaweed": [
+    {
+      "recipe": "Tide Salad",
+      "qty": 1,
+      "img": "images/Underseaweed.png"
+    },
+    {
+      "recipe": "Deep Sea Soup",
+      "qty": 1,
+      "img": "images/Underseaweed.png"
+    }
+  ],
+  "jade dulse": [
+    {
+      "recipe": "Tide Salad",
+      "qty": 1,
+      "img": "images/Jade_dulse.png"
+    },
+    {
+      "recipe": "Deep Sea Soup",
+      "qty": 1,
+      "img": "images/Jade_dulse.png"
+    }
+  ],
+  "turnip": [
+    {
+      "recipe": "Turnip and Cabbage Salad",
+      "qty": 1,
+      "img": "images/Turnip.png"
+    },
+    {
+      "recipe": "Sliced Turnip",
+      "qty": 1,
+      "img": "images/Turnip.png"
+    },
+    {
+      "recipe": "Turnip and Potato Gratin",
+      "qty": 1,
+      "img": "images/Turnip.png"
+    },
+    {
+      "recipe": "Vegetable Pot Pie",
+      "qty": 1,
+      "img": "images/Turnip.png"
+    }
+  ],
+  "carrot": [
+    {
+      "recipe": "Braised Carrots",
+      "qty": 1,
+      "img": "images/Carrot.png"
+    },
+    {
+      "recipe": "Beet Soup",
+      "qty": 1,
+      "img": "images/Carrot.png"
+    },
+    {
+      "recipe": "Fried Rice",
+      "qty": 1,
+      "img": "images/Carrot.png"
+    },
+    {
+      "recipe": "Vegetable Pot Pie",
+      "qty": 1,
+      "img": "images/Carrot.png"
+    }
+  ],
+  "peas": [
+    {
+      "recipe": "Buttered Peas",
+      "qty": 1,
+      "img": "images/Peas.png"
+    },
+    {
+      "recipe": "Fried Rice",
+      "qty": 1,
+      "img": "images/Peas.png"
+    },
+    {
+      "recipe": "Vegetable Pot Pie",
+      "qty": 1,
+      "img": "images/Peas.png"
+    }
+  ],
+  "snow peas": [
+    {
+      "recipe": "Sauteed Snow Peas",
+      "qty": 1,
+      "img": "images/Snow_peas.png"
+    },
+    {
+      "recipe": "Seafood Snow Pea Noodles",
+      "qty": 1,
+      "img": "images/Snow_peas.png"
+    }
+  ],
+  "potato": [
+    {
+      "recipe": "Beet Soup",
+      "qty": 1,
+      "img": "images/Potato.png"
+    },
+    {
+      "recipe": "Potato Soup",
+      "qty": 1,
+      "img": "images/Potato.png"
+    },
+    {
+      "recipe": "Vegetable Soup",
+      "qty": 1,
+      "img": "images/Potato.png"
+    },
+    {
+      "recipe": "Baked Potato",
+      "qty": 1,
+      "img": "images/Potato.png"
+    },
+    {
+      "recipe": "Loaded Baked Potato",
+      "qty": 1,
+      "img": "images/Potato.png"
+    },
+    {
+      "recipe": "Turnip and Potato Gratin",
+      "qty": 1,
+      "img": "images/Potato.png"
+    },
+    {
+      "recipe": "Vegetable Quiche",
+      "qty": 1,
+      "img": "images/Potato.png"
+    },
+    {
+      "recipe": "Vegetable Pot Pie",
+      "qty": 1,
+      "img": "images/Potato.png"
+    },
+    {
+      "recipe": "Deluxe Curry",
+      "qty": 1,
+      "img": "images/Potato.png"
+    }
+  ],
+  "onion": [
+    {
+      "recipe": "Beet Soup",
+      "qty": 1,
+      "img": "images/Onion.png"
+    },
+    {
+      "recipe": "Onion Soup",
+      "qty": 1,
+      "img": "images/Onion.png"
+    },
+    {
+      "recipe": "Pumpkin Stew",
+      "qty": 1,
+      "img": "images/Onion.png"
+    },
+    {
+      "recipe": "Harvest Plate",
+      "qty": 1,
+      "img": "images/Onion.png"
+    },
+    {
+      "recipe": "Apple Honey Curry",
+      "qty": 1,
+      "img": "images/Onion.png"
+    }
+  ],
+  "milk": [
+    {
+      "recipe": "Beet Soup",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Clam Chowder",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Onion Soup",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Potato Soup",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Pumpkin Stew",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Smoked Trout Soup",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Tomato Soup",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Quiche",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Vegetable Quiche",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Omelet",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Cranberry Orange Scone",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Mont Blanc",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Pumpkin Pie",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Strawberry Shortcake",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Wild Berry Scone",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Pudding",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Ice Cream Sundae",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Wintergreen Ice Cream",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Berries and Cream",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Peaches and Cream",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Strawberries and Cream",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Cherry Smoothie",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Iced Coffee",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Hot Chocolate",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Latte",
+      "qty": 1,
+      "img": "images/Milk.png"
+    },
+    {
+      "recipe": "Mocha",
+      "qty": 1,
+      "img": "images/Milk.png"
+    }
+  ],
+  "clam": [
+    {
+      "recipe": "Clam Chowder",
+      "qty": 1,
+      "img": "images/Clam.png"
+    }
+  ],
+  "mines mussels": [
+    {
+      "recipe": "Deep Sea Soup",
+      "qty": 1,
+      "img": "images/Mines_mussels.png"
+    },
+    {
+      "recipe": "Seafood Boil",
+      "qty": 2,
+      "img": "images/Mines_mussels.png"
+    }
+  ],
+  "watermelon": [
+    {
+      "recipe": "Gazpacho",
+      "qty": 1,
+      "img": "images/Watermelon.png"
+    },
+    {
+      "recipe": "Salted Watermelon",
+      "qty": 1,
+      "img": "images/Watermelon.png"
+    }
+  ],
+  "wild leek": [
+    {
+      "recipe": "Potato Soup",
+      "qty": 1,
+      "img": "images/Wild_leek.png"
+    },
+    {
+      "recipe": "Fish Stew",
+      "qty": 1,
+      "img": "images/Wild_leek.png"
+    },
+    {
+      "recipe": "Loaded Baked Potato",
+      "qty": 1,
+      "img": "images/Wild_leek.png"
+    },
+    {
+      "recipe": "Spring Galette",
+      "qty": 1,
+      "img": "images/Wild_leek.png"
+    },
+    {
+      "recipe": "Vegetable Quiche",
+      "qty": 1,
+      "img": "images/Wild_leek.png"
+    },
+    {
+      "recipe": "Lobster Roll",
+      "qty": 1,
+      "img": "images/Wild_leek.png"
+    },
+    {
+      "recipe": "Crayfish Etouffee",
+      "qty": 1,
+      "img": "images/Wild_leek.png"
+    }
+  ],
+  "pumpkin": [
+    {
+      "recipe": "Pumpkin Stew",
+      "qty": 1,
+      "img": "images/Pumpkin.png"
+    },
+    {
+      "recipe": "Harvest Plate",
+      "qty": 1,
+      "img": "images/Pumpkin.png"
+    },
+    {
+      "recipe": "Pumpkin Pie",
+      "qty": 1,
+      "img": "images/Pumpkin.png"
+    }
+  ],
+  "rosemary": [
+    {
+      "recipe": "Pumpkin Stew",
+      "qty": 1,
+      "img": "images/Rosemary.png"
+    },
+    {
+      "recipe": "Harvest Plate",
+      "qty": 1,
+      "img": "images/Rosemary.png"
+    },
+    {
+      "recipe": "Perch Risotto",
+      "qty": 1,
+      "img": "images/Rosemary.png"
+    },
+    {
+      "recipe": "Rosemary Garlic Noodles",
+      "qty": 1,
+      "img": "images/Rosemary.png"
+    }
+  ],
+  "trout": [
+    {
+      "recipe": "Smoked Trout Soup",
+      "qty": 1,
+      "img": "images/Trout.png"
+    }
+  ],
+  "smallmouth bass": [
+    {
+      "recipe": "Fish Stew",
+      "qty": 1,
+      "img": "images/Smallmouth_bass.png"
+    },
+    {
+      "recipe": "Fish Skewers",
+      "qty": 1,
+      "img": "images/Smallmouth_bass.png"
+    }
+  ],
+  "red snapper": [
+    {
+      "recipe": "Fish Stew",
+      "qty": 1,
+      "img": "images/Red_snapper.png"
+    },
+    {
+      "recipe": "Pan-fried Snapper",
+      "qty": 1,
+      "img": "images/Red_snapper.png"
+    },
+    {
+      "recipe": "Red Snapper Sushi",
+      "qty": 1,
+      "img": "images/Red_snapper.png"
+    }
+  ],
+  "upper mines mushroom": [
+    {
+      "recipe": "Miner's Mushroom Stew",
+      "qty": 1,
+      "img": "images/Upper_mines_mushroom.png"
+    }
+  ],
+  "cave mushroom": [
+    {
+      "recipe": "Miner's Mushroom Stew",
+      "qty": 1,
+      "img": "images/Cave_mushroom.png"
+    },
+    {
+      "recipe": "Sea Bream Rice",
+      "qty": 1,
+      "img": "images/Cave_mushroom.png"
+    },
+    {
+      "recipe": "Chili Coconut Curry",
+      "qty": 1,
+      "img": "images/Cave_mushroom.png"
+    }
+  ],
+  "daikon radish": [
+    {
+      "recipe": "Winter Stew",
+      "qty": 1,
+      "img": "images/Daikon_radish.png"
+    },
+    {
+      "recipe": "Simmered Daikon",
+      "qty": 1,
+      "img": "images/Daikon_radish.png"
+    }
+  ],
+  "burdock root": [
+    {
+      "recipe": "Winter Stew",
+      "qty": 1,
+      "img": "images/Burdock_root.png"
+    },
+    {
+      "recipe": "Braised Burdock",
+      "qty": 1,
+      "img": "images/Burdock_root.png"
+    }
+  ],
+  "oyster mushroom": [
+    {
+      "recipe": "Winter Stew",
+      "qty": 1,
+      "img": "images/Oyster_mushroom.png"
+    },
+    {
+      "recipe": "Mushroom Steak Dinner",
+      "qty": 1,
+      "img": "images/Oyster_mushroom.png"
+    }
+  ],
+  "sweetroot": [
+    {
+      "recipe": "Baked Sweetroot",
+      "qty": 1,
+      "img": "images/Sweetroot.png"
+    },
+    {
+      "recipe": "Spell Fruit Parfait",
+      "qty": 1,
+      "img": "images/Sweetroot.png"
+    }
+  ],
+  "cod": [
+    {
+      "recipe": "Cod with Thyme",
+      "qty": 1,
+      "img": "images/Cod.png"
+    },
+    {
+      "recipe": "Fish Tacos",
+      "qty": 1,
+      "img": "images/Cod.png"
+    }
+  ],
+  "garlic": [
+    {
+      "recipe": "Garlic Bread",
+      "qty": 1,
+      "img": "images/Garlic.png"
+    },
+    {
+      "recipe": "Perch Risotto",
+      "qty": 1,
+      "img": "images/Garlic.png"
+    },
+    {
+      "recipe": "Rosemary Garlic Noodles",
+      "qty": 1,
+      "img": "images/Garlic.png"
+    }
+  ],
+  "sweet potato": [
+    {
+      "recipe": "Harvest Plate",
+      "qty": 1,
+      "img": "images/Sweet_potato.png"
+    },
+    {
+      "recipe": "Roasted Sweet Potato",
+      "qty": 1,
+      "img": "images/Sweet_potato.png"
+    },
+    {
+      "recipe": "Apple Honey Curry",
+      "qty": 1,
+      "img": "images/Sweet_potato.png"
+    },
+    {
+      "recipe": "Sweet Potato Pie",
+      "qty": 1,
+      "img": "images/Sweet_potato.png"
+    }
+  ],
+  "morel mushroom": [
+    {
+      "recipe": "Spring Galette",
+      "qty": 1,
+      "img": "images/Morel_mushroom.png"
+    },
+    {
+      "recipe": "Mushroom Rice",
+      "qty": 1,
+      "img": "images/Morel_mushroom.png"
+    }
+  ],
+  "catfish": [
+    {
+      "recipe": "Breaded Catfish",
+      "qty": 1,
+      "img": "images/Catfish.png"
+    }
+  ],
+  "salmon": [
+    {
+      "recipe": "Horseradish Salmon",
+      "qty": 1,
+      "img": "images/Salmon.png"
+    },
+    {
+      "recipe": "Pan-fried Salmon",
+      "qty": 1,
+      "img": "images/Salmon.png"
+    },
+    {
+      "recipe": "Salmon Sashimi",
+      "qty": 1,
+      "img": "images/Salmon.png"
+    },
+    {
+      "recipe": "Sushi Platter",
+      "qty": 1,
+      "img": "images/Salmon.png"
+    }
+  ],
+  "bream": [
+    {
+      "recipe": "Pan-fried Bream",
+      "qty": 1,
+      "img": "images/Bream.png"
+    }
+  ],
+  "pike": [
+    {
+      "recipe": "Fish Skewers",
+      "qty": 1,
+      "img": "images/Pike.png"
+    }
+  ],
+  "freshwater eel": [
+    {
+      "recipe": "Grilled Eel Rice Bowl",
+      "qty": 1,
+      "img": "images/Freshwater_eel.png"
+    }
+  ],
+  "rice": [
+    {
+      "recipe": "Grilled Eel Rice Bowl",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Red Snapper Sushi",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Rice Ball",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Sesame Tuna Bowl",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Spicy Crab Sushi",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Sushi Platter",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Fried Rice",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Perch Risotto",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Sea Bream Rice",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Apple Honey Curry",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Cauliflower Curry",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Chickpea Curry",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Chili Coconut Curry",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Crayfish Etouffee",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Deluxe Curry",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Mushroom Rice",
+      "qty": 1,
+      "img": "images/Rice.png"
+    },
+    {
+      "recipe": "Roasted Rice Tea",
+      "qty": 1,
+      "img": "images/Rice.png"
+    }
+  ],
+  "wild berry jam": [
+    {
+      "recipe": "Jam Sandwich",
+      "qty": 1,
+      "img": "images/Wild_berry_jam.png"
+    }
+  ],
+  "lobster": [
+    {
+      "recipe": "Lobster Roll",
+      "qty": 1,
+      "img": "images/Lobster.png"
+    }
+  ],
+  "lemon": [
+    {
+      "recipe": "Lobster Roll",
+      "qty": 1,
+      "img": "images/Lemon.png"
+    },
+    {
+      "recipe": "Lemon Cake",
+      "qty": 1,
+      "img": "images/Lemon.png"
+    },
+    {
+      "recipe": "Lemon Pie",
+      "qty": 1,
+      "img": "images/Lemon.png"
+    },
+    {
+      "recipe": "Candied Lemon Peel",
+      "qty": 1,
+      "img": "images/Lemon.png"
+    },
+    {
+      "recipe": "Lemonade",
+      "qty": 1,
+      "img": "images/Lemon.png"
+    },
+    {
+      "recipe": "Tea with Lemon",
+      "qty": 1,
+      "img": "images/Lemon.png"
+    }
+  ],
+  "mackerel": [
+    {
+      "recipe": "Mackerel Sashimi",
+      "qty": 1,
+      "img": "images/Mackerel.png"
+    },
+    {
+      "recipe": "Sushi Platter",
+      "qty": 1,
+      "img": "images/Mackerel.png"
+    }
+  ],
+  "tuna": [
+    {
+      "recipe": "Sesame Tuna Bowl",
+      "qty": 1,
+      "img": "images/Tuna.png"
+    },
+    {
+      "recipe": "Sushi Platter",
+      "qty": 1,
+      "img": "images/Tuna.png"
+    },
+    {
+      "recipe": "Tuna Sashimi",
+      "qty": 1,
+      "img": "images/Tuna.png"
+    }
+  ],
+  "crab": [
+    {
+      "recipe": "Spicy Crab Sushi",
+      "qty": 1,
+      "img": "images/Crab.png"
+    },
+    {
+      "recipe": "Crab Cakes",
+      "qty": 2,
+      "img": "images/Crab.png"
+    },
+    {
+      "recipe": "Seafood Boil",
+      "qty": 2,
+      "img": "images/Crab.png"
+    }
+  ],
+  "cauliflower": [
+    {
+      "recipe": "Roasted Cauliflower",
+      "qty": 1,
+      "img": "images/Cauliflower.png"
+    },
+    {
+      "recipe": "Mushroom Steak Dinner",
+      "qty": 1,
+      "img": "images/Cauliflower.png"
+    },
+    {
+      "recipe": "Cauliflower Curry",
+      "qty": 1,
+      "img": "images/Cauliflower.png"
+    }
+  ],
+  "perch": [
+    {
+      "recipe": "Perch Risotto",
+      "qty": 1,
+      "img": "images/Perch.png"
+    }
+  ],
+  "sea bream": [
+    {
+      "recipe": "Sea Bream Rice",
+      "qty": 1,
+      "img": "images/Sea_bream.png"
+    }
+  ],
+  "noodles": [
+    {
+      "recipe": "Seafood Snow Pea Noodles",
+      "qty": 1,
+      "img": "images/Noodles.png"
+    },
+    {
+      "recipe": "Herb Butter Pasta",
+      "qty": 1,
+      "img": "images/Noodles.png"
+    },
+    {
+      "recipe": "Rosemary Garlic Noodles",
+      "qty": 1,
+      "img": "images/Noodles.png"
+    }
+  ],
+  "king crab": [
+    {
+      "recipe": "Seafood Snow Pea Noodles",
+      "qty": 1,
+      "img": "images/King_crab.png"
+    }
+  ],
+  "bonito": [
+    {
+      "recipe": "Seafood Snow Pea Noodles",
+      "qty": 1,
+      "img": "images/Bonito.png"
+    }
+  ],
+  "herring": [
+    {
+      "recipe": "Seafood Snow Pea Noodles",
+      "qty": 1,
+      "img": "images/Herring.png"
+    }
+  ],
+  "apple": [
+    {
+      "recipe": "Apple Honey Curry",
+      "qty": 1,
+      "img": "images/Apple.png"
+    },
+    {
+      "recipe": "Apple Pie",
+      "qty": 1,
+      "img": "images/Apple.png"
+    },
+    {
+      "recipe": "Apple Juice",
+      "qty": 1,
+      "img": "images/Apple.png"
+    }
+  ],
+  "curry powder": [
+    {
+      "recipe": "Apple Honey Curry",
+      "qty": 1,
+      "img": "images/Curry_powder.png"
+    },
+    {
+      "recipe": "Cauliflower Curry",
+      "qty": 1,
+      "img": "images/Curry_powder.png"
+    },
+    {
+      "recipe": "Chickpea Curry",
+      "qty": 1,
+      "img": "images/Curry_powder.png"
+    },
+    {
+      "recipe": "Chili Coconut Curry",
+      "qty": 1,
+      "img": "images/Curry_powder.png"
+    },
+    {
+      "recipe": "Deluxe Curry",
+      "qty": 1,
+      "img": "images/Curry_powder.png"
+    }
+  ],
+  "coconut milk": [
+    {
+      "recipe": "Chili Coconut Curry",
+      "qty": 1,
+      "img": "images/Coconut_milk.png"
+    },
+    {
+      "recipe": "Coconut Cream Pie",
+      "qty": 1,
+      "img": "images/Coconut_milk.png"
+    }
+  ],
+  "crayfish": [
+    {
+      "recipe": "Crayfish Etouffee",
+      "qty": 1,
+      "img": "images/Crayfish.png"
+    },
+    {
+      "recipe": "Seafood Boil",
+      "qty": 2,
+      "img": "images/Crayfish.png"
+    }
+  ],
+  "shrimp": [
+    {
+      "recipe": "Deluxe Curry",
+      "qty": 1,
+      "img": "images/Shrimp.png"
+    }
+  ],
+  "flame pepper": [
+    {
+      "recipe": "Incredibly Hot Pot",
+      "qty": 1,
+      "img": "images/Flame_pepper.png"
+    }
+  ],
+  "ash mushroom": [
+    {
+      "recipe": "Incredibly Hot Pot",
+      "qty": 1,
+      "img": "images/Ash_mushroom.png"
+    }
+  ],
+  "lava chestnuts": [
+    {
+      "recipe": "Incredibly Hot Pot",
+      "qty": 1,
+      "img": "images/Lava_chestnuts.png"
+    },
+    {
+      "recipe": "Spell Fruit Parfait",
+      "qty": 1,
+      "img": "images/Lava_chestnuts.png"
+    }
+  ],
+  "hot potato": [
+    {
+      "recipe": "Incredibly Hot Pot",
+      "qty": 1,
+      "img": "images/Hot_potato.png"
+    },
+    {
+      "recipe": "Seafood Boil",
+      "qty": 1,
+      "img": "images/Hot_potato.png"
+    }
+  ],
+  "monster fang": [
+    {
+      "recipe": "Monster Mash",
+      "qty": 1,
+      "img": "images/Monster_fang.png"
+    }
+  ],
+  "monster shell": [
+    {
+      "recipe": "Monster Mash",
+      "qty": 1,
+      "img": "images/Monster_shell.png"
+    }
+  ],
+  "monster horn": [
+    {
+      "recipe": "Monster Mash",
+      "qty": 1,
+      "img": "images/Monster_horn.png"
+    }
+  ],
+  "monster powder": [
+    {
+      "recipe": "Monster Mash",
+      "qty": 1,
+      "img": "images/Monster_powder.png"
+    },
+    {
+      "recipe": "Monster Cookie",
+      "qty": 1,
+      "img": "images/Monster_powder.png"
+    }
+  ],
+  "bell berry": [
+    {
+      "recipe": "Bell Berry Bakewell Tart",
+      "qty": 3,
+      "img": "images/Bell_berry.png"
+    }
+  ],
+  "cherry": [
+    {
+      "recipe": "Cherry Cobbler",
+      "qty": 1,
+      "img": "images/Cherry.png"
+    },
+    {
+      "recipe": "Cherry Tart",
+      "qty": 1,
+      "img": "images/Cherry.png"
+    },
+    {
+      "recipe": "Cherry Smoothie",
+      "qty": 1,
+      "img": "images/Cherry.png"
+    }
+  ],
+  "chocolate": [
+    {
+      "recipe": "Chocolate Cake",
+      "qty": 1,
+      "img": "images/Chocolate.png"
+    },
+    {
+      "recipe": "Golden Cookies",
+      "qty": 2,
+      "img": "images/Chocolate.png"
+    },
+    {
+      "recipe": "Ice Cream Sundae",
+      "qty": 1,
+      "img": "images/Chocolate.png"
+    },
+    {
+      "recipe": "Hot Chocolate",
+      "qty": 1,
+      "img": "images/Chocolate.png"
+    },
+    {
+      "recipe": "Mocha",
+      "qty": 1,
+      "img": "images/Chocolate.png"
+    }
+  ],
+  "coconut": [
+    {
+      "recipe": "Coconut Cream Pie",
+      "qty": 1,
+      "img": "images/Coconut.png"
+    },
+    {
+      "recipe": "Coconut Milk",
+      "qty": 1,
+      "img": "images/Coconut.png"
+    }
+  ],
+  "crystal berries": [
+    {
+      "recipe": "Crystal Berry Pie",
+      "qty": 1,
+      "img": "images/Crystal_berries.png"
+    },
+    {
+      "recipe": "Spell Fruit Parfait",
+      "qty": 1,
+      "img": "images/Crystal_berries.png"
+    }
+  ],
+  "glowberry": [
+    {
+      "recipe": "Glowberry Cookies",
+      "qty": 6,
+      "img": "images/Glowberry.png"
+    }
+  ],
+  "golden cheese": [
+    {
+      "recipe": "Golden Cheesecake",
+      "qty": 2,
+      "img": "images/Golden_cheese.png"
+    }
+  ],
+  "golden egg": [
+    {
+      "recipe": "Golden Cheesecake",
+      "qty": 2,
+      "img": "images/Golden_egg.png"
+    },
+    {
+      "recipe": "Golden Cookies",
+      "qty": 2,
+      "img": "images/Golden_egg.png"
+    }
+  ],
+  "golden milk": [
+    {
+      "recipe": "Golden Cheesecake",
+      "qty": 2,
+      "img": "images/Golden_milk.png"
+    },
+    {
+      "recipe": "Golden Cookies",
+      "qty": 2,
+      "img": "images/Golden_milk.png"
+    },
+    {
+      "recipe": "Spell Fruit Parfait",
+      "qty": 1,
+      "img": "images/Golden_milk.png"
+    }
+  ],
+  "golden butter": [
+    {
+      "recipe": "Golden Cheesecake",
+      "qty": 2,
+      "img": "images/Golden_butter.png"
+    },
+    {
+      "recipe": "Golden Cookies",
+      "qty": 2,
+      "img": "images/Golden_butter.png"
+    }
+  ],
+  "monster core": [
+    {
+      "recipe": "Monster Cookie",
+      "qty": 1,
+      "img": "images/Monster_core.png"
+    }
+  ],
+  "moon fruit": [
+    {
+      "recipe": "Moon Fruit Cake",
+      "qty": 1,
+      "img": "images/Moon_fruit.png"
+    },
+    {
+      "recipe": "Caramelized Moon Fruit",
+      "qty": 1,
+      "img": "images/Moon_fruit.png"
+    }
+  ],
+  "pear": [
+    {
+      "recipe": "Poached Pear",
+      "qty": 1,
+      "img": "images/Pear.png"
+    }
+  ],
+  "red wine": [
+    {
+      "recipe": "Poached Pear",
+      "qty": 1,
+      "img": "images/Red_Wine.png"
+    }
+  ],
+  "walnut": [
+    {
+      "recipe": "Candied Walnuts",
+      "qty": 1,
+      "img": "images/Walnut.png"
+    }
+  ],
+  "ice block": [
+    {
+      "recipe": "Ice Cream Sundae",
+      "qty": 1,
+      "img": "images/Ice_block.png"
+    },
+    {
+      "recipe": "Pomegranate Sorbet",
+      "qty": 1,
+      "img": "images/Ice_block.png"
+    },
+    {
+      "recipe": "Wintergreen Ice Cream",
+      "qty": 1,
+      "img": "images/Ice_block.png"
+    },
+    {
+      "recipe": "Iced Coffee",
+      "qty": 1,
+      "img": "images/Ice_block.png"
+    }
+  ],
+  "pomegranate": [
+    {
+      "recipe": "Pomegranate Sorbet",
+      "qty": 1,
+      "img": "images/Pomegranate.png"
+    },
+    {
+      "recipe": "Pomegranate Juice",
+      "qty": 1,
+      "img": "images/Pomegranate.png"
+    }
+  ],
+  "spell fruit": [
+    {
+      "recipe": "Spell Fruit Parfait",
+      "qty": 1,
+      "img": "images/Spell_fruit.png"
+    }
+  ],
+  "wintergreen berry": [
+    {
+      "recipe": "Wintergreen Ice Cream",
+      "qty": 8,
+      "img": "images/Wintergreen_berry.png"
+    },
+    {
+      "recipe": "Hot Chocolate",
+      "qty": 2,
+      "img": "images/Wintergreen_berry.png"
+    }
+  ],
+  "peach": [
+    {
+      "recipe": "Peaches and Cream",
+      "qty": 1,
+      "img": "images/Peach.png"
+    }
+  ],
+  "wild grapes": [
+    {
+      "recipe": "Grape Juice",
+      "qty": 1,
+      "img": "images/Wild_grapes.png"
+    }
+  ],
+  "coffee": [
+    {
+      "recipe": "Iced Coffee",
+      "qty": 1,
+      "img": "images/Coffee.png"
+    },
+    {
+      "recipe": "Latte",
+      "qty": 1,
+      "img": "images/Coffee.png"
+    },
+    {
+      "recipe": "Mocha",
+      "qty": 1,
+      "img": "images/Coffee.png"
+    }
+  ],
+  "tea": [
+    {
+      "recipe": "Tea with Lemon",
+      "qty": 1,
+      "img": "images/Tea.png"
+    },
+    {
+      "recipe": "Green Tea",
+      "qty": 1,
+      "img": "images/Tea.png"
+    },
+    {
+      "recipe": "Jasmine Tea",
+      "qty": 1,
+      "img": "images/Tea.png"
+    },
+    {
+      "recipe": "Rose Tea",
+      "qty": 1,
+      "img": "images/Tea.png"
+    },
+    {
+      "recipe": "Spirit Mushroom Tea",
+      "qty": 1,
+      "img": "images/Tea.png"
+    }
+  ],
+  "jasmine": [
+    {
+      "recipe": "Jasmine Tea",
+      "qty": 1,
+      "img": "images/Jasmine.png"
+    }
+  ],
+  "green tea": [
+    {
+      "recipe": "Roasted Rice Tea",
+      "qty": 1,
+      "img": "images/Green_Tea.png"
+    }
+  ],
+  "rose": [
+    {
+      "recipe": "Rose Tea",
+      "qty": 1,
+      "img": "images/Rose.png"
+    }
+  ],
+  "spirit mushroom": [
+    {
+      "recipe": "Spirit Mushroom Tea",
+      "qty": 1,
+      "img": "images/Spirit_mushroom.png"
+    }
+  ]
+}
