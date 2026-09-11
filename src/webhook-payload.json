@@ -1,0 +1,9 @@
+{
+  "name": "web",
+  "active": true,
+  "events": ["push"],
+  "config": {
+    "url": "https://api.netlify.com/hooks/github",
+    "content_type": "json"
+  }
+}

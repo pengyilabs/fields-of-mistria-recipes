@@ -10,6 +10,7 @@
     "gifts": "node src/build-gifts.js",
     "gifts:images": "node src/download-gift-images.js",
     "build": "npm run scrape && npm run images",
+    "build:dist": "node src/build-dist.js",
     "serve": "node serve.js"
   },
   "dependencies": {
