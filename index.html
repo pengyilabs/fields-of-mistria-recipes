@@ -1,51 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fields of Mistria — Recipe Finder</title>
+  <title>Campos de Mistria — Buscador de Recetas</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap">
-      <div class="brand">
-        <div class="brand-mark">🍲</div>
-        <div>
-          <h1>Fields of Mistria <span>Recipe Finder</span></h1>
-          <p class="tagline">Browse every cooking recipe and see exactly which recipes use any ingredient.</p>
+  <nav class="side-rail" id="side-rail">
+    <div class="rail-brand" title="Campos de Mistria">🌸</div>
+    <div class="rail-items">
+      <button class="rail-btn active" data-page="recipes" title="Recipe Finder" aria-label="Recipe Finder">
+        <span class="rail-emoji">🍲</span>
+      </button>
+      <button class="rail-btn" data-page="gifts" title="Gifts" aria-label="Gifts">
+        <span class="rail-emoji">🎁</span>
+      </button>
+    </div>
+    <button id="lang-toggle" class="rail-lang" title="English">EN</button>
+  </nav>
+
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="wrap">
+        <div class="brand">
+          <div class="brand-mark">🍲</div>
+          <div>
+            <h1 id="site-title">Campos de Mistria <span>Buscador de Recetas</span></h1>
+            <p class="tagline" id="site-tagline">Explora todas las recetas de cocina y descubre exactamente qué recetas usan cada ingrediente.</p>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="stats" id="stats"></div>
         </div>
       </div>
-      <div class="stats" id="stats"></div>
-    </div>
-  </header>
+    </header>
 
-  <main class="wrap">
-    <section class="toolbar">
-      <div class="search-box">
-        <span class="search-icon">⌕</span>
-        <input id="search" type="search" placeholder="Search a recipe or ingredient…" autocomplete="off">
-        <button id="clear-search" class="clear-btn" aria-label="Clear">×</button>
+    <main class="wrap main">
+      <section id="page-recipes" class="page">
+        <div class="toolbar">
+          <div class="search-box">
+            <span class="search-icon">⌕</span>
+            <input id="search" type="search" placeholder="Busca una receta o ingrediente…" autocomplete="off">
+            <button id="clear-search" class="clear-btn" aria-label="Limpiar">×</button>
+          </div>
+          <div class="toolbar-right">
+            <button id="sort-toggle" class="sort-btn" title="Ordenar A-Z">
+              <span class="sort-icon">↕</span>
+              <span id="sort-label">A-Z</span>
+            </button>
+            <div class="mode-tabs" role="tablist">
+              <button data-mode="recipes" class="tab active" id="tab-recipes">Recetas</button>
+              <button data-mode="ingredients" class="tab" id="tab-ingredients">Ingredientes</button>
+            </div>
+          </div>
+        </div>
+
+        <section id="foodlist" class="foodlist"></section>
+        <section id="empty" class="empty hidden">
+          <p id="empty-msg">No se encontraron recetas.</p>
+        </section>
+      </section>
+
+      <section id="page-gifts" class="page hidden">
+        <div class="gifts-layout">
+          <aside class="char-rail" id="char-rail"></aside>
+          <div class="char-main">
+            <div class="char-head" id="char-head"></div>
+            <div class="gift-area">
+              <div class="gift-groups" id="gift-groups"></div>
+              <aside class="item-detail" id="item-detail"></aside>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p id="footer-text">Datos obtenidos de la <a href="https://fieldsofmistria.wiki.gg/wiki/Cooking" target="_blank" rel="noopener">wiki de Campos de Mistria</a>. Herramienta no oficial de fans.</p>
       </div>
-      <div class="mode-tabs" role="tablist">
-        <button data-mode="recipes" class="tab active">Recipes</button>
-        <button data-mode="ingredients" class="tab">Ingredients</button>
-      </div>
-    </section>
-
-    <section id="foodlist" class="foodlist"></section>
-    <section id="empty" class="empty hidden">
-      <p>No recipes found.</p>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <p>Data sourced from the <a href="https://fieldsofmistria.wiki.gg/wiki/Cooking" target="_blank" rel="noopener">Fields of Mistria wiki</a>. Unofficial fan tool.</p>
-    </div>
-  </footer>
+    </footer>
+  </div>
 
   <script src="app.js"></script>
 </body>
-</html>
+</html
