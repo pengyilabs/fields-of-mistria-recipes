@@ -238,25 +238,29 @@ body {
 /* fill viewport below the header, all scrolling happens inside panels */
 @media (min-width: 901px) {
   body.gifts-mode .app-shell { height: 100vh; height: 100dvh; overflow: hidden; }
-  body.gifts-mode .main { overflow: hidden; }
+  body.gifts-mode .main { overflow: hidden; flex: 1 1 0; min-height: 0; }
 
-  #page-gifts { display: flex; flex-direction: column; height: 100%; }
-  .gifts-layout { flex: 1 1 0; min-height: 0; }
+  /* Override .page's flex: 1 1 auto — we must NOT grow to content or scrolling breaks.
+     flex-basis: 0 makes #page-gifts fill exactly the viewport, forcing inner scroll. */
+  body.gifts-mode #page-gifts { display: flex; flex-direction: column; flex: 1 1 0; min-height: 0; height: auto; }
+  body.gifts-mode .gifts-layout { flex: 1 1 0; min-height: 0; }
 
-  /* character mini rail — full height of the viewport minus the top bar, own scroll */
-  .char-rail {
+  /* Base .char-rail/.char-main/.gift-groups/.item-detail rules are defined LATER in
+     this file, so they'd override equal-specificity media rules. Prefix every override
+     here with body.gifts-mode to guarantee higher specificity regardless of order. */
+  body.gifts-mode .char-rail {
     flex: 0 0 170px; height: 100%; overflow-y: auto;
     display: flex; flex-direction: column; gap: 6px; padding: 12px 8px;
   }
-  .char-thumb { display: flex; flex-direction: row; align-items: center; gap: 8px; width: 100%; height: auto; padding: 6px 8px; border-radius: 10px; overflow: visible; background: transparent; border: 2px solid transparent; box-shadow: none; }
-  .char-thumb img { width: 32px; height: 32px; flex-shrink: 0; }
-  .char-thumb:hover { background: var(--bg-soft); }
-  .char-thumb.active { background: #fff3e0; border-color: var(--accent); }
-  .char-label { display: block; font-family: "Segoe UI", Arial, sans-serif; font-size: 12px; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; text-align: left; }
-  .char-main { flex: 1 1 0; min-width: 0; min-height: 0; padding: 16px 16px 0 16px; display: flex; flex-direction: column; }
-  .gift-area { flex: 1 1 0; min-height: 0; display: flex; gap: 16px; align-items: stretch; }
-  .gift-groups { flex: 1 1 0; min-width: 0; min-height: 0; overflow-y: auto; padding-right: 4px; padding-bottom: 16px; display: flex; flex-direction: column; gap: 22px; }
-  .item-detail { flex: 0 0 252px; overflow-y: auto; }
+  body.gifts-mode .char-thumb { display: flex; flex-direction: row; align-items: center; gap: 8px; width: 100%; height: auto; padding: 6px 8px; border-radius: 10px; overflow: visible; background: transparent; border: 2px solid transparent; box-shadow: none; }
+  body.gifts-mode .char-thumb img { width: 32px; height: 32px; flex-shrink: 0; }
+  body.gifts-mode .char-thumb:hover { background: var(--bg-soft); }
+  body.gifts-mode .char-thumb.active { background: #fff3e0; border-color: var(--accent); }
+  body.gifts-mode .char-label { display: block; font-family: "Segoe UI", Arial, sans-serif; font-size: 12px; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; text-align: left; }
+  body.gifts-mode .char-main { flex: 1 1 0; min-width: 0; min-height: 0; padding: 16px 16px 0 16px; display: flex; flex-direction: column; }
+  body.gifts-mode .gift-area { flex: 1 1 0; min-height: 0; display: flex; gap: 16px; align-items: stretch; }
+  body.gifts-mode .gift-groups { flex: 1 1 0; min-width: 0; min-height: 0; overflow-y: auto; padding-right: 4px; padding-bottom: 16px; display: flex; flex-direction: column; gap: 22px; }
+  body.gifts-mode .item-detail { flex: 0 0 252px; overflow-y: auto; }
   body.gifts-mode .site-footer { display: none; }
 }
 
