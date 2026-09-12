@@ -3,6 +3,7 @@ let DATA = [];
 let ING = {};
 let CATORDER = [];
 let ingNames = [];
+let RECIPES = {};
 let TR = { en: {}, es: {} };
 let GIFTS = null;
 
@@ -402,25 +403,24 @@ function renderItemDetail() {
   const icon = it && it.icon ? `<img src="${esc(it.icon)}" alt="">` : '<span style="opacity:.4">?</span>';
   const desc = it ? it.desc : '';
 
-  // recipe usage: look up this item in the ingredient index
-  const ingKey = state.selItem.toLowerCase();
-  const ingData = ING[ingKey];
-  let recipeListHTML = '';
-  if (ingData && ingData.used && ingData.used.length) {
-    const recipeWord = ingData.used.length === 1
-      ? (t('recipe') || 'recipe')
-      : (t('recipes_plural') || 'recipes');
-    const usedLabel = t('gifts_used_in') || 'Used in';
-    const items = ingData.used.map((u) => {
-      return `<div class="id-recipe-row">
-        <span class="id-recipe-name">${esc(tRecipe(u.recipe))}</span>
-        <span class="id-recipe-qty">\u00d7${u.qty}</span>
+  // recipe ingredients: look up this item in the recipe index
+  const recipeKey = state.selItem.toLowerCase();
+  const recipeData = RECIPES[recipeKey];
+  let ingredientsHTML = '';
+  if (recipeData && recipeData.ingredients && recipeData.ingredients.length) {
+    const ingsLabel = t('gifts_ingredients') || 'Ingredients';
+    const items = recipeData.ingredients.map((i) => {
+      const ingName = tIng(i.name);
+      return `<div class="id-ing-row">
+        <img class="id-ing-img" src="${esc(i.img)}" alt="">
+        <span class="id-ing-name">${esc(ingName)}</span>
+        <span class="id-ing-qty">\u00d7${i.qty}</span>
       </div>`;
     }).join('');
-    recipeListHTML = `
-      <div class="id-recipes">
-        <div class="id-recipes-header">${esc(usedLabel)} <b>${ingData.used.length}</b> ${esc(recipeWord)}</div>
-        <div class="id-recipes-list">${items}</div>
+    ingredientsHTML = `
+      <div class="id-recipe-ings">
+        <div class="id-recipe-ings-header">${esc(ingsLabel)}</div>
+        <div class="id-recipe-ings-list">${items}</div>
       </div>`;
   }
 
@@ -433,7 +433,7 @@ function renderItemDetail() {
       </div>
     </div>
     ${desc ? `<p class="id-desc">${esc(desc)}</p>` : ''}
-    ${recipeListHTML}`;
+    ${ingredientsHTML}`;
 }
 
 function renderGiftsPage() {
@@ -549,6 +549,9 @@ function bind() {
   } catch (_) {}
 
   buildIndex();
+  // build recipe name lookup for gift detail panel
+  RECIPES = {};
+  for (const r of DATA) RECIPES[r.name.toLowerCase()] = r;
   ensureCharSelected();
   bind();
   render();
