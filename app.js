@@ -30,6 +30,10 @@ function esc(s) {
   ));
 }
 
+function stripHTML(s) {
+  return String(s ?? '').replace(/<[^>]*>/g, '').replace(/\[\[[^\]]*\]\]/g, '').trim();
+}
+
 // --- translation helpers ---
 function t(key) {
   return (TR[state.lang] && TR[state.lang].ui && TR[state.lang].ui[key]) || key;
@@ -322,12 +326,20 @@ function renderIngredients() {
 
 /* ---------- gifts ---------- */
 
+function firstGiftFor(char) {
+  for (const gt of GTIER) {
+    const items = giftItemsFor(char, gt.key);
+    if (items.length) return items[0];
+  }
+  return null;
+}
+
 function ensureCharSelected() {
   if (!GIFTS) return;
   if (!state.char || !GIFTS.characters.some((c) => c.name === state.char)) {
     const first = GIFTS.characters.find((c) => c.romanceable) || GIFTS.characters[0];
     state.char = first ? first.name : null;
-    state.selItem = null;
+    state.selItem = firstGiftFor(state.char);
   }
 }
 
@@ -347,6 +359,7 @@ function renderCharRail() {
   const html = GIFTS.characters.map((c) =>
     `<button class="char-thumb ${c.name === state.char ? 'active' : ''}" data-char="${esc(c.name)}" data-name="${esc(c.name)}" title="${esc(c.name)}">
       <img src="${esc(c.portrait)}" alt="${esc(c.name)}" loading="lazy">${c.romanceable ? '<span class="rom-dot" title=""></span>' : ''}
+      <span class="char-label">${esc(c.name)}</span>
     </button>`
   ).join('');
   rail.innerHTML = html;
@@ -357,7 +370,8 @@ function renderCharHead() {
   if (!c) return;
   const badge = c.romanceable ? `<span class="rom-badge">\u2661 ${esc(t('gifts_romanceable_badge'))}</span>` : '';
   const birthdayLabel = t('gifts_birthday') || 'Birthday';
-  const birthLine = c.birth ? `<span class="ch-birth">\ud83c\udf82 ${esc(birthdayLabel)}: ${esc(c.birth)}</span>` : '';
+  const birth = c.birth ? stripHTML(c.birth) : '';
+  const birthLine = birth ? `<span class="ch-birth">\ud83c\udf82 ${esc(birthdayLabel)}: ${esc(birth)}</span>` : '';
   $('#char-head').innerHTML = `
     <div class="port"><img src="${esc(c.portrait)}" alt="${esc(c.name)}"></div>
     <div class="ch-meta">
@@ -532,7 +546,7 @@ function bind() {
     const el = e.target.closest('.char-thumb');
     if (!el) return;
     state.char = el.dataset.char;
-    state.selItem = null;
+    state.selItem = firstGiftFor(state.char);
     render();
   });
 
