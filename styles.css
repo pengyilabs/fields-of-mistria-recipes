@@ -380,7 +380,8 @@ body {
 
   .app-shell { margin-left: 0; margin-top: 52px; }
 
-  /* character rail → fixed bottom bar */
+  /* character rail → fixed bottom bar (must disable .page animation which breaks fixed) */
+  .page { animation: none; }
   .char-rail {
     position: fixed !important; bottom: 0; left: 0; right: 0;
     width: 100%; max-height: none; z-index: 90;
