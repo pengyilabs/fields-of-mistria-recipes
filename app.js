@@ -322,12 +322,20 @@ function renderIngredients() {
 
 /* ---------- gifts ---------- */
 
+function firstGiftFor(char) {
+  for (const gt of GTIER) {
+    const items = giftItemsFor(char, gt.key);
+    if (items.length) return items[0];
+  }
+  return null;
+}
+
 function ensureCharSelected() {
   if (!GIFTS) return;
   if (!state.char || !GIFTS.characters.some((c) => c.name === state.char)) {
     const first = GIFTS.characters.find((c) => c.romanceable) || GIFTS.characters[0];
     state.char = first ? first.name : null;
-    state.selItem = null;
+    state.selItem = firstGiftFor(state.char);
   }
 }
 
@@ -533,7 +541,7 @@ function bind() {
     const el = e.target.closest('.char-thumb');
     if (!el) return;
     state.char = el.dataset.char;
-    state.selItem = null;
+    state.selItem = firstGiftFor(state.char);
     render();
   });
 
