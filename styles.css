@@ -17,6 +17,13 @@
 
 * { box-sizing: border-box; }
 
+/* ---- scrollbar: thin, styled, auto-hide on Windows ---- */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(60,40,10,.18); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(60,40,10,.32); }
+* { scrollbar-width: thin; scrollbar-color: rgba(60,40,10,.18) transparent; }
+
 html, body { margin: 0; padding: 0; }
 
 body {
