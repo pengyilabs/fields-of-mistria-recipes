@@ -393,16 +393,7 @@ body {
   .brand h1 span { font-size: .75em; }
   .tagline { display: none; }
   .site-header .header-inner { gap: 8px; padding: 0 12px; }
-  .header-right { width: 100%; }
-
-  /* compact stats: single horizontal row */
-  .stats { gap: 6px; width: 100%; flex-wrap: nowrap; }
-  .stat-chip {
-    flex: 1 1 0; padding: 5px 4px; min-width: 0; border-radius: 8px;
-    display: flex; align-items: center; justify-content: center; gap: 4px;
-  }
-  .stat-chip b { font-size: 15px; }
-  .stat-chip span { font-size: 9.5px; letter-spacing: .3px; }
+  .header-right { display: none; }
 
   /* side rail → top bar */
   :root { --rail-w: 0px; }
