@@ -482,6 +482,7 @@ function render() {
   const pageGifts = $('#page-gifts');
   pageRecipes.classList.toggle('hidden', state.page !== 'recipes');
   pageGifts.classList.toggle('hidden', state.page !== 'gifts');
+  document.body.classList.toggle('gifts-mode', state.page === 'gifts');
 
   if (state.page === 'gifts') {
     if (GIFTS) renderGiftsPage();

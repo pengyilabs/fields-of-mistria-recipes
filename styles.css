@@ -31,7 +31,11 @@ body {
 }
 
 .wrap { width: 100%; max-width: 1180px; margin: 0 auto; padding: 0 20px; }
-.main { padding-bottom: 10px; }
+.main {
+  flex: 1 1 auto; min-height: 0; display: flex; padding: 0;
+}
+.page { flex: 1 1 auto; min-width: 0; width: 100%; }
+#page-recipes.wrap { padding: 0 20px; }
 
 .hidden { display: none !important; }
 
@@ -68,8 +72,9 @@ body {
   background: linear-gradient(180deg, rgba(255,252,245,.92), rgba(255,252,245,.35));
   border-bottom: 1px solid var(--line);
   padding: 26px 0 18px;
+  flex: 0 0 auto;
 }
-.site-header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+.site-header .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; padding: 0 24px; }
 .brand { display: flex; gap: 16px; align-items: center; }
 .brand-mark {
   font-size: 40px; line-height: 1;
@@ -209,26 +214,31 @@ body {
 .empty { text-align: center; color: var(--ink-soft); padding: 48px 0; font-size: 17px; font-style: italic; }
 
 /* ================= GIFTS PAGE ================= */
-/* full-bleed: break the page section out of .wrap's max-width via negative margins */
-#page-gifts {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  padding-left: 24px;
-  padding-right: 24px;
-}
-/* gifts-layout fills the viewport below the header; char-rail is a full-height sidebar */
-.gifts-layout {
-  display: flex; gap: 0; align-items: stretch;
-  min-height: calc(100vh - 140px);
-}
+/* Gifts is a viewport-height dashboard: full width, no page scroll.
+   The whole gifts experience (char rail + gifts) is the only scrollable UI. */
+#page-gifts { padding: 0 24px; }
 
-/* character mini rail — full-height sidebar with its own scroll */
-.char-rail {
-  flex: 0 0 74px; display: flex; flex-direction: column; gap: 10px;
-  padding: 12px;
-  position: sticky; top: 0; align-self: flex-start;
-  height: calc(100vh - 80px); overflow-y: auto;
-  background: var(--card); border: 1px solid var(--line); border-radius: 15px; box-shadow: var(--shadow);
+.gifts-layout { display: flex; gap: 16px; align-items: stretch; }
+
+/* fill viewport below the header, all scrolling happens inside panels */
+@media (min-width: 901px) {
+  body.gifts-mode .app-shell { height: 100vh; height: 100dvh; overflow: hidden; }
+  body.gifts-mode .main { overflow: hidden; }
+
+  #page-gifts { display: flex; flex-direction: column; height: 100%; }
+  .gifts-layout { flex: 1 1 auto; min-height: 0; }
+
+  /* character mini rail — full height of the viewport minus the top bar, own scroll */
+  .char-rail {
+    flex: 0 0 74px; height: 100%; overflow-y: auto;
+    display: flex; flex-direction: column; gap: 10px; padding: 12px;
+    background: var(--card); border: 1px solid var(--line); border-radius: 15px; box-shadow: var(--shadow);
+  }
+  .char-main { flex: 1 1 auto; min-width: 0; padding-left: 16px; display: flex; flex-direction: column; min-height: 0; }
+  .gift-area { flex: 1 1 auto; min-height: 0; display: flex; gap: 16px; align-items: stretch; }
+  .gift-groups { flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-right: 4px; display: flex; flex-direction: column; gap: 22px; }
+  .item-detail { flex: 0 0 252px; overflow-y: auto; }
+  body.gifts-mode .site-footer { display: none; }
 }
 .char-thumb {
   position: relative; width: 48px; height: 48px; flex: none; padding: 0; cursor: pointer;
@@ -308,7 +318,7 @@ body {
 
 /* item detail panel */
 .item-detail {
-  flex: 0 0 252px; position: sticky; top: 12px;
+  flex: 0 0 252px;
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
   box-shadow: var(--shadow); padding: 18px;
 }
@@ -368,7 +378,7 @@ body {
   .brand h1 { font-size: 17px; letter-spacing: 0; }
   .brand h1 span { font-size: .75em; }
   .tagline { display: none; }
-  .site-header .wrap { gap: 8px; }
+  .site-header .header-inner { gap: 8px; padding: 0 12px; }
   .header-right { width: 100%; }
 
   /* compact stats: single horizontal row */
@@ -418,8 +428,9 @@ body {
   #page-gifts .gifts-layout { padding-bottom: 72px; }
 
   /* main content */
-  .main { padding: 0 10px; }
+  .main { padding: 0; }
   .wrap { padding: 0 10px; }
+  #page-gifts { padding: 0 12px; }
 
   /* gifts page: tighter spacing */
   .gifts-layout { margin-top: 8px; }
