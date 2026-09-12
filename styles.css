@@ -209,7 +209,9 @@ body {
 .empty { text-align: center; color: var(--ink-soft); padding: 48px 0; font-size: 17px; font-style: italic; }
 
 /* ================= GIFTS PAGE ================= */
-.gifts-layout { display: flex; gap: 0; margin-top: 20px; align-items: stretch; }
+/* full-bleed: break out of .wrap width cap */
+#page-gifts .wrap { max-width: none; padding-left: 24px; padding-right: 24px; }
+.gifts-layout { display: flex; gap: 0; margin-top: 20px; align-items: flex-start; }
 
 /* character mini rail */
 .char-rail {
