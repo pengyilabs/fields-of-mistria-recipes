@@ -262,7 +262,7 @@ body {
      here with body.gifts-mode to guarantee higher specificity regardless of order. */
   body.gifts-mode .char-rail {
     flex: 0 0 170px; height: 100%; overflow-y: auto;
-    display: flex; flex-direction: column; gap: 6px; padding: 12px 8px;
+    display: flex; flex-direction: column; gap: 6px; padding: 12px 0;
   }
   body.gifts-mode .char-thumb { display: flex; flex-direction: row; align-items: center; gap: 8px; width: 100%; height: auto; padding: 6px 8px; border-radius: 10px; overflow: visible; background: transparent; border: 2px solid transparent; box-shadow: none; }
   body.gifts-mode .char-thumb img { width: 32px; height: 32px; flex-shrink: 0; }
