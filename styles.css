@@ -253,9 +253,9 @@ body {
   .char-thumb:hover { background: var(--bg-soft); }
   .char-thumb.active { background: #fff3e0; border-color: var(--accent); }
   .char-label { display: block; font-family: "Segoe UI", Arial, sans-serif; font-size: 12px; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; text-align: left; }
-  .char-main { flex: 1 1 auto; min-width: 0; height: 0; padding: 16px 16px 0 16px; display: flex; flex-direction: column; min-height: 0; }
-  .gift-area { flex: 1 1 auto; min-height: 0; height: 0; display: flex; gap: 16px; align-items: stretch; }
-  .gift-groups { flex: 1 1 auto; min-width: 0; min-height: 0; height: 0; overflow-y: auto; padding-right: 4px; padding-bottom: 16px; display: flex; flex-direction: column; gap: 22px; }
+  .char-main { flex: 1 1 auto; min-width: 0; min-height: 0; padding: 16px 16px 0 16px; display: flex; flex-direction: column; }
+  .gift-area { flex: 1 1 auto; min-height: 0; display: flex; gap: 16px; align-items: stretch; }
+  .gift-groups { flex: 1 1 auto; min-width: 0; min-height: 0; overflow-y: auto; padding-right: 4px; padding-bottom: 16px; display: flex; flex-direction: column; gap: 22px; }
   .item-detail { flex: 0 0 252px; overflow-y: auto; }
   body.gifts-mode .site-footer { display: none; }
 }
