@@ -393,8 +393,10 @@ function renderGiftGroups() {
 
 function renderItemDetail() {
   const host = $('#item-detail');
+  const mobile = window.innerWidth <= 768;
   if (!state.selItem) {
     host.innerHTML = `<div class="id-empty">${esc(t('gifts_detail_placeholder'))}</div>`;
+    if (mobile) closeModal();
     return;
   }
   const it = GIFTS.items[state.selItem];
@@ -424,7 +426,7 @@ function renderItemDetail() {
       </div>`;
   }
 
-  host.innerHTML = `
+  const detailHTML = `
     <div class="id-top">
       <div class="id-icon">${icon}</div>
       <div>
@@ -434,6 +436,13 @@ function renderItemDetail() {
     </div>
     ${desc ? `<p class="id-desc">${esc(desc)}</p>` : ''}
     ${ingredientsHTML}`;
+
+  // desktop: inline panel; mobile: bottom-sheet modal
+  host.innerHTML = detailHTML;
+  if (mobile) {
+    $('#gift-modal-body').innerHTML = detailHTML;
+    openModal();
+  }
 }
 
 function renderGiftsPage() {
@@ -442,7 +451,20 @@ function renderGiftsPage() {
   renderCharRail();
   renderCharHead();
   renderGiftGroups();
-  renderItemDetail();
+  // only render inline detail on desktop (mobile uses modal)
+  if (window.innerWidth > 768) renderItemDetail();
+}
+
+/* ---------- mobile modal ---------- */
+
+function openModal() {
+  const overlay = $('#gift-modal-overlay');
+  if (overlay) overlay.classList.add('open');
+}
+
+function closeModal() {
+  const overlay = $('#gift-modal-overlay');
+  if (overlay) overlay.classList.remove('open');
 }
 
 /* ---------- main render ---------- */
@@ -527,6 +549,12 @@ function bind() {
     $('#search').value = '';
     render();
     $('#page-recipes').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  // mobile modal close
+  $('#gift-modal-close').addEventListener('click', closeModal);
+  $('#gift-modal-overlay').addEventListener('click', (e) => {
+    if (e.target === e.currentTarget) closeModal();
   });
 }
 
