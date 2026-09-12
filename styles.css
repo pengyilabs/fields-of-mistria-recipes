@@ -383,12 +383,12 @@ body {
   .char-head h2 { font-size: 18px; }
   .char-head .occ { font-size: 12px; }
 
-  /* gift groups: tighter grid */
+  /* gift groups: 3-column grid */
   .gift-groups { gap: 14px; }
-  .gift-grid { gap: 6px; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); }
-  .gift-item { padding: 6px 4px; border-radius: 9px; gap: 4px; }
+  .gift-grid { gap: 6px; grid-template-columns: repeat(3, 1fr); }
+  .gift-item { padding: 6px 2px; border-radius: 9px; gap: 3px; }
   .gift-item img { width: 28px; height: 28px; }
-  .gift-item .g-name { font-size: 10px; }
+  .gift-item .g-name { font-size: 10px; line-height: 1.15; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
   .gift-group h3 { font-size: 14px; margin-bottom: 6px; }
 
   /* HIDE the inline detail panel on mobile */
@@ -419,10 +419,11 @@ body {
 .gift-modal-overlay.open { display: flex; }
 .gift-modal {
   background: var(--card); border-radius: 20px 20px 0 0;
-  width: 100%; max-height: 80vh; overflow-y: auto;
-  padding: 20px 18px 28px; position: relative;
+  width: 100%; max-width: 100vw; max-height: 80vh; overflow-y: auto;
+  padding: 16px 16px 28px; position: relative;
   box-shadow: 0 -4px 24px rgba(60,40,10,.25);
   animation: slideUp .22s ease;
+  box-sizing: border-box;
 }
 @keyframes slideUp { from { transform: translateY(100%); } to { transform: none; } }
 .gift-modal-close {
@@ -430,10 +431,21 @@ body {
   width: 32px; height: 32px; border-radius: 50%; border: none;
   background: var(--bg-soft); color: var(--ink-soft); font-size: 18px;
   cursor: pointer; display: grid; place-items: center;
-  transition: background .15s;
+  transition: background .15s; flex-shrink: 0;
 }
 .gift-modal-close:hover { background: var(--line); color: var(--ink); }
-/* modal reuses .id-top, .id-name, .id-tier, .id-desc, .id-recipe-ings styles */
+.gift-modal-body { overflow-wrap: break-word; word-break: break-word; }
+.gift-modal-body .id-top { gap: 10px; }
+.gift-modal-body .id-icon { width: 48px; height: 48px; }
+.gift-modal-body .id-icon img { width: 38px; height: 38px; }
+.gift-modal-body .id-name { font-size: 15px; line-height: 1.25; word-break: break-word; }
+.gift-modal-body .id-desc { font-size: 13.5px; line-height: 1.45; word-break: break-word; overflow-wrap: anywhere; }
+.gift-modal-body .id-recipe-ings { margin-top: 10px; padding-top: 10px; }
+.gift-modal-body .id-recipe-ings-list { gap: 4px; }
+.gift-modal-body .id-ing-row { padding: 5px 6px; gap: 6px; }
+.gift-modal-body .id-ing-img { width: 22px; height: 22px; }
+.gift-modal-body .id-ing-name { font-size: 12px; min-width: 0; }
+.gift-modal-body .id-ing-qty { font-size: 11px; }
 
 @media (min-width: 769px) {
   .gift-modal-overlay { display: none !important; }
