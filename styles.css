@@ -88,13 +88,13 @@ body {
 
 .header-right { display: flex; align-items: center; gap: 14px; }
 
-.stats { display: flex; gap: 14px; flex-wrap: wrap; }
+.stats { display: flex; gap: 8px; flex-wrap: wrap; }
 .stat-chip {
-  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
-  padding: 9px 14px; text-align: center; box-shadow: var(--shadow); min-width: 86px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+  padding: 5px 10px; text-align: center; box-shadow: var(--shadow); min-width: 60px;
 }
-.stat-chip b { display: block; font-size: 20px; font-family: "Segoe UI", Arial, sans-serif; color: var(--ink); }
-.stat-chip span { font-size: 11px; text-transform: uppercase; letter-spacing: .6px; color: var(--ink-soft); font-family: "Segoe UI", Arial, sans-serif; }
+.stat-chip b { display: block; font-size: 15px; font-family: "Segoe UI", Arial, sans-serif; color: var(--ink); }
+.stat-chip span { font-size: 9.5px; text-transform: uppercase; letter-spacing: .5px; color: var(--ink-soft); font-family: "Segoe UI", Arial, sans-serif; }
 
 /* ================= PAGES ================= */
 .page { animation: pagein .18s ease; }
