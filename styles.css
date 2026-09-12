@@ -229,6 +229,11 @@ body {
 }
 .char-label { display: none; }
 
+/* base char-rail — minimal so mobile and tablet have a flex container to work with */
+.char-rail {
+  display: flex; flex-direction: column; gap: 10px; padding: 12px;
+}
+
 /* Gifts is a viewport-height dashboard: full width, no page scroll.
    The whole gifts experience (char rail + gifts) is the only scrollable UI. */
 #page-gifts { padding: 0 24px; }
