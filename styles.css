@@ -333,8 +333,9 @@ body {
 /* item detail panel */
 .item-detail {
   flex: 0 0 252px;
-  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  background: #fbf3e4; border: 1px solid var(--accent); border-radius: var(--radius);
   box-shadow: var(--shadow); padding: 18px;
+  transition: border-color .15s, background .15s;
 }
 .item-detail .id-empty { color: var(--ink-soft); font-family: "Segoe UI", Arial, sans-serif; font-size: 13.5px; font-style: italic; text-align: center; padding: 20px 4px; }
 .id-top { display: flex; gap: 12px; align-items: center; margin-bottom: 12px; }
