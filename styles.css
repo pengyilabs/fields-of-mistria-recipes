@@ -209,16 +209,26 @@ body {
 .empty { text-align: center; color: var(--ink-soft); padding: 48px 0; font-size: 17px; font-style: italic; }
 
 /* ================= GIFTS PAGE ================= */
-/* full-bleed: break out of .wrap width cap */
-#page-gifts .wrap { max-width: none; padding-left: 24px; padding-right: 24px; }
-.gifts-layout { display: flex; gap: 0; margin-top: 20px; align-items: flex-start; }
+/* full-bleed: break the page section out of .wrap's max-width via negative margins */
+#page-gifts {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding-left: 24px;
+  padding-right: 24px;
+}
+/* gifts-layout fills the viewport below the header; char-rail is a full-height sidebar */
+.gifts-layout {
+  display: flex; gap: 0; align-items: stretch;
+  min-height: calc(100vh - 140px);
+}
 
-/* character mini rail */
+/* character mini rail — full-height sidebar with its own scroll */
 .char-rail {
   flex: 0 0 74px; display: flex; flex-direction: column; gap: 10px;
-  padding: 12px; align-self: flex-start; position: sticky; top: 12px;
+  padding: 12px;
+  position: sticky; top: 0; align-self: flex-start;
+  height: calc(100vh - 80px); overflow-y: auto;
   background: var(--card); border: 1px solid var(--line); border-radius: 15px; box-shadow: var(--shadow);
-  max-height: calc(100vh - 24px); overflow-y: auto;
 }
 .char-thumb {
   position: relative; width: 48px; height: 48px; flex: none; padding: 0; cursor: pointer;
