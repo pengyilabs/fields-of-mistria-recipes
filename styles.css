@@ -214,6 +214,21 @@ body {
 .empty { text-align: center; color: var(--ink-soft); padding: 48px 0; font-size: 17px; font-style: italic; }
 
 /* ================= GIFTS PAGE ================= */
+/* base char-thumb styles (mobile-first — overridden by media query on desktop) */
+.char-thumb {
+  position: relative; width: 48px; height: 48px; flex: none; padding: 0; cursor: pointer;
+  border: 2px solid transparent; border-radius: 12px; overflow: hidden; background: var(--bg-soft);
+  transition: border-color .12s, transform .1s; box-shadow: 0 1px 2px rgba(60,40,10,.12);
+}
+.char-thumb:hover { transform: translateY(-1px); }
+.char-thumb.active { border-color: var(--accent); }
+.char-thumb img { width: 100%; height: 100%; object-fit: cover; image-rendering: pixelated; }
+.char-thumb .rom-dot {
+  position: absolute; top: 3px; right: 3px; width: 9px; height: 9px; border-radius: 50%;
+  background: #e0878f; border: 1px solid #fff;
+}
+.char-label { display: none; }
+
 /* Gifts is a viewport-height dashboard: full width, no page scroll.
    The whole gifts experience (char rail + gifts) is the only scrollable UI. */
 #page-gifts { padding: 0 24px; }
@@ -244,20 +259,6 @@ body {
   .item-detail { flex: 0 0 252px; overflow-y: auto; }
   body.gifts-mode .site-footer { display: none; }
 }
-.char-thumb {
-  position: relative; width: 48px; height: 48px; flex: none; padding: 0; cursor: pointer;
-  border: 2px solid transparent; border-radius: 12px; overflow: hidden; background: var(--bg-soft);
-  transition: border-color .12s, transform .1s; box-shadow: 0 1px 2px rgba(60,40,10,.12);
-}
-.char-thumb:hover { transform: translateY(-1px); }
-.char-thumb.active { border-color: var(--accent); }
-.char-thumb img { width: 100%; height: 100%; object-fit: cover; image-rendering: pixelated; }
-.char-thumb .rom-dot {
-  position: absolute; top: 3px; right: 3px; width: 9px; height: 9px; border-radius: 50%;
-  background: #e0878f; border: 1px solid #fff;
-}
-/* character name — hidden by default (mobile), shown on desktop via media query */
-.char-label { display: none; }
 
 /* character main area */
 .char-main { flex: 1 1 auto; min-width: 0; padding-left: 16px; }
