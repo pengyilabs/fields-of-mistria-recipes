@@ -347,6 +347,7 @@ function renderCharRail() {
   const html = GIFTS.characters.map((c) =>
     `<button class="char-thumb ${c.name === state.char ? 'active' : ''}" data-char="${esc(c.name)}" data-name="${esc(c.name)}" title="${esc(c.name)}">
       <img src="${esc(c.portrait)}" alt="${esc(c.name)}" loading="lazy">${c.romanceable ? '<span class="rom-dot" title=""></span>' : ''}
+      <span class="char-label">${esc(c.name)}</span>
     </button>`
   ).join('');
   rail.innerHTML = html;

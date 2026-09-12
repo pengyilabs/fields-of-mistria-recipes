@@ -230,10 +230,12 @@ body {
 
   /* character mini rail — full height of the viewport minus the top bar, own scroll */
   .char-rail {
-    flex: 0 0 74px; height: 100%; overflow-y: auto;
-    display: flex; flex-direction: column; gap: 10px; padding: 12px;
-    background: var(--card); border: 1px solid var(--line); border-radius: 15px; box-shadow: var(--shadow);
+    flex: 0 0 170px; height: 100%; overflow-y: auto;
+    display: flex; flex-direction: column; gap: 6px; padding: 12px 8px;
   }
+  .char-thumb { flex-direction: row; gap: 8px; width: 100%; height: auto; padding: 6px 8px; border-radius: 10px; }
+  .char-thumb img { width: 32px; height: 32px; }
+  .char-label { display: block; font-family: "Segoe UI", Arial, sans-serif; font-size: 12px; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; text-align: left; }
   .char-main { flex: 1 1 auto; min-width: 0; padding-left: 16px; display: flex; flex-direction: column; min-height: 0; }
   .gift-area { flex: 1 1 auto; min-height: 0; display: flex; gap: 16px; align-items: stretch; }
   .gift-groups { flex: 1 1 auto; min-width: 0; overflow-y: auto; padding-right: 4px; display: flex; flex-direction: column; gap: 22px; }
@@ -252,15 +254,8 @@ body {
   position: absolute; top: 3px; right: 3px; width: 9px; height: 9px; border-radius: 50%;
   background: #e0878f; border: 1px solid #fff;
 }
-/* hover tooltip (name) */
-.char-thumb[data-name]::after {
-  content: attr(data-name); position: absolute; left: calc(100% + 10px); top: 50%;
-  transform: translateY(-50%) translateX(-4px); white-space: nowrap;
-  background: var(--ink); color: #fff; padding: 4px 9px; border-radius: 8px;
-  font-family: "Segoe UI", Arial, sans-serif; font-size: 12px; z-index: 60; opacity: 0;
-  pointer-events: none; transition: opacity .12s, transform .12s;
-}
-.char-thumb[data-name]:hover::after { opacity: 1; transform: translateY(-50%) translateX(0); }
+/* character name — hidden by default (mobile), shown on desktop via media query */
+.char-label { display: none; }
 
 /* character main area */
 .char-main { flex: 1 1 auto; min-width: 0; padding-left: 16px; }
@@ -423,7 +418,7 @@ body {
     order: 99 !important; flex: 0 0 auto !important; align-self: auto !important;
     position: fixed;
   }
-  .char-thumb[data-name]::after { display: none; }
+  .char-label { display: none !important; }
   .char-thumb img { width: 36px; height: 36px; }
   #page-gifts .gifts-layout { padding-bottom: 72px; }
 
