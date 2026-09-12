@@ -426,6 +426,7 @@ body {
     border-radius: 0 !important; padding: 8px 12px !important; gap: 6px !important;
     justify-content: flex-start;
     border: none !important;
+    background: var(--card);
     box-shadow: 0 -2px 12px rgba(60,40,10,.12);
     order: 99 !important; flex: 0 0 auto !important; align-self: auto !important;
     position: fixed;
