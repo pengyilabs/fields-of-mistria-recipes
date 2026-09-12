@@ -260,6 +260,12 @@ body {
   background: #fbe3e6; color: #b44352; border: 1px solid #f2c6cc; border-radius: 999px; padding: 3px 10px;
 }
 .char-head .occ { margin: 3px 0 0; color: var(--ink-soft); font-family: "Segoe UI", Arial, sans-serif; font-size: 13.5px; }
+.ch-details { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; margin-top: 3px; }
+.ch-birth {
+  font-family: "Segoe UI", Arial, sans-serif; font-size: 12.5px; color: var(--accent-2);
+  background: #eef5ec; border: 1px solid #d3e4cf; border-radius: 999px; padding: 2px 9px;
+  white-space: nowrap;
+}
 
 /* gift groups + item detail */
 .gift-area { display: flex; gap: 16px; align-items: flex-start; }

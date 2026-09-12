@@ -365,7 +365,8 @@
       "gifts_hate": "Hated",
       "gifts_none": "None",
       "gifts_detail_placeholder": "Click a gift to see its details.",
-      "gifts_ingredients": "Ingredients"
+      "gifts_ingredients": "Ingredients",
+      "gifts_birthday": "Birthday"
     }
   },
   "es": {
@@ -734,7 +735,8 @@
       "gifts_hate": "Odian",
       "gifts_none": "Ninguno",
       "gifts_detail_placeholder": "Haz clic en un regalo para ver su detalle.",
-      "gifts_ingredients": "Ingredientes"
+      "gifts_ingredients": "Ingredientes",
+      "gifts_birthday": "Cumplea\u00f1os"
     }
   }
 }

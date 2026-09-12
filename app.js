@@ -356,11 +356,16 @@ function renderCharHead() {
   const c = GIFTS.characters.find((x) => x.name === state.char);
   if (!c) return;
   const badge = c.romanceable ? `<span class="rom-badge">\u2661 ${esc(t('gifts_romanceable_badge'))}</span>` : '';
+  const birthdayLabel = t('gifts_birthday') || 'Birthday';
+  const birthLine = c.birth ? `<span class="ch-birth">\ud83c\udf82 ${esc(birthdayLabel)}: ${esc(c.birth)}</span>` : '';
   $('#char-head').innerHTML = `
     <div class="port"><img src="${esc(c.portrait)}" alt="${esc(c.name)}"></div>
     <div class="ch-meta">
       <h2>${esc(c.name)} ${badge}</h2>
-      ${c.occupation ? `<div class="occ">${esc(c.occupation)}</div>` : ''}
+      <div class="ch-details">
+        ${c.occupation ? `<span class="occ">${esc(c.occupation)}</span>` : ''}
+        ${birthLine}
+      </div>
     </div>`;
 }
 
