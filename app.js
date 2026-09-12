@@ -401,6 +401,29 @@ function renderItemDetail() {
   const tierLabel = gt ? t('gifts_' + gt.key) : '';
   const icon = it && it.icon ? `<img src="${esc(it.icon)}" alt="">` : '<span style="opacity:.4">?</span>';
   const desc = it ? it.desc : '';
+
+  // recipe usage: look up this item in the ingredient index
+  const ingKey = state.selItem.toLowerCase();
+  const ingData = ING[ingKey];
+  let recipeListHTML = '';
+  if (ingData && ingData.used && ingData.used.length) {
+    const recipeWord = ingData.used.length === 1
+      ? (t('recipe') || 'recipe')
+      : (t('recipes_plural') || 'recipes');
+    const usedLabel = t('gifts_used_in') || 'Used in';
+    const items = ingData.used.map((u) => {
+      return `<div class="id-recipe-row">
+        <span class="id-recipe-name">${esc(tRecipe(u.recipe))}</span>
+        <span class="id-recipe-qty">\u00d7${u.qty}</span>
+      </div>`;
+    }).join('');
+    recipeListHTML = `
+      <div class="id-recipes">
+        <div class="id-recipes-header">${esc(usedLabel)} <b>${ingData.used.length}</b> ${esc(recipeWord)}</div>
+        <div class="id-recipes-list">${items}</div>
+      </div>`;
+  }
+
   host.innerHTML = `
     <div class="id-top">
       <div class="id-icon">${icon}</div>
@@ -409,7 +432,8 @@ function renderItemDetail() {
         ${gt ? `<span class="id-tier ${esc(gt.cls)}">${esc(tierLabel)}</span>` : ''}
       </div>
     </div>
-    ${desc ? `<p class="id-desc">${esc(desc)}</p>` : ''}`;
+    ${desc ? `<p class="id-desc">${esc(desc)}</p>` : ''}
+    ${recipeListHTML}`;
 }
 
 function renderGiftsPage() {

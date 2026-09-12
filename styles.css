@@ -305,6 +305,22 @@ body {
 .id-tier.hate { background: var(--hate); }
 .id-desc { font-size: 14px; color: var(--ink-soft); margin: 4px 0 0; }
 
+/* recipe list inside gift detail */
+.id-recipes { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 12px; }
+.id-recipes-header {
+  font-family: "Segoe UI", Arial, sans-serif; font-size: 12.5px;
+  color: var(--ink-soft); margin-bottom: 8px;
+}
+.id-recipes-header b { color: var(--ink); font-size: 14px; }
+.id-recipes-list { display: flex; flex-direction: column; gap: 5px; }
+.id-recipe-row {
+  display: flex; justify-content: space-between; align-items: center; gap: 8px;
+  padding: 5px 8px; border-radius: 8px; background: var(--bg-soft);
+  font-family: "Segoe UI", Arial, sans-serif; font-size: 12.5px;
+}
+.id-recipe-name { color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.id-recipe-qty { color: var(--accent-2); font-weight: 600; font-size: 11.5px; flex-shrink: 0; }
+
 /* ---- footer ---- */
 .site-footer { margin-top: 40px; border-top: 1px solid var(--line); padding: 16px 0; }
 .site-footer p { margin: 0; color: var(--ink-soft); font-family: "Segoe UI", Arial, sans-serif; font-size: 12.5px; }

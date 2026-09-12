@@ -364,7 +364,8 @@
       "gifts_like": "Liked",
       "gifts_hate": "Hated",
       "gifts_none": "None",
-      "gifts_detail_placeholder": "Click a gift to see its details."
+      "gifts_detail_placeholder": "Click a gift to see its details.",
+      "gifts_used_in": "Used in"
     }
   },
   "es": {
@@ -732,7 +733,8 @@
       "gifts_like": "Gustan",
       "gifts_hate": "Odian",
       "gifts_none": "Ninguno",
-      "gifts_detail_placeholder": "Haz clic en un regalo para ver su detalle."
+      "gifts_detail_placeholder": "Haz clic en un regalo para ver su detalle.",
+      "gifts_used_in": "Se usa en"
     }
   }
 }
