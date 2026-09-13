@@ -304,7 +304,7 @@ body {
 }
 
 /* gift groups + item detail */
-.gift-area { display: flex; gap: 16px; align-items: flex-start; }
+.gift-area { display: flex; gap: 16px; align-items: stretch; }
 .gift-groups { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 22px; }
 
 .gift-group h3 {
@@ -373,20 +373,32 @@ body {
 .site-footer p { margin: 0; color: var(--ink-soft); font-family: "Segoe UI", Arial, sans-serif; font-size: 12.5px; }
 .site-footer a { color: var(--accent); }
 
-/* ================= RESPONSIVE ================= */
+/* ================= RESPONSIVE — TABLET + MOBILE (≤900px) ================= */
 @media (max-width: 900px) {
   .gift-area { flex-direction: column; }
   .gifts-layout { flex-direction: column; }
-  .char-rail {
-    flex-direction: row; max-height: none; overflow-y: visible; overflow-x: auto;
-    position: static; order: -1; align-items: center; width: 100%; flex: 0 0 auto;
-  }
-  .char-thumb { flex: 0 0 auto; }
-  .item-detail { position: static; flex: 0 0 auto; }
-}
 
-/* ---- MOBILE: compact everything, detail as modal ---- */
-@media (max-width: 768px) {
+  /* character rail → fixed bottom bar */
+  .page { animation: none; }
+  #page-gifts .char-rail,
+  .char-rail {
+    position: fixed !important; top: auto !important; bottom: 0 !important;
+    left: 0 !important; right: 0 !important;
+    width: 100% !important; max-height: none !important; z-index: 90;
+    flex-direction: row !important; overflow-x: auto !important; overflow-y: visible;
+    border-radius: 0 !important; padding: 8px 12px !important; gap: 6px !important;
+    justify-content: flex-start;
+    border: none !important;
+    background: var(--card);
+    box-shadow: 0 -2px 12px rgba(60,40,10,.12);
+    order: 99 !important; flex: 0 0 auto !important; align-self: auto !important;
+  }
+  .char-label { display: none !important; }
+  .char-thumb { flex: 0 0 auto; }
+  .char-thumb img { width: 36px; height: 36px; }
+  .item-detail { position: static; flex: 0 0 auto; }
+  #page-gifts .gifts-layout { padding-bottom: 72px; }
+
   /* compact header */
   .site-header { padding: 10px 0 8px; }
   .brand-mark { width: 36px; height: 36px; font-size: 22px; border-radius: 10px; }
@@ -414,25 +426,8 @@ body {
 
   .app-shell { margin-left: 0; margin-top: 52px; }
 
-  /* character rail → fixed bottom bar (must disable .page animation which breaks fixed) */
-  .page { animation: none; }
-  #page-gifts .char-rail,
-  .char-rail {
-    position: fixed !important; top: auto !important; bottom: 0 !important;
-    left: 0 !important; right: 0 !important;
-    width: 100% !important; max-height: none !important; z-index: 90;
-    flex-direction: row !important; overflow-x: auto !important; overflow-y: visible;
-    border-radius: 0 !important; padding: 8px 12px !important; gap: 6px !important;
-    justify-content: flex-start;
-    border: none !important;
-    background: var(--card);
-    box-shadow: 0 -2px 12px rgba(60,40,10,.12);
-    order: 99 !important; flex: 0 0 auto !important; align-self: auto !important;
-    position: fixed;
-  }
-  .char-label { display: none !important; }
-  .char-thumb img { width: 36px; height: 36px; }
-  #page-gifts .gifts-layout { padding-bottom: 72px; }
+  /* gift detail → modal (hide inline panel, use bottom-sheet on click) */
+  .item-detail { display: none !important; }
 
   /* main content */
   .main { padding: 0; }
@@ -446,16 +441,13 @@ body {
   .char-head h2 { font-size: 18px; }
   .char-head .occ { font-size: 12px; }
 
-  /* gift groups: 3-column grid */
+  /* gift groups: responsive columns, compact tiles */
   .gift-groups { gap: 14px; }
-  .gift-grid { gap: 6px; grid-template-columns: repeat(3, 1fr); }
+  .gift-grid { gap: 6px; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); }
   .gift-item { padding: 6px 2px; border-radius: 9px; gap: 3px; }
   .gift-item img { width: 28px; height: 28px; }
   .gift-item .g-name { font-size: 10px; line-height: 1.15; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
   .gift-group h3 { font-size: 14px; margin-bottom: 6px; }
-
-  /* HIDE the inline detail panel on mobile */
-  .item-detail { display: none !important; }
 
   /* recipe page compact */
   .recipe-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
@@ -473,7 +465,7 @@ body {
   .site-footer { margin-top: 20px; padding: 10px 0; }
 }
 
-/* ---- MODAL overlay for gift detail on mobile ---- */
+/* ---- MODAL overlay for gift detail ---- */
 .gift-modal-overlay {
   display: none; position: fixed; inset: 0; z-index: 200;
   background: rgba(58,47,38,.45); backdrop-filter: blur(3px);

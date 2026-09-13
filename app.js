@@ -21,6 +21,19 @@ const state = {
   selItem: null,         // selected gift item
 };
 
+/* ---------- hash routing ---------- */
+const VALID_PAGES = ['recipes', 'gifts'];
+
+function readHash() {
+  const h = (location.hash || '').replace(/^#\/?/, '').split('/')[0];
+  if (VALID_PAGES.includes(h)) state.page = h;
+}
+
+function writeHash() {
+  const target = '#' + state.page;
+  if (location.hash !== target) history.replaceState(null, '', target);
+}
+
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
 
@@ -412,7 +425,7 @@ function renderGiftGroups() {
 
 function renderItemDetail() {
   const host = $('#item-detail');
-  const mobile = window.innerWidth <= 768;
+  const mobile = window.innerWidth <= 900;
   if (!state.selItem) {
     host.innerHTML = `<div class="id-empty">${esc(t('gifts_detail_placeholder'))}</div>`;
     if (mobile) closeModal();
@@ -471,7 +484,14 @@ function renderGiftsPage() {
   renderCharHead();
   renderGiftGroups();
   // only render inline detail on desktop (mobile uses modal)
-  if (window.innerWidth > 768) renderItemDetail();
+  if (window.innerWidth > 900) renderItemDetail();
+
+  // reset scroll AFTER content swap (browser ignores scrollTop before innerHTML)
+  const giftGroups = $('#gift-groups');
+  const charRail = $('#char-rail');
+  if (giftGroups) giftGroups.scrollTop = 0;
+  if (charRail) charRail.scrollTop = 0;
+  window.scrollTo(0, 0);
 }
 
 /* ---------- mobile modal ---------- */
@@ -491,6 +511,14 @@ function closeModal() {
 function render() {
   renderStaticUI();
   renderStats();
+
+  // reset scroll positions when content changes
+  const giftGroups = $('#gift-groups');
+  const charRail = $('#char-rail');
+  const foodlist = $('#foodlist');
+  if (giftGroups) giftGroups.scrollTop = 0;
+  if (charRail) charRail.scrollTop = 0;
+  if (foodlist) foodlist.scrollTop = 0;
 
   const pageRecipes = $('#page-recipes');
   const pageGifts = $('#page-gifts');
@@ -521,11 +549,15 @@ function bind() {
   // page navigation (side rail)
   $$('.rail-btn').forEach((b) => b.addEventListener('click', () => {
     state.page = b.dataset.page;
+    writeHash();
     if (state.page === 'recipes') {
       state.q = ''; $('#search').value = '';
     }
     render();
   }));
+
+  // browser back/forward
+  window.addEventListener('popstate', () => { readHash(); render(); });
 
   // language toggle
   $('#lang-toggle').addEventListener('click', () => {
@@ -596,6 +628,9 @@ function bind() {
     if (savedSort === 'alpha' || savedSort === 'default') state.sort = savedSort;
   } catch (_) {}
 
+  // read URL hash for page routing
+  readHash();
+
   buildIndex();
   // build recipe name lookup for gift detail panel
   RECIPES = {};
@@ -603,6 +638,7 @@ function bind() {
   ensureCharSelected();
   bind();
   render();
+  writeHash();
 })().catch((err) => {
   const fl = $('#foodlist');
   if (fl) fl.innerHTML = `<div class="empty">Could not load recipe data: ${esc(err.message)}</div>`;
