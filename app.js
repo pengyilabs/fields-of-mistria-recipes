@@ -485,6 +485,13 @@ function renderGiftsPage() {
   renderGiftGroups();
   // only render inline detail on desktop (mobile uses modal)
   if (window.innerWidth > 768) renderItemDetail();
+
+  // reset scroll AFTER content swap (browser ignores scrollTop before innerHTML)
+  const giftGroups = $('#gift-groups');
+  const charRail = $('#char-rail');
+  if (giftGroups) giftGroups.scrollTop = 0;
+  if (charRail) charRail.scrollTop = 0;
+  window.scrollTo(0, 0);
 }
 
 /* ---------- mobile modal ---------- */
