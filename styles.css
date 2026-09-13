@@ -377,12 +377,27 @@ body {
 @media (max-width: 900px) {
   .gift-area { flex-direction: column; }
   .gifts-layout { flex-direction: column; }
+
+  /* character rail → fixed bottom bar */
+  .page { animation: none; }
+  #page-gifts .char-rail,
   .char-rail {
-    flex-direction: row; max-height: none; overflow-y: visible; overflow-x: auto;
-    position: static; order: -1; align-items: center; width: 100%; flex: 0 0 auto;
+    position: fixed !important; top: auto !important; bottom: 0 !important;
+    left: 0 !important; right: 0 !important;
+    width: 100% !important; max-height: none !important; z-index: 90;
+    flex-direction: row !important; overflow-x: auto !important; overflow-y: visible;
+    border-radius: 0 !important; padding: 8px 12px !important; gap: 6px !important;
+    justify-content: flex-start;
+    border: none !important;
+    background: var(--card);
+    box-shadow: 0 -2px 12px rgba(60,40,10,.12);
+    order: 99 !important; flex: 0 0 auto !important; align-self: auto !important;
   }
+  .char-label { display: none !important; }
   .char-thumb { flex: 0 0 auto; }
+  .char-thumb img { width: 36px; height: 36px; }
   .item-detail { position: static; flex: 0 0 auto; }
+  #page-gifts .gifts-layout { padding-bottom: 72px; }
 
   /* compact header */
   .site-header { padding: 10px 0 8px; }
@@ -450,29 +465,7 @@ body {
   .site-footer { margin-top: 20px; padding: 10px 0; }
 }
 
-/* ---- PHONE ONLY (≤768px): fixed bottom char-rail ---- */
-@media (max-width: 768px) {
-  /* character rail → fixed bottom bar (must disable .page animation which breaks fixed) */
-  .page { animation: none; }
-  #page-gifts .char-rail,
-  .char-rail {
-    position: fixed !important; top: auto !important; bottom: 0 !important;
-    left: 0 !important; right: 0 !important;
-    width: 100% !important; max-height: none !important; z-index: 90;
-    flex-direction: row !important; overflow-x: auto !important; overflow-y: visible;
-    border-radius: 0 !important; padding: 8px 12px !important; gap: 6px !important;
-    justify-content: flex-start;
-    border: none !important;
-    background: var(--card);
-    box-shadow: 0 -2px 12px rgba(60,40,10,.12);
-    order: 99 !important; flex: 0 0 auto !important; align-self: auto !important;
-  }
-  .char-label { display: none !important; }
-  .char-thumb img { width: 36px; height: 36px; }
-  #page-gifts .gifts-layout { padding-bottom: 72px; }
-}
-
-/* ---- MODAL overlay for gift detail on mobile ---- */
+/* ---- MODAL overlay for gift detail ---- */
 .gift-modal-overlay {
   display: none; position: fixed; inset: 0; z-index: 200;
   background: rgba(58,47,38,.45); backdrop-filter: blur(3px);
