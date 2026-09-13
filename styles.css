@@ -304,7 +304,7 @@ body {
 }
 
 /* gift groups + item detail */
-.gift-area { display: flex; gap: 16px; align-items: flex-start; }
+.gift-area { display: flex; gap: 16px; align-items: stretch; }
 .gift-groups { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 22px; }
 
 .gift-group h3 {
@@ -448,7 +448,7 @@ body {
 
   /* gift groups: responsive columns, compact tiles */
   .gift-groups { gap: 14px; }
-  .gift-grid { gap: 6px; grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); }
+  .gift-grid { gap: 6px; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); }
   .gift-item { padding: 6px 2px; border-radius: 9px; gap: 3px; }
   .gift-item img { width: 28px; height: 28px; }
   .gift-item .g-name { font-size: 10px; line-height: 1.15; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
