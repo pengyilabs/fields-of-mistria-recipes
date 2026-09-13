@@ -425,7 +425,7 @@ function renderGiftGroups() {
 
 function renderItemDetail() {
   const host = $('#item-detail');
-  const mobile = window.innerWidth <= 768;
+  const mobile = window.innerWidth <= 900;
   if (!state.selItem) {
     host.innerHTML = `<div class="id-empty">${esc(t('gifts_detail_placeholder'))}</div>`;
     if (mobile) closeModal();
@@ -484,7 +484,7 @@ function renderGiftsPage() {
   renderCharHead();
   renderGiftGroups();
   // only render inline detail on desktop (mobile uses modal)
-  if (window.innerWidth > 768) renderItemDetail();
+  if (window.innerWidth > 900) renderItemDetail();
 
   // reset scroll AFTER content swap (browser ignores scrollTop before innerHTML)
   const giftGroups = $('#gift-groups');
