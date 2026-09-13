@@ -21,6 +21,19 @@ const state = {
   selItem: null,         // selected gift item
 };
 
+/* ---------- hash routing ---------- */
+const VALID_PAGES = ['recipes', 'gifts'];
+
+function readHash() {
+  const h = (location.hash || '').replace(/^#\/?/, '').split('/')[0];
+  if (VALID_PAGES.includes(h)) state.page = h;
+}
+
+function writeHash() {
+  const target = '#' + state.page;
+  if (location.hash !== target) history.replaceState(null, '', target);
+}
+
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => Array.from(el.querySelectorAll(s));
 
@@ -521,11 +534,15 @@ function bind() {
   // page navigation (side rail)
   $$('.rail-btn').forEach((b) => b.addEventListener('click', () => {
     state.page = b.dataset.page;
+    writeHash();
     if (state.page === 'recipes') {
       state.q = ''; $('#search').value = '';
     }
     render();
   }));
+
+  // browser back/forward
+  window.addEventListener('popstate', () => { readHash(); render(); });
 
   // language toggle
   $('#lang-toggle').addEventListener('click', () => {
@@ -596,6 +613,9 @@ function bind() {
     if (savedSort === 'alpha' || savedSort === 'default') state.sort = savedSort;
   } catch (_) {}
 
+  // read URL hash for page routing
+  readHash();
+
   buildIndex();
   // build recipe name lookup for gift detail panel
   RECIPES = {};
@@ -603,6 +623,7 @@ function bind() {
   ensureCharSelected();
   bind();
   render();
+  writeHash();
 })().catch((err) => {
   const fl = $('#foodlist');
   if (fl) fl.innerHTML = `<div class="empty">Could not load recipe data: ${esc(err.message)}</div>`;
