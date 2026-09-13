@@ -505,6 +505,14 @@ function render() {
   renderStaticUI();
   renderStats();
 
+  // reset scroll positions when content changes
+  const giftGroups = $('#gift-groups');
+  const charRail = $('#char-rail');
+  const foodlist = $('#foodlist');
+  if (giftGroups) giftGroups.scrollTop = 0;
+  if (charRail) charRail.scrollTop = 0;
+  if (foodlist) foodlist.scrollTop = 0;
+
   const pageRecipes = $('#page-recipes');
   const pageGifts = $('#page-gifts');
   pageRecipes.classList.toggle('hidden', state.page !== 'recipes');
